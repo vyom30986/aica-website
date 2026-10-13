@@ -1,0 +1,153 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #0b1530;
+  --color-navy: #14254d;
+  --color-brand: #2f4fb0;
+  --color-brand-600: #23408f;
+  --color-brand-50: #eef2fd;
+  --color-paper: #f6f7fb;
+  --color-line: #dfe4f2;
+  --color-muted: #56607c;
+  --color-plus: #e5484d;
+
+  --color-patient: #ff6b4a;
+  --color-pharmacy: #10b981;
+  --color-clinic: #5b6cff;
+
+  /* Every var() needs a fallback: the Devanagari fonts only exist on Hindi pages,
+     and an undefined var() would void the whole font stack. */
+  --font-display: var(--font-fraunces, Georgia), var(--font-serif-deva, Georgia), ui-serif, Georgia, serif;
+  --font-sans: var(--font-inter, system-ui), var(--font-sans-deva, system-ui), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains, ui-monospace), ui-monospace, monospace;
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+    @apply bg-paper text-ink font-sans antialiased;
+    overflow-x: clip;
+  }
+  ::selection {
+    background: var(--color-brand);
+    color: white;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-brand);
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+  /* Hindi reads better slightly larger with more leading. */
+  html[lang="hi"] body {
+    line-height: 1.7;
+  }
+  html[lang="hi"] h1,
+  html[lang="hi"] h2,
+  html[lang="hi"] h3 {
+    line-height: 1.3;
+    letter-spacing: 0;
+  }
+  /* Letter-spacing and monospace break Devanagari conjuncts. */
+  html[lang="hi"] .font-mono,
+  html[lang="hi"] .eyebrow {
+    font-family: var(--font-sans);
+    letter-spacing: 0.01em !important;
+  }
+}
+
+@layer components {
+  .container-x {
+    @apply mx-auto w-full max-w-[1200px] px-4 sm:px-6 lg:px-8;
+  }
+  .eyebrow {
+    @apply font-mono text-[11px] font-medium uppercase tracking-[0.18em] text-brand;
+  }
+  .h-display {
+    @apply font-display font-medium tracking-[-0.02em] text-ink;
+  }
+  .lead {
+    @apply text-[17px] leading-relaxed text-muted sm:text-lg;
+  }
+  .card {
+    @apply rounded-3xl border border-line bg-white/80 shadow-[0_1px_0_rgba(11,21,48,0.04),0_20px_50px_-30px_rgba(11,21,48,0.25)] backdrop-blur-md;
+  }
+  .field {
+    @apply w-full rounded-xl border border-line bg-white px-3.5 py-3 text-[15px] text-ink placeholder:text-muted/60 transition focus:border-brand focus:ring-4 focus:ring-brand/10 focus:outline-none;
+  }
+  .prose-aica {
+    @apply text-[17px] leading-[1.8] text-ink/85;
+  }
+  .prose-aica h2 {
+    @apply mt-12 mb-4 font-display text-2xl font-medium text-ink sm:text-3xl;
+  }
+  .prose-aica h3 {
+    @apply mt-8 mb-3 text-lg font-semibold text-ink;
+  }
+  .prose-aica p {
+    @apply my-5;
+  }
+  .prose-aica ul {
+    @apply my-5 list-disc space-y-2 pl-6 marker:text-brand;
+  }
+  .prose-aica ol {
+    @apply my-5 list-decimal space-y-2 pl-6;
+  }
+  .prose-aica a {
+    @apply font-medium text-brand underline decoration-brand/30 underline-offset-4 hover:decoration-brand;
+  }
+  .prose-aica strong {
+    @apply font-semibold text-ink;
+  }
+}
+
+@utility btn {
+  @apply inline-flex min-h-11 items-center justify-center gap-2 rounded-full px-5 py-2.5 text-[15px] font-semibold transition-all duration-300 ease-out-expo select-none disabled:opacity-60;
+}
+@utility btn-primary {
+  @apply btn bg-ink text-white shadow-[0_10px_30px_-10px_rgba(11,21,48,0.6)] hover:-translate-y-0.5 hover:bg-navy;
+}
+@utility btn-brand {
+  @apply btn bg-brand text-white shadow-[0_10px_30px_-10px_rgba(47,79,176,0.7)] hover:-translate-y-0.5 hover:bg-brand-600;
+}
+@utility btn-ghost {
+  @apply btn border border-line bg-white/70 text-ink backdrop-blur hover:-translate-y-0.5 hover:border-ink/30 hover:bg-white;
+}
+
+/* Subtle paper grain over the whole site. */
+.grain::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 60;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.animate-marquee {
+  animation: marquee 40s linear infinite;
+}
+
+/* Lenis smooth scroll */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: clip; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
