@@ -29,13 +29,13 @@ export default async function Pricing({ params }: P) {
     <>
       <section className="relative z-10 pt-36 pb-12 sm:pt-44">
         <div className="container-x text-center">
-          <Reveal y={12}>
+          <Reveal instant y={12}>
             <p className="eyebrow">{t.eyebrow}</p>
           </Reveal>
           <h1 className="h-display mx-auto mt-5 max-w-3xl text-[clamp(2.6rem,7vw,5rem)] leading-[1]">
             <SplitWords text={t.title} />
           </h1>
-          <Reveal delay={0.3}>
+          <Reveal instant delay={0.3}>
             <p className="lead mx-auto mt-6 max-w-xl">{t.lead}</p>
           </Reveal>
         </div>

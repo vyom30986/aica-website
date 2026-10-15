@@ -25,10 +25,10 @@ export function Hero({ t, common, locale }: { t: Dict["home"]["hero"]; common: D
     <section className="relative z-10 flex min-h-[100svh] items-center pt-28 pb-16">
       <div className="container-x">
         <div className="max-w-[640px]">
-          <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease }} className="inline-flex items-center gap-2 rounded-full border border-line bg-white/70 py-1.5 pr-3.5 pl-1.5 backdrop-blur">
+          <div className="rise inline-flex items-center gap-2 rounded-full border border-line bg-white/70 py-1.5 pr-3.5 pl-1.5 backdrop-blur">
             <span className="rounded-full bg-ink px-2 py-0.5 font-mono text-[10px] tracking-wider text-white uppercase">{common.stage}</span>
             <span className="hidden font-mono text-[11px] tracking-[0.14em] text-muted uppercase sm:inline">{t.eyebrow}</span>
-          </motion.div>
+          </div>
 
           <h1 className="h-display mt-7 text-[clamp(2.9rem,8vw,6rem)] leading-[0.98]">
             <SplitWords text={t.title1} className="block" delay={0.1} />
@@ -36,12 +36,12 @@ export function Hero({ t, common, locale }: { t: Dict["home"]["hero"]; common: D
             <SplitWords text={t.title3} className="block text-brand italic" delay={0.4} />
           </h1>
 
-          <motion.p initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.7, duration: 0.9, ease }} className="lead mt-7 max-w-[540px]">
+          <p className="rise lead mt-7 max-w-[540px]" style={{ animationDelay: "0.7s" }}>
             {t.lead}
-          </motion.p>
+          </p>
 
           {/* Audience switcher — also lights up the matching 3D node */}
-          <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.85, duration: 0.9, ease }} className="mt-8">
+          <div className="rise mt-8" style={{ animationDelay: "0.85s" }}>
             <div className="flex flex-wrap items-center gap-2" role="tablist" aria-label={t.audience}>
               <span className="mr-1 text-[14px] text-muted">{t.audience}</span>
               {(Object.keys(t.tabs) as PersonaKey[]).map((k) => (
@@ -61,7 +61,7 @@ export function Hero({ t, common, locale }: { t: Dict["home"]["hero"]; common: D
               ))}
             </div>
             <div className="mt-4 min-h-[56px]">
-              <AnimatePresence mode="wait">
+              <AnimatePresence mode="wait" initial={false}>
                 <motion.p key={tab} initial={{ opacity: 0, y: 8, filter: "blur(4px)" }} animate={{ opacity: 1, y: 0, filter: "blur(0px)" }} exit={{ opacity: 0, y: -8, filter: "blur(4px)" }} transition={{ duration: 0.35 }} className="text-[16px] font-medium text-ink">
                   {t.tabs[tab].line}{" "}
                   <TLink href={localePath(locale, ROUTE[tab])} className="whitespace-nowrap text-brand underline decoration-brand/30 underline-offset-4 hover:decoration-brand">
@@ -70,16 +70,16 @@ export function Hero({ t, common, locale }: { t: Dict["home"]["hero"]; common: D
                 </motion.p>
               </AnimatePresence>
             </div>
-          </motion.div>
+          </div>
 
-          <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1, duration: 0.9, ease }} className="mt-8 flex flex-col gap-3 sm:flex-row">
+          <div className="rise mt-8 flex flex-col gap-3 sm:flex-row" style={{ animationDelay: "1s" }}>
             <button type="button" onClick={() => scrollToTarget("#waitlist")} className="btn-primary !min-h-13 !px-7 text-[16px]">
               {common.cta.waitlist} <span aria-hidden>→</span>
             </button>
             <a href={demoUrl("patient")} target="_blank" rel="noopener noreferrer" className="btn-ghost !min-h-13 !px-7 text-[16px]">
               {common.cta.prototype} <span aria-hidden>↗</span>
             </a>
-          </motion.div>
+          </div>
         </div>
       </div>
 

@@ -7,7 +7,7 @@ type P = { params: Promise<{ locale: Locale }> };
 
 export async function generateMetadata({ params }: P): Promise<Metadata> {
   const { locale } = await params;
-  return pageMeta(locale, "/terms", { title: "Terms of Use", description: "Terms of Use for the AICA website, operated by Beyond Quantum Technologies Pvt. Ltd." });
+  return pageMeta(locale, "/terms", { title: "Terms of Use", description: "Terms of Use for the AICA website, operated by Beyond Quantum Technologies Pvt. Ltd.", englishOnly: true });
 }
 
 export default async function Page({ params }: P) {

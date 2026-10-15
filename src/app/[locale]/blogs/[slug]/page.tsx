@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: P): Promise<Metadata> {
   const { locale, slug } = await params;
   const post = getPost(slug);
   if (!post) return {};
-  return pageMeta(locale, `/blogs/${slug}`, { title: post.title, description: post.description, type: "article" });
+  return pageMeta(locale, `/blogs/${slug}`, { title: post.title, description: post.description, type: "article", englishOnly: true });
 }
 
 export default async function PostPage({ params }: P) {
@@ -38,7 +38,7 @@ export default async function PostPage({ params }: P) {
     datePublished: post.date,
     inLanguage: "en-IN",
     author: { "@type": "Organization", name: "AICA" },
-    publisher: { "@type": "Organization", name: "AICA", logo: { "@type": "ImageObject", url: `${site.url}/brand/aica-logo.png` } },
+    publisher: { "@type": "Organization", name: "AICA", logo: { "@type": "ImageObject", url: `${site.assetUrl}/brand/aica-logo.png` } },
     mainEntityOfPage: `${site.url}/blogs/${slug}`,
   };
 
@@ -48,20 +48,20 @@ export default async function PostPage({ params }: P) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
       <article className="relative z-10 pt-36 pb-10 sm:pt-44">
         <div className="mx-auto max-w-[760px] px-4 sm:px-6">
-          <Reveal y={10}>
+          <Reveal instant y={10}>
             <TLink href={localePath(locale, "/blogs")} className="text-[14px] font-medium text-muted hover:text-ink">
               ← {d.blog.all}
             </TLink>
           </Reveal>
-          <Reveal delay={0.05}>
+          <Reveal instant delay={0.05}>
             <p className="mt-8 font-mono text-[12px] tracking-wider uppercase" style={{ color: `var(--color-${post.accent})` }}>
               {post.tag} · {post.minutes} {d.blog.minRead}
             </p>
           </Reveal>
-          <Reveal delay={0.1}>
+          <Reveal instant delay={0.1}>
             <h1 className="h-display mt-4 text-[clamp(2.2rem,5.5vw,3.6rem)] leading-[1.06]">{post.title}</h1>
           </Reveal>
-          <Reveal delay={0.15}>
+          <Reveal instant delay={0.15}>
             <p className="lead mt-5">{post.description}</p>
             {locale !== "en" && <p className="mt-4 rounded-xl bg-brand-50 px-4 py-3 text-[14px] text-brand">{d.blog.englishOnly}</p>}
           </Reveal>

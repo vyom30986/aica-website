@@ -5,15 +5,28 @@ import type { ReactNode } from "react";
 
 const ease = [0.16, 1, 0.3, 1] as const;
 
-/** Fades + lifts content into view, with a slight 3D tilt. */
+/**
+ * Fades + lifts content into view, with a slight 3D tilt.
+ * `instant` = above-the-fold content: a pure CSS animation that plays on first paint,
+ * before JavaScript loads, so the hero is never blank (good for LCP and SEO).
+ */
 export function Reveal({
   children,
   delay = 0,
   y = 36,
   className,
   as = "div",
+  instant = false,
   ...rest
-}: { children: ReactNode; delay?: number; y?: number; className?: string; as?: "div" | "li" | "section" } & HTMLMotionProps<"div">) {
+}: { children: ReactNode; delay?: number; y?: number; className?: string; as?: "div" | "li" | "section"; instant?: boolean } & HTMLMotionProps<"div">) {
+  if (instant) {
+    const Tag = as;
+    return (
+      <Tag className={`rise ${className ?? ""}`} style={{ animationDelay: `${delay}s` }}>
+        {children}
+      </Tag>
+    );
+  }
   const M = motion[as] as typeof motion.div;
   return (
     <M
@@ -30,22 +43,17 @@ export function Reveal({
   );
 }
 
-/** Word-by-word headline reveal. */
+/** Word-by-word headline reveal (CSS only, so headlines show before hydration). */
 export function SplitWords({ text, className, delay = 0 }: { text: string; className?: string; delay?: number }) {
   const words = text.split(" ");
   return (
     <span className={className}>
       {words.map((w, i) => (
         <span key={i} className="inline-block overflow-hidden pb-[0.12em] align-bottom">
-          <motion.span
-            className="inline-block"
-            initial={{ y: "110%", rotateZ: 4 }}
-            animate={{ y: "0%", rotateZ: 0 }}
-            transition={{ duration: 1, ease, delay: delay + i * 0.06 }}
-          >
+          <span className="word-up inline-block" style={{ animationDelay: `${delay + i * 0.06}s` }}>
             {w}
             {i < words.length - 1 ? " " : ""}
-          </motion.span>
+          </span>
         </span>
       ))}
     </span>

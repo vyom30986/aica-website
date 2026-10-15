@@ -28,13 +28,13 @@ export default async function Contact({ params }: P) {
     <section id="waitlist" className="relative z-10 pt-36 pb-20 sm:pt-44">
       <div className="container-x">
         <div className="max-w-3xl">
-          <Reveal y={12}>
+          <Reveal instant y={12}>
             <p className="eyebrow">{t.eyebrow}</p>
           </Reveal>
           <h1 className="h-display mt-5 text-[clamp(2.6rem,7vw,5rem)] leading-[1]">
             <SplitWords text={t.title} />
           </h1>
-          <Reveal delay={0.3}>
+          <Reveal instant delay={0.3}>
             <p className="lead mt-6 max-w-xl">{t.lead}</p>
           </Reveal>
         </div>

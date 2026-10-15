@@ -5,6 +5,14 @@ export const site = {
   name: "AICA",
   longName: "Adaptive Intelligent Care App",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://aicaglobal.in",
+  // Where images (share card, logo) are actually served. Until aicaglobal.in points at Vercel,
+  // that domain still serves the old site, so use Vercel's production address. Vercel sets
+  // VERCEL_PROJECT_PRODUCTION_URL automatically, and it switches to the custom domain once added.
+  assetUrl:
+    process.env.NEXT_PUBLIC_ASSET_URL ??
+    (process.env.VERCEL_PROJECT_PRODUCTION_URL
+      ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+      : process.env.NEXT_PUBLIC_SITE_URL ?? "https://aicaglobal.in"),
 
   company: {
     legalName: "Beyond Quantum Technologies Pvt. Ltd.",

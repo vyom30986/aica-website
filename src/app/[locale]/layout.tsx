@@ -54,7 +54,7 @@ export default async function LocaleLayout({ children, params }: { children: Rea
     name: "AICA — Adaptive Intelligent Care App",
     legalName: site.company.legalName,
     url: site.url,
-    logo: `${site.url}/brand/aica-logo.png`,
+    logo: `${site.assetUrl}/brand/aica-logo.png`,
     email: site.contact.email,
     telephone: site.contact.phone,
     address: { "@type": "PostalAddress", streetAddress: "A-23, Nirala Nagar", addressLocality: "Lucknow", addressRegion: "Uttar Pradesh", postalCode: "226020", addressCountry: "IN" },

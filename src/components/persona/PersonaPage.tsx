@@ -28,7 +28,7 @@ export function PersonaPage({ k, d, locale }: { k: PersonaKey; d: Dict; locale: 
       <section className="relative z-10 flex min-h-[92svh] items-center pt-32 pb-16">
         <div className="container-x">
           <div className="max-w-[620px]">
-            <Reveal y={12}>
+            <Reveal instant y={12}>
               <p className="inline-flex items-center gap-2 font-mono text-[11px] tracking-[0.18em] uppercase" style={{ color }}>
                 <span className="h-2 w-2 rounded-full" style={{ background: color }} />
                 {p.hero.eyebrow}
@@ -38,10 +38,10 @@ export function PersonaPage({ k, d, locale }: { k: PersonaKey; d: Dict; locale: 
               <SplitWords text={p.hero.title} className="block" delay={0.05} />
               <SplitWords text={p.hero.accent} className="block italic" delay={0.2} />
             </h1>
-            <Reveal delay={0.35}>
+            <Reveal instant delay={0.35}>
               <p className="lead mt-6 max-w-[540px]">{p.hero.lead}</p>
             </Reveal>
-            <Reveal delay={0.45}>
+            <Reveal instant delay={0.45}>
               <div className="card mt-8 flex max-w-[540px] items-start gap-4 !rounded-2xl p-4">
                 <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full font-semibold text-white" style={{ background: color }}>
                   {initials.slice(0, 2)}
@@ -52,7 +52,7 @@ export function PersonaPage({ k, d, locale }: { k: PersonaKey; d: Dict; locale: 
                 </p>
               </div>
             </Reveal>
-            <Reveal delay={0.55}>
+            <Reveal instant delay={0.55}>
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                 <ScrollToWaitlist className="btn-primary !min-h-13 !px-7 text-[16px]">
                   {k === "patient" ? d.common.cta.waitlist : d.common.cta.pilot} <span aria-hidden>→</span>

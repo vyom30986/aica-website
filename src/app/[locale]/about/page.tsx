@@ -24,13 +24,13 @@ export default async function About({ params }: P) {
     <>
       <section className="relative z-10 flex min-h-[80svh] items-center pt-36 pb-16">
         <div className="container-x">
-          <Reveal y={12}>
+          <Reveal instant y={12}>
             <p className="eyebrow">{t.eyebrow}</p>
           </Reveal>
           <h1 className="h-display mt-6 max-w-4xl text-[clamp(2.4rem,6vw,4.8rem)] leading-[1.03]">
             <SplitWords text={t.title} />
           </h1>
-          <Reveal delay={0.4}>
+          <Reveal instant delay={0.4}>
             <p className="lead mt-7 max-w-2xl">{t.lead}</p>
           </Reveal>
         </div>

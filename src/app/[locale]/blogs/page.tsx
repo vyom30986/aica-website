@@ -10,7 +10,7 @@ type P = { params: Promise<{ locale: Locale }> };
 
 export async function generateMetadata({ params }: P): Promise<Metadata> {
   const { locale } = await params;
-  return pageMeta(locale, "/blogs", getDict(locale).blog.meta);
+  return pageMeta(locale, "/blogs", { ...getDict(locale).blog.meta, englishOnly: true });
 }
 
 export default async function Blog({ params }: P) {
@@ -20,13 +20,13 @@ export default async function Blog({ params }: P) {
   return (
     <section className="relative z-10 pt-36 pb-16 sm:pt-44">
       <div className="container-x">
-        <Reveal y={12}>
+        <Reveal instant y={12}>
           <p className="eyebrow">{t.eyebrow}</p>
         </Reveal>
         <h1 className="h-display mt-5 text-[clamp(2.6rem,7vw,5rem)] leading-[1]">
           <SplitWords text={t.title} />
         </h1>
-        <Reveal delay={0.3}>
+        <Reveal instant delay={0.3}>
           <p className="lead mt-6 max-w-xl">{t.lead}</p>
         </Reveal>
         <div className="mt-14 grid gap-5 md:grid-cols-2">
