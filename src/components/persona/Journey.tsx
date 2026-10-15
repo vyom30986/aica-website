@@ -26,7 +26,7 @@ export function Journey({ steps, color }: { steps: { tag: string; title: string;
             {i + 1}
           </motion.span>
           <motion.div initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-20% 0px" }} transition={{ duration: 0.7 }}>
-            <p className="font-mono text-[11px] tracking-[0.16em] uppercase" style={{ color }}>
+            <p className="font-mono text-[12px] tracking-[0.16em] uppercase" style={{ color }}>
               {s.tag}
             </p>
             <h3 className="mt-2 text-xl font-semibold text-ink">{s.title}</h3>

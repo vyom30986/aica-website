@@ -18,9 +18,9 @@ export default async function Contact({ params }: P) {
   const d = getDict(locale);
   const t = d.contact;
   const rows = [
-    { label: "WhatsApp", value: site.contact.phone, href: whatsappUrl(d.common.whatsappHello), color: "#25D366" },
-    { label: "Email", value: site.contact.email, href: `mailto:${site.contact.email}`, color: "var(--color-brand)" },
-    { label: "Phone", value: site.contact.phone, href: site.contact.phoneHref, color: "var(--color-clinic)" },
+    { label: t.labels.whatsapp, value: site.contact.phone, href: whatsappUrl(d.common.whatsappHello), color: "#25D366" },
+    { label: t.labels.email, value: site.contact.email, href: `mailto:${site.contact.email}`, color: "var(--color-brand)" },
+    { label: t.labels.phone, value: site.contact.phone, href: site.contact.phoneHref, color: "var(--color-clinic)" },
     { label: t.office, value: site.company.address, href: site.contact.mapsUrl, color: "var(--color-patient)" },
   ];
 

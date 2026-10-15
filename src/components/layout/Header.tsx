@@ -81,7 +81,7 @@ export function Header({ locale, t }: { locale: Locale; t: Dict["common"] }) {
               href={localePath(other, path)}
               hrefLang={other}
               aria-label={t.languageLabel}
-              className="hidden h-10 items-center rounded-full border border-line bg-white/70 px-3.5 text-[13px] font-semibold text-ink transition hover:border-ink/30 sm:flex"
+              className="hidden h-11 items-center rounded-full border border-line bg-white/70 px-3.5 text-[13px] font-semibold text-ink transition hover:border-ink/30 sm:flex"
             >
               {t.language}
             </TLink>
@@ -94,13 +94,15 @@ export function Header({ locale, t }: { locale: Locale; t: Dict["common"] }) {
                   scrollToTarget("#waitlist");
                 }
               }}
-              className="btn-primary hidden !min-h-10 !py-2 text-[14px] sm:inline-flex"
+              className="btn-primary !min-h-11 !px-4 !py-2 text-[14px] sm:!px-5"
             >
-              {t.cta.waitlist}
+              {/* Always visible so sign-up is one tap away on phones too. */}
+              <span className="sm:hidden">{t.cta.join}</span>
+              <span className="hidden sm:inline">{t.cta.waitlist}</span>
             </TLink>
             <button
               type="button"
-              className="flex h-10 w-10 items-center justify-center rounded-full border border-line bg-white/80 lg:hidden"
+              className="flex h-11 w-11 items-center justify-center rounded-full border border-line bg-white/80 lg:hidden"
               aria-expanded={open}
               aria-controls="mobile-menu"
               aria-label={open ? t.close : t.menu}

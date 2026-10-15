@@ -26,8 +26,8 @@ export function Hero({ t, common, locale }: { t: Dict["home"]["hero"]; common: D
       <div className="container-x">
         <div className="max-w-[640px]">
           <div className="rise inline-flex items-center gap-2 rounded-full border border-line bg-white/70 py-1.5 pr-3.5 pl-1.5 backdrop-blur">
-            <span className="rounded-full bg-ink px-2 py-0.5 font-mono text-[10px] tracking-wider text-white uppercase">{common.stage}</span>
-            <span className="hidden font-mono text-[11px] tracking-[0.14em] text-muted uppercase sm:inline">{t.eyebrow}</span>
+            <span className="rounded-full bg-ink px-2 py-0.5 font-mono text-[12px] tracking-wider text-white uppercase">{common.stage}</span>
+            <span className="hidden font-mono text-[12px] tracking-[0.14em] text-muted uppercase sm:inline">{t.eyebrow}</span>
           </div>
 
           <h1 className="h-display mt-7 text-[clamp(2.9rem,8vw,6rem)] leading-[0.98]">
@@ -43,7 +43,8 @@ export function Hero({ t, common, locale }: { t: Dict["home"]["hero"]; common: D
           {/* Audience switcher — also lights up the matching 3D node */}
           <div className="rise mt-8" style={{ animationDelay: "0.85s" }}>
             <div className="flex flex-wrap items-center gap-2" role="tablist" aria-label={t.audience}>
-              <span className="mr-1 text-[14px] text-muted">{t.audience}</span>
+              {/* Label sits on its own line on phones so all three chips fit in one row. */}
+              <span className="mr-1 w-full text-[14px] text-muted sm:w-auto">{t.audience}</span>
               {(Object.keys(t.tabs) as PersonaKey[]).map((k) => (
                 <button
                   key={k}
@@ -52,7 +53,7 @@ export function Hero({ t, common, locale }: { t: Dict["home"]["hero"]; common: D
                   onClick={() => pick(k)}
                   onMouseEnter={() => sceneStore.set({ hover: k })}
                   onMouseLeave={() => sceneStore.set({ hover: null })}
-                  className={`relative flex items-center gap-2 rounded-full px-4 py-2 text-[14px] font-semibold transition-colors ${tab === k ? "text-white" : "bg-white/70 text-ink hover:bg-white"}`}
+                  className={`relative flex min-h-11 items-center gap-2 rounded-full px-3.5 py-2 text-[14px] font-semibold sm:px-4 transition-colors ${tab === k ? "text-white" : "bg-white/70 text-ink hover:bg-white"}`}
                 >
                   {tab === k && <motion.span layoutId="hero-tab" className="absolute inset-0 rounded-full bg-ink" transition={{ type: "spring", bounce: 0.2, duration: 0.6 }} />}
                   <span className={`relative h-2 w-2 rounded-full ${COLORS[k]}`} />
@@ -72,7 +73,7 @@ export function Hero({ t, common, locale }: { t: Dict["home"]["hero"]; common: D
             </div>
           </div>
 
-          <div className="rise mt-8 flex flex-col gap-3 sm:flex-row" style={{ animationDelay: "1s" }}>
+          <div className="rise mt-8 flex flex-col gap-3 sm:flex-row" style={{ animationDelay: "1s" }} data-hide-fab>
             <button type="button" onClick={() => scrollToTarget("#waitlist")} className="btn-primary !min-h-13 !px-7 text-[16px]">
               {common.cta.waitlist} <span aria-hidden>→</span>
             </button>
@@ -109,6 +110,7 @@ export function NodeCards({
   locale: Locale;
 }) {
   const accent: Record<PersonaKey, string> = { patient: "var(--color-patient)", pharmacy: "var(--color-pharmacy)", clinic: "var(--color-clinic)" };
+  const ink: Record<PersonaKey, string> = { patient: "var(--color-patient-ink)", pharmacy: "var(--color-pharmacy-ink)", clinic: "var(--color-clinic-ink)" };
   return (
     <div className="grid gap-5 md:grid-cols-3">
       {items.map((it, i) => (
@@ -119,15 +121,15 @@ export function NodeCards({
               <span className="mb-6 flex h-12 w-12 items-center justify-center rounded-2xl" style={{ background: `color-mix(in srgb, ${accent[it.key]} 14%, white)` }}>
                 <span className="h-4 w-4 rounded-full" style={{ background: accent[it.key] }} />
               </span>
-              <p className="font-mono text-[11px] tracking-[0.16em] uppercase" style={{ color: accent[it.key] }}>
+              <p className="font-mono text-[12px] tracking-[0.16em] uppercase" style={{ color: ink[it.key] }}>
                 {it.tag}
               </p>
               <h3 className="h-display mt-3 text-2xl leading-snug">{it.title}</h3>
               <p className="mt-3 text-[15.5px] leading-relaxed text-muted">{it.body}</p>
               {it.link && (
-                <TLink href={localePath(locale, ROUTE[it.key])} className="mt-6 inline-flex items-center gap-2 text-[15px] font-semibold text-ink">
+                <TLink href={localePath(locale, ROUTE[it.key])} className="mt-5 inline-flex min-h-11 items-center gap-2 text-[15px] font-semibold text-ink">
                   {it.link}
-                  <span className="flex h-7 w-7 items-center justify-center rounded-full bg-ink text-white transition-transform duration-500 group-hover:translate-x-1">→</span>
+                  <span className="flex h-9 w-9 items-center justify-center rounded-full bg-ink text-white transition-transform duration-500 group-hover:translate-x-1">→</span>
                 </TLink>
               )}
             </div>

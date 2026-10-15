@@ -37,7 +37,7 @@ export default async function Home({ params }: { params: Promise<{ locale: Local
         <div className="pointer-events-none absolute top-0 left-1/2 h-[500px] w-[900px] -translate-x-1/2 rounded-full bg-brand/25 blur-[140px]" />
         <div className="container-x relative">
           <Reveal y={16}>
-            <p className="font-mono text-[11px] tracking-[0.18em] text-white/55 uppercase">{h.trident.eyebrow}</p>
+            <p className="font-mono text-[12px] tracking-[0.18em] text-white/55 uppercase">{h.trident.eyebrow}</p>
           </Reveal>
           <Reveal delay={0.05}>
             <h2 className="mt-4 max-w-4xl font-display text-[clamp(2.2rem,5.4vw,4.4rem)] leading-[1.02] font-medium">{h.trident.title}</h2>
@@ -54,7 +54,7 @@ export default async function Home({ params }: { params: Promise<{ locale: Local
                     <span className="font-display text-5xl font-light text-white/20">0{i + 1}</span>
                     <span className="h-px flex-1" style={{ background: `linear-gradient(90deg, ${color}, transparent)` }} />
                   </div>
-                  <p className="mt-6 font-mono text-[11px] tracking-[0.16em] uppercase" style={{ color }}>
+                  <p className="mt-6 font-mono text-[12px] tracking-[0.16em] uppercase" style={{ color }}>
                     {c.tag}
                   </p>
                   <h3 className="mt-3 font-display text-2xl font-medium">{c.title}</h3>

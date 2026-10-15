@@ -37,7 +37,7 @@ export default async function Blog({ params }: P) {
                   <div className="relative h-52 overflow-hidden" style={{ background: `linear-gradient(135deg, color-mix(in srgb, var(--color-${p.accent}) 22%, white), white)` }}>
                     <span className="absolute -right-8 -bottom-10 h-48 w-48 rounded-full transition-transform duration-700 group-hover:scale-125" style={{ background: `var(--color-${p.accent})`, opacity: 0.85 }} />
                     <span className="absolute top-8 right-24 h-14 w-14 rounded-full bg-white/70 transition-transform duration-700 group-hover:-translate-y-3" />
-                    <span className="absolute top-5 left-5 rounded-full bg-white/80 px-3 py-1 font-mono text-[11px] tracking-wider uppercase">{p.tag}</span>
+                    <span className="absolute top-5 left-5 rounded-full bg-white/80 px-3 py-1 font-mono text-[12px] tracking-wider uppercase">{p.tag}</span>
                   </div>
                   <div className="p-7">
                     <p className="font-mono text-[12px] text-muted">

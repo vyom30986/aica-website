@@ -50,10 +50,10 @@ export function Footer({ locale, t }: { locale: Locale; t: Dict["common"] }) {
           <div>
             <Logo className="h-14" invert />
             <p className="mt-5 max-w-sm text-[15px] leading-relaxed text-white/65">{t.footer.tagline}</p>
-            <div className="mt-6 space-y-1.5 text-[14px] text-white/75">
-              <a className="block hover:text-white" href={`mailto:${site.contact.email}`}>{site.contact.email}</a>
-              <a className="block hover:text-white" href={site.contact.phoneHref}>{site.contact.phone}</a>
-              <a className="block hover:text-white" href={site.contact.mapsUrl} target="_blank" rel="noopener noreferrer">{site.company.address}</a>
+            <div className="mt-4 text-[14px] text-white/75">
+              <a className="flex min-h-11 items-center hover:text-white" href={`mailto:${site.contact.email}`}>{site.contact.email}</a>
+              <a className="flex min-h-11 items-center hover:text-white" href={site.contact.phoneHref}>{site.contact.phone}</a>
+              <a className="flex min-h-11 items-center hover:text-white" href={site.contact.mapsUrl} target="_blank" rel="noopener noreferrer">{site.company.address}</a>
             </div>
             <div className="mt-6 flex gap-2">
               {[
@@ -61,7 +61,7 @@ export function Footer({ locale, t }: { locale: Locale; t: Dict["common"] }) {
                 ["LinkedIn", site.social.linkedin, "M4 3a2 2 0 110 4 2 2 0 010-4zM3 9h3v12H3zM9 9h3v1.7C12.6 9.7 13.8 9 15.5 9 19 9 21 11 21 15v6h-3v-5.5c0-2-.8-3.3-2.6-3.3S12 13.5 12 15.5V21H9z"],
                 ["Facebook", site.social.facebook, "M14 8h3V4h-3c-2.8 0-4 1.8-4 4.5V11H7v4h3v7h4v-7h3l1-4h-4V8.6c0-.4.3-.6.6-.6z"],
               ].map(([name, href, d]) => (
-                <a key={name} href={href} target="_blank" rel="noopener noreferrer" aria-label={name} className="flex h-10 w-10 items-center justify-center rounded-full border border-white/15 transition hover:border-white/40 hover:bg-white/10">
+                <a key={name} href={href} target="_blank" rel="noopener noreferrer" aria-label={name} className="flex h-11 w-11 items-center justify-center rounded-full border border-white/15 transition hover:border-white/40 hover:bg-white/10">
                   <svg viewBox="0 0 24 24" className="h-4 w-4 fill-white" aria-hidden><path d={d} /></svg>
                 </a>
               ))}
@@ -70,11 +70,11 @@ export function Footer({ locale, t }: { locale: Locale; t: Dict["common"] }) {
           <div className="grid grid-cols-2 gap-8 sm:grid-cols-4">
             {cols.map((c) => (
               <div key={c.title}>
-                <p className="font-mono text-[11px] uppercase tracking-[0.18em] text-white/45">{c.title}</p>
-                <ul className="mt-4 space-y-2.5">
+                <p className="font-mono text-[12px] uppercase tracking-[0.18em] text-white/45">{c.title}</p>
+                <ul className="mt-2">
                   {c.links.map((l) => (
                     <li key={l.href + l.label}>
-                      <TLink href={l.href} className="text-[14px] text-white/75 transition hover:text-white">{l.label}</TLink>
+                      <TLink href={l.href} className="inline-flex min-h-11 items-center text-[14px] text-white/75 transition hover:text-white">{l.label}</TLink>
                     </li>
                   ))}
                 </ul>

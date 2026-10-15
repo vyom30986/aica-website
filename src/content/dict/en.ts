@@ -19,6 +19,7 @@ const en = {
     },
     cta: {
       waitlist: "Join the waitlist",
+      join: "Join",
       prototype: "Try the prototype",
       pilot: "Apply for the pilot",
       talk: "Talk to us",
@@ -67,6 +68,7 @@ const en = {
     consent:
       "I agree that AICA may contact me about early access on WhatsApp, phone or email. I can withdraw anytime.",
     privacyLink: "Privacy Policy",
+    addDetails: "Add email or a note (optional)",
     noHealthData: "Please don't share prescriptions or medical details here.",
     submit: "Request early access",
     submitting: "Sending…",
@@ -113,6 +115,21 @@ const en = {
       eyebrow: "How it works",
       title: "One prescription. Three connected apps.",
       lead: "Follow a single paper Rx as it becomes a living record that the patient, the chemist and the doctor all share.",
+      // Labels inside the animated product mock-ups.
+      mock: {
+        scan: "SCAN · 2s",
+        shop: "Sharma Medical",
+        whatsapp: "Your Rx from Dr. Mehrotra is ready on AICA. Tap to set alarms →",
+        doseAlarm: "Dose alarm",
+        dose: "Telma 40 · after breakfast",
+        taken: "Taken",
+        caregiver: "Priya (Delhi) sees ✓ too",
+        clinic: "Clinic",
+        pharmacy: "Pharmacy",
+        patient: "Patient",
+        refillDue: "Refill due in 3 days",
+        nudge: "Nudge sent from Sharma Medical",
+      },
       steps: [
         {
           tag: "01 · Clinic",
@@ -497,6 +514,7 @@ const en = {
     lead: "Questions about the prototype, a pilot for your pharmacy or clinic, or a partnership — we usually reply within 24 hours.",
     direct: "Reach us directly",
     office: "Office",
+    labels: { whatsapp: "WhatsApp", email: "Email", phone: "Phone" },
     hours: "Mon–Sat, 10 AM – 7 PM IST",
   },
 

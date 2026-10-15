@@ -53,7 +53,7 @@ export function RefillCalculator({ t }: { t: Dict["pharmacy"]["calc"] }) {
       </div>
       <div className="relative flex flex-col justify-center overflow-hidden rounded-3xl bg-ink p-8 text-white">
         <div className="pointer-events-none absolute -right-16 -bottom-16 h-56 w-56 rounded-full bg-pharmacy/40 blur-[70px]" />
-        <p className="relative font-mono text-[11px] tracking-[0.16em] text-white/60 uppercase">{t.result}</p>
+        <p className="relative font-mono text-[12px] tracking-[0.16em] text-white/60 uppercase">{t.result}</p>
         <motion.p key={Math.round(monthly / 500)} initial={{ opacity: 0.4, y: 6 }} animate={{ opacity: 1, y: 0 }} className="relative mt-3 font-display text-[clamp(2.6rem,6vw,4rem)] leading-none font-medium">
           {inr(monthly)}
         </motion.p>

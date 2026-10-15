@@ -7,7 +7,7 @@ import { sceneStore } from "@/lib/scene-store";
 import type { PersonaKey } from "@/lib/i18n";
 
 const STEP_NODE: PersonaKey[] = ["clinic", "pharmacy", "patient", "pharmacy"];
-const STEP_COLOR = ["var(--color-clinic)", "var(--color-pharmacy)", "var(--color-patient)", "var(--color-brand)"];
+const STEP_COLOR = ["var(--color-clinic-ink)", "var(--color-pharmacy-ink)", "var(--color-patient-ink)", "var(--color-brand)"];
 const ease = [0.16, 1, 0.3, 1] as const;
 
 export function ThreadStory({ t }: { t: Dict["home"]["thread"] }) {
@@ -28,7 +28,8 @@ export function ThreadStory({ t }: { t: Dict["home"]["thread"] }) {
   return (
     <div ref={ref} className="relative grid gap-8 lg:grid-cols-2 lg:gap-16">
       {/* Sticky stage */}
-      <div className="sticky top-20 z-10 h-[340px] lg:top-28 lg:h-[560px]">
+      {/* Phones: a smaller stage on a solid strip so text scrolling underneath never peeks out. */}
+      <div className="sticky top-20 z-10 -mx-4 h-[280px] bg-paper px-4 pb-3 sm:mx-0 sm:h-[340px] sm:bg-transparent sm:px-0 sm:pb-0 lg:top-28 lg:h-[560px]">
         <div className="card relative h-full overflow-hidden !rounded-[2rem] !bg-white/90">
           <div className="absolute inset-x-0 top-0 h-1 bg-line">
             <motion.div className="h-full origin-left bg-ink" style={{ scaleX: progress }} />
@@ -49,9 +50,9 @@ export function ThreadStory({ t }: { t: Dict["home"]["thread"] }) {
               style={{ transformPerspective: 1000 }}
             >
               {step === 0 && <PaperRx />}
-              {step === 1 && <Scanner />}
-              {step === 2 && <PhoneAlarm />}
-              {step === 3 && <Loop />}
+              {step === 1 && <Scanner m={t.mock} />}
+              {step === 2 && <PhoneAlarm m={t.mock} />}
+              {step === 3 && <Loop m={t.mock} />}
             </motion.div>
           </AnimatePresence>
         </div>
@@ -60,7 +61,7 @@ export function ThreadStory({ t }: { t: Dict["home"]["thread"] }) {
       {/* Steps */}
       <ol className="relative">
         {t.steps.map((s, i) => (
-          <li key={s.tag} className="flex min-h-[55vh] items-center lg:min-h-[70vh]">
+          <li key={s.tag} className="flex min-h-[42vh] items-center lg:min-h-[70vh]">
             <motion.div
               animate={{ opacity: step === i ? 1 : 0.28, x: step === i ? 0 : -8 }}
               transition={{ duration: 0.5, ease }}
@@ -89,7 +90,7 @@ function PaperRx() {
           <p className="font-display text-[15px] font-semibold text-ink">Dr. A. Mehrotra</p>
           <p className="text-[11px] text-muted">MBBS · Reg. UP-XXXXX</p>
         </div>
-        <span className="font-display text-3xl text-clinic italic">℞</span>
+        <span className="font-display text-3xl text-clinic-ink italic">℞</span>
       </div>
       <div className="mt-4 space-y-3 font-[cursive] text-[17px] text-[#2a3a6b]">
         {["Tab. Telma 40 — 1-0-0", "Tab. Metformin 500 — 1-0-1", "Review after 3 months"].map((l, i) => (
@@ -105,7 +106,9 @@ function PaperRx() {
   );
 }
 
-function Scanner() {
+type Mock = Dict["home"]["thread"]["mock"];
+
+function Scanner({ m }: { m: Mock }) {
   const meds = [
     { n: "Telma 40", d: "1-0-0 · 90 days", c: 98 },
     { n: "Metformin 500", d: "1-0-1 · 90 days", c: 94 },
@@ -124,7 +127,7 @@ function Scanner() {
           animate={{ top: ["-20%", "100%"] }}
           transition={{ duration: 1.2, repeat: 1, ease: "easeInOut" }}
         />
-        <span className="absolute top-2 right-2 rounded-full bg-pharmacy px-2 py-0.5 font-mono text-[10px] text-white">SCAN · 2s</span>
+        <span className="absolute top-2 right-2 rounded-full bg-pharmacy-ink px-2 py-0.5 font-mono text-[11px] text-white">{m.scan}</span>
       </div>
       <div className="mt-3 space-y-2">
         {meds.map((m, i) => (
@@ -133,7 +136,7 @@ function Scanner() {
               <p className="text-[14px] font-semibold">{m.n}</p>
               <p className="text-[12px] text-muted">{m.d}</p>
             </div>
-            <span className="rounded-full bg-pharmacy/10 px-2 py-0.5 text-[11px] font-semibold text-pharmacy">{m.c}%</span>
+            <span className="rounded-full bg-pharmacy/10 px-2 py-0.5 text-[11px] font-semibold text-pharmacy-ink">{m.c}%</span>
           </motion.div>
         ))}
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.9 }} className="flex items-center gap-2 rounded-xl bg-ink px-3.5 py-2.5 text-[13px] text-white">
@@ -144,14 +147,14 @@ function Scanner() {
   );
 }
 
-function PhoneAlarm() {
+function PhoneAlarm({ m }: { m: Mock }) {
   return (
     <div className="relative h-[290px] w-[170px] rounded-[2rem] border-[6px] border-ink bg-paper p-2.5 shadow-2xl lg:h-[420px] lg:w-[220px]">
       <div className="mx-auto mb-3 h-4 w-16 rounded-full bg-ink" />
       <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.3 }} className="rounded-xl rounded-tl-sm bg-[#dcf8c6] p-2.5 text-[11px] leading-snug text-ink shadow-sm lg:text-[12px]">
-        <b>Sharma Medical</b>
+        <b>{m.shop}</b>
         <br />
-        Your Rx from Dr. Mehrotra is ready on AICA. Tap to set alarms →
+        {m.whatsapp}
       </motion.div>
       <motion.div
         initial={{ opacity: 0, scale: 0.6 }}
@@ -159,25 +162,25 @@ function PhoneAlarm() {
         transition={{ delay: 1, duration: 0.9 }}
         className="mt-3 rounded-2xl bg-white p-3 text-center shadow-md"
       >
-        <p className="font-mono text-[10px] tracking-widest text-patient uppercase">Dose alarm</p>
+        <p className="font-mono text-[11px] tracking-widest text-patient-ink uppercase">{m.doseAlarm}</p>
         <p className="mt-1 font-display text-3xl font-semibold lg:text-4xl">8:00</p>
-        <p className="text-[11px] text-muted">Telma 40 · after breakfast</p>
-        <motion.div initial={{ backgroundColor: "#0b1530" }} animate={{ backgroundColor: "#10b981" }} transition={{ delay: 2 }} className="mt-2.5 rounded-full py-1.5 text-[11px] font-semibold text-white">
-          ✓ Taken
+        <p className="text-[11px] text-muted">{m.dose}</p>
+        <motion.div initial={{ backgroundColor: "#0b1530" }} animate={{ backgroundColor: "#047857" }} transition={{ delay: 2 }} className="mt-2.5 rounded-full py-1.5 text-[11px] font-semibold text-white">
+          ✓ {m.taken}
         </motion.div>
       </motion.div>
       <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 2.3 }} className="mt-3 text-center text-[10.5px] text-muted lg:text-[11px]">
-        Priya (Delhi) sees ✓ too
+        {m.caregiver}
       </motion.p>
     </div>
   );
 }
 
-function Loop() {
+function Loop({ m }: { m: Mock }) {
   const nodes = [
-    { l: "Clinic", c: "var(--color-clinic)", x: 50, y: 8 },
-    { l: "Pharmacy", c: "var(--color-pharmacy)", x: 88, y: 78 },
-    { l: "Patient", c: "var(--color-patient)", x: 12, y: 78 },
+    { l: m.clinic, c: "var(--color-clinic)", x: 50, y: 8 },
+    { l: m.pharmacy, c: "var(--color-pharmacy)", x: 88, y: 78 },
+    { l: m.patient, c: "var(--color-patient)", x: 12, y: 78 },
   ];
   return (
     <div className="relative aspect-square w-full max-w-[300px]">
@@ -210,9 +213,9 @@ function Loop() {
         </motion.div>
       ))}
       <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1.4 }} className="absolute top-[45%] left-1/2 w-[64%] -translate-x-1/2 rounded-xl border border-line bg-white px-3 py-2 text-center text-[11.5px] shadow-md">
-        <b>Refill due in 3 days</b>
+        <b>{m.refillDue}</b>
         <br />
-        <span className="text-muted">Nudge sent from Sharma Medical</span>
+        <span className="text-muted">{m.nudge}</span>
       </motion.div>
     </div>
   );

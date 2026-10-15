@@ -54,7 +54,7 @@ export default async function PostPage({ params }: P) {
             </TLink>
           </Reveal>
           <Reveal instant delay={0.05}>
-            <p className="mt-8 font-mono text-[12px] tracking-wider uppercase" style={{ color: `var(--color-${post.accent})` }}>
+            <p className="mt-8 font-mono text-[12px] tracking-wider uppercase" style={{ color: `var(--color-${post.accent}-ink)` }}>
               {post.tag} · {post.minutes} {d.blog.minRead}
             </p>
           </Reveal>

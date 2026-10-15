@@ -7,10 +7,16 @@ import { CountUp, Journey } from "./Journey";
 import { RefillCalculator } from "./Calculator";
 import { ScrollToWaitlist } from "./ScrollToWaitlist";
 
-const COLOR: Record<PersonaKey, string> = {
+// Bright shade for glows and dark backgrounds; ink shade for text and filled chips on light backgrounds.
+const BRIGHT: Record<PersonaKey, string> = {
   patient: "var(--color-patient)",
   pharmacy: "var(--color-pharmacy)",
   clinic: "var(--color-clinic)",
+};
+const COLOR: Record<PersonaKey, string> = {
+  patient: "var(--color-patient-ink)",
+  pharmacy: "var(--color-pharmacy-ink)",
+  clinic: "var(--color-clinic-ink)",
 };
 const DEMO: Record<PersonaKey, keyof typeof site.demos> = { patient: "patient", pharmacy: "pharmacy", clinic: "clinic" };
 const ROLE: Record<PersonaKey, "patient" | "pharmacy" | "clinic"> = { patient: "patient", pharmacy: "pharmacy", clinic: "clinic" };
@@ -29,7 +35,7 @@ export function PersonaPage({ k, d, locale }: { k: PersonaKey; d: Dict; locale: 
         <div className="container-x">
           <div className="max-w-[620px]">
             <Reveal instant y={12}>
-              <p className="inline-flex items-center gap-2 font-mono text-[11px] tracking-[0.18em] uppercase" style={{ color }}>
+              <p className="inline-flex items-center gap-2 font-mono text-[12px] tracking-[0.18em] uppercase" style={{ color }}>
                 <span className="h-2 w-2 rounded-full" style={{ background: color }} />
                 {p.hero.eyebrow}
               </p>
@@ -53,7 +59,7 @@ export function PersonaPage({ k, d, locale }: { k: PersonaKey; d: Dict; locale: 
               </div>
             </Reveal>
             <Reveal instant delay={0.55}>
-              <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+              <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center" data-hide-fab>
                 <ScrollToWaitlist className="btn-primary !min-h-13 !px-7 text-[16px]">
                   {k === "patient" ? d.common.cta.waitlist : d.common.cta.pilot} <span aria-hidden>→</span>
                 </ScrollToWaitlist>
@@ -62,7 +68,14 @@ export function PersonaPage({ k, d, locale }: { k: PersonaKey; d: Dict; locale: 
                     {ui.prototype} <span aria-hidden>↗</span>
                   </a>
                 ) : (
-                  <span className="btn-ghost !min-h-13 cursor-default !px-7 text-[15px] opacity-70">{ui.prototypeSoon}</span>
+                  // A status, not a button: nothing to click yet.
+                  <p className="flex items-center gap-2.5 px-2 text-[15px] text-muted">
+                    <span className="relative flex h-2.5 w-2.5" aria-hidden>
+                      <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-pharmacy opacity-60" />
+                      <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-pharmacy-ink" />
+                    </span>
+                    {ui.prototypeSoon}
+                  </p>
                 )}
               </div>
             </Reveal>
@@ -79,7 +92,7 @@ export function PersonaPage({ k, d, locale }: { k: PersonaKey; d: Dict; locale: 
               <CountUp value={p.pivot.stat} />
             </p>
             <p className="mt-4 text-[16px] leading-snug text-ink">{p.pivot.statLabel}</p>
-            <p className="mt-4 font-mono text-[11px] tracking-wide text-muted uppercase">{p.pivot.source}</p>
+            <p className="mt-4 font-mono text-[12px] tracking-wide text-muted uppercase">{p.pivot.source}</p>
           </Reveal>
         </div>
       </section>
@@ -101,7 +114,7 @@ export function PersonaPage({ k, d, locale }: { k: PersonaKey; d: Dict; locale: 
                   <p className="h-display mt-6 text-2xl leading-snug">“{s.quote}”</p>
                   <p className="mt-3 text-[15px] leading-relaxed text-muted">{s.body}</p>
                   <p className="mt-6 border-t border-line pt-4 text-[14.5px] leading-snug text-ink">
-                    <span className="font-mono text-[11px] tracking-[0.14em] uppercase" style={{ color }}>
+                    <span className="font-mono text-[12px] tracking-[0.14em] uppercase" style={{ color }}>
                       {ui.result} ·{" "}
                     </span>
                     {s.result}
@@ -115,10 +128,10 @@ export function PersonaPage({ k, d, locale }: { k: PersonaKey; d: Dict; locale: 
 
       {/* With AICA */}
       <section className="relative z-10 overflow-hidden bg-ink py-24 text-white sm:py-32">
-        <div className="pointer-events-none absolute -top-32 right-0 h-[480px] w-[640px] rounded-full blur-[140px]" style={{ background: color, opacity: 0.28 }} />
+        <div className="pointer-events-none absolute -top-32 right-0 h-[480px] w-[640px] rounded-full blur-[140px]" style={{ background: BRIGHT[k], opacity: 0.28 }} />
         <div className="container-x relative">
           <Reveal y={16}>
-            <p className="font-mono text-[11px] tracking-[0.18em] uppercase" style={{ color }}>
+            <p className="font-mono text-[12px] tracking-[0.18em] uppercase" style={{ color: BRIGHT[k] }}>
               {ui.withAica}
             </p>
           </Reveal>
@@ -128,7 +141,7 @@ export function PersonaPage({ k, d, locale }: { k: PersonaKey; d: Dict; locale: 
           <div className="mt-14 grid gap-px overflow-hidden rounded-3xl border border-white/10 bg-white/10 sm:grid-cols-2">
             {p.with.points.map((pt, i) => (
               <Reveal key={pt.title} delay={i * 0.08} className="bg-ink p-8">
-                <span className="flex h-9 w-9 items-center justify-center rounded-full" style={{ background: color }}>
+                <span className="flex h-9 w-9 items-center justify-center rounded-full" style={{ background: BRIGHT[k] }}>
                   <svg viewBox="0 0 12 12" className="h-3.5 w-3.5" fill="none" stroke="white" strokeWidth="2" aria-hidden>
                     <path d="M2.5 6.2l2.2 2.2 4.8-4.8" />
                   </svg>
@@ -149,7 +162,7 @@ export function PersonaPage({ k, d, locale }: { k: PersonaKey; d: Dict; locale: 
             {p.features.map((f, i) => (
               <Reveal key={f.title} delay={(i % 3) * 0.08}>
                 <TiltCard className="card group relative h-full overflow-hidden p-7">
-                  <div className="pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100" style={{ background: `radial-gradient(360px circle at var(--mx,50%) var(--my,50%), color-mix(in srgb, ${color} 12%, transparent), transparent 60%)` }} />
+                  <div className="pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100" style={{ background: `radial-gradient(360px circle at var(--mx,50%) var(--my,50%), color-mix(in srgb, ${BRIGHT[k]} 12%, transparent), transparent 60%)` }} />
                   <span className="relative font-mono text-[12px] text-muted">{String(i + 1).padStart(2, "0")}</span>
                   <h3 className="relative mt-3 text-lg font-semibold text-ink">{f.title}</h3>
                   <p className="relative mt-2 text-[15px] leading-relaxed text-muted">{f.body}</p>
@@ -190,7 +203,7 @@ export function PersonaPage({ k, d, locale }: { k: PersonaKey; d: Dict; locale: 
               <SectionHead eyebrow={d.patient.pro.eyebrow} title={d.patient.pro.title} lead={d.patient.pro.lead} />
               <Reveal className="card relative overflow-hidden p-8">
                 <div className="pointer-events-none absolute -top-20 -right-20 h-56 w-56 rounded-full bg-patient/25 blur-[60px]" />
-                <p className="relative font-mono text-[11px] tracking-[0.16em] text-patient uppercase">AICA Pro</p>
+                <p className="relative font-mono text-[12px] tracking-[0.16em] text-patient-ink uppercase">AICA Pro</p>
                 <p className="relative mt-3 font-display text-6xl font-medium">₹{site.pricing.patientPro.toLocaleString("en-IN")}</p>
                 <p className="relative text-muted">{d.patient.pro.price}</p>
                 <p className="relative mt-5 rounded-xl bg-paper p-3 text-[13.5px] text-ink/75">{d.patient.pro.note}</p>

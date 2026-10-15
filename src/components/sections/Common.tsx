@@ -67,7 +67,7 @@ export function WaitlistSection({
           <div className="pointer-events-none absolute -top-10 right-0 h-72 w-72 rounded-full bg-clinic/40 blur-[90px]" />
           <div className="relative grid gap-10 p-6 sm:p-10 lg:grid-cols-[1fr_1.15fr] lg:gap-14 lg:p-14">
             <div className="text-white">
-              <p className="font-mono text-[11px] tracking-[0.18em] text-white/60 uppercase">{w.eyebrow}</p>
+              <p className="font-mono text-[12px] tracking-[0.18em] text-white/60 uppercase">{w.eyebrow}</p>
               <h2 className="mt-4 font-display text-[clamp(2rem,4vw,3.2rem)] leading-[1.05] font-medium">{title ?? w.title}</h2>
               <p className="mt-5 max-w-md text-[17px] leading-relaxed text-white/70">{lead ?? w.lead}</p>
               <ul className="mt-8 space-y-3">

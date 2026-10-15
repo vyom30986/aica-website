@@ -87,7 +87,7 @@ function Node({ k, glow, reduced }: { k: PersonaKey; glow: THREE.Texture; reduce
         <meshBasicMaterial color={color} transparent opacity={0.3} />
       </mesh>
       <Billboard>
-        <sprite scale={[3.6, 3.6, 1]}>
+        <sprite scale={[2.7, 2.7, 1]}>
           <spriteMaterial ref={halo} map={glow} color={color} transparent depthWrite={false} blending={THREE.AdditiveBlending} opacity={0.5} />
         </sprite>
       </Billboard>
@@ -108,7 +108,7 @@ function Core({ reduced }: { reduced: boolean }) {
     <group ref={ref} position={[0, 0.2, 0]}>
       <mesh>
         <icosahedronGeometry args={[0.42, 1]} />
-        <meshBasicMaterial color="#2f4fb0" wireframe transparent opacity={0.5} />
+        <meshBasicMaterial color="#1f5bd6" wireframe transparent opacity={0.5} />
       </mesh>
       <mesh>
         <icosahedronGeometry args={[0.2, 3]} />
@@ -149,8 +149,8 @@ function Thread({ a, b, reduced }: { a: PersonaKey; b: PersonaKey; reduced: bool
 
   return (
     <group>
-      <Line points={points} color="#2f4fb0" lineWidth={1} transparent opacity={0.18} />
-      <Line ref={dash} points={points} color="#2f4fb0" lineWidth={1.6} dashed dashSize={0.12} gapSize={0.22} transparent opacity={0.55} />
+      <Line points={points} color="#1f5bd6" lineWidth={1} transparent opacity={0.18} />
+      <Line ref={dash} points={points} color="#1f5bd6" lineWidth={1.6} dashed dashSize={0.12} gapSize={0.22} transparent opacity={0.55} />
       {[0, 1, 2].map((i) => (
         <mesh key={i} ref={(m) => { if (m) packets.current[i] = m; }}>
           <sphereGeometry args={[0.1, 16, 16]} />
@@ -206,16 +206,16 @@ function framing(focus: Focus, aspect: number, width: number): { pos: V3; look: 
   const narrow = width < 1100;
   if (focus === "home" || focus === "other") {
     if (landscape) {
-      const share = focus === "home" ? (narrow ? 0.34 : 0.42) : 0.26;
+      const share = focus === "home" ? (narrow ? 0.32 : 0.38) : 0.26;
       const d = THREE.MathUtils.clamp(TRIDENT_W / (share * SPAN * aspect), 9.5, 24);
-      const x = -(focus === "home" ? (narrow ? 0.29 : 0.24) : 0.38) * SPAN * aspect * d;
+      const x = -(focus === "home" ? (narrow ? 0.31 : 0.27) : 0.38) * SPAN * aspect * d;
       const y = focus === "home" ? 0 : -0.22 * SPAN * d;
       return { pos: [x, y, d], look: [x, y, 0] };
     }
     // Portrait: a smaller trident tucked into the top-right corner, behind the headline.
-    const d = 24;
-    const x = -0.36 * SPAN * aspect * d;
-    const y = -0.2 * SPAN * d;
+    const d = 30;
+    const x = -0.47 * SPAN * aspect * d;
+    const y = -0.33 * SPAN * d;
     return { pos: [x, y, d], look: [x, y, 0] };
   }
   const [nx, ny, nz] = NODES[focus].pos;
@@ -276,7 +276,7 @@ function World({ reduced, mobile }: { reduced: boolean; mobile: boolean }) {
           <Thread key={a + b} a={a} b={b} reduced={reduced} />
         ))}
         {KEYS.map((k) => (
-          <Line key={`c-${k}`} points={[[0, 0.2, 0], NODES[k].pos]} color="#2f4fb0" lineWidth={0.8} transparent opacity={0.14} />
+          <Line key={`c-${k}`} points={[[0, 0.2, 0], NODES[k].pos]} color="#1f5bd6" lineWidth={0.8} transparent opacity={0.14} />
         ))}
       </group>
       <Dust count={mobile ? 350 : 900} reduced={reduced} />

@@ -13,9 +13,9 @@ import { scrollToTarget } from "@/components/motion/SmoothScroll";
 
 type Role = keyof Dict["form"]["roles"];
 const ROLE_COLOR: Record<Role, string> = {
-  patient: "var(--color-patient)",
-  pharmacy: "var(--color-pharmacy)",
-  clinic: "var(--color-clinic)",
+  patient: "var(--color-patient-ink)",
+  pharmacy: "var(--color-pharmacy-ink)",
+  clinic: "var(--color-clinic-ink)",
   partner: "var(--color-brand)",
   other: "var(--color-muted)",
 };
@@ -58,6 +58,9 @@ export function LeadForm({ t, locale, defaultRole = "patient" }: { t: Dict["form
   const orgLabel =
     role === "pharmacy" ? t.organization.pharmacy : role === "clinic" ? t.organization.clinic : role === "partner" ? t.organization.partner : t.organization.default;
   const showOrg = role === "pharmacy" || role === "clinic" || role === "partner";
+  // Patients get the short version (name, city, WhatsApp); email and a note are one tap away.
+  const [more, setMore] = useState(false);
+  const compact = role === "patient" && !more;
 
   function validate(fd: FormData) {
     const e: string[] = [];
@@ -140,7 +143,7 @@ export function LeadForm({ t, locale, defaultRole = "patient" }: { t: Dict["form
     ) : null;
 
   return (
-    <div ref={boxRef} className="relative scroll-mt-28">
+    <div ref={boxRef} className="relative scroll-mt-28" data-hide-fab>
       <AnimatePresence mode="wait">
         {state === "done" && done ? (
           <motion.div
@@ -191,7 +194,7 @@ export function LeadForm({ t, locale, defaultRole = "patient" }: { t: Dict["form
                     onClick={() => setRole(r)}
                     onMouseEnter={() => (r === "patient" || r === "pharmacy" || r === "clinic") && sceneStore.set({ hover: r })}
                     onMouseLeave={() => sceneStore.set({ hover: null })}
-                    className={`relative rounded-full border px-3.5 py-2 text-[14px] font-medium transition ${
+                    className={`relative min-h-11 rounded-full border px-3.5 py-2 text-[14px] font-medium transition ${
                       role === r ? "border-transparent text-white" : "border-line bg-white text-ink hover:border-ink/30"
                     }`}
                   >
@@ -215,7 +218,7 @@ export function LeadForm({ t, locale, defaultRole = "patient" }: { t: Dict["form
                 <input data-field="city" name="city" autoComplete="address-level2" className="field" placeholder="Lucknow" aria-invalid={err("city")} maxLength={60} />
                 {errText("city")}
               </label>
-              <label className="block">
+              <label className={`block ${compact ? "sm:col-span-2" : ""}`}>
                 <span className="mb-1.5 block text-[13px] font-medium text-muted">{t.phone}</span>
                 <div className="flex">
                   <span className="flex items-center rounded-l-xl border border-r-0 border-line bg-paper px-3 text-[15px] text-muted">+91</span>
@@ -223,11 +226,13 @@ export function LeadForm({ t, locale, defaultRole = "patient" }: { t: Dict["form
                 </div>
                 {errText("contact")}
               </label>
-              <label className="block">
-                <span className="mb-1.5 block text-[13px] font-medium text-muted">{t.email}</span>
-                <input data-field="email" name="email" type="email" autoComplete="email" className="field" aria-invalid={err("email")} maxLength={120} />
-                {errText("email")}
-              </label>
+              {!compact && (
+                <label className="block">
+                  <span className="mb-1.5 block text-[13px] font-medium text-muted">{t.email}</span>
+                  <input data-field="email" name="email" type="email" autoComplete="email" className="field" aria-invalid={err("email")} maxLength={120} />
+                  {errText("email")}
+                </label>
+              )}
             </div>
 
             <AnimatePresence initial={false}>
@@ -239,11 +244,17 @@ export function LeadForm({ t, locale, defaultRole = "patient" }: { t: Dict["form
               )}
             </AnimatePresence>
 
-            <label className="block">
-              <span className="mb-1.5 block text-[13px] font-medium text-muted">{t.message}</span>
-              <textarea name="message" rows={3} className="field resize-none" placeholder={t.messagePlaceholder} maxLength={1000} />
-              <span className="mt-1 block text-[12px] text-muted/80">{t.noHealthData}</span>
-            </label>
+            {compact ? (
+              <button type="button" onClick={() => setMore(true)} className="-my-1 inline-flex min-h-11 items-center gap-2 text-[14px] font-semibold text-brand">
+                <span aria-hidden>+</span> {t.addDetails}
+              </button>
+            ) : (
+              <label className="block">
+                <span className="mb-1.5 block text-[13px] font-medium text-muted">{t.message}</span>
+                <textarea name="message" rows={3} className="field resize-none" placeholder={t.messagePlaceholder} maxLength={1000} />
+                <span className="mt-1 block text-[12px] text-muted">{t.noHealthData}</span>
+              </label>
+            )}
 
             {/* Honeypot: hidden from people, irresistible to bots. */}
             <div aria-hidden className="absolute -left-[9999px] h-0 w-0 overflow-hidden">

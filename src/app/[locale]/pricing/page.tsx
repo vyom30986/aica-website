@@ -15,9 +15,9 @@ export async function generateMetadata({ params }: P): Promise<Metadata> {
 }
 
 const ACCENT: Record<string, string> = {
-  patient: "var(--color-patient)",
+  patient: "var(--color-patient-ink)",
   pro: "var(--color-brand)",
-  pharmacy: "var(--color-pharmacy)",
+  pharmacy: "var(--color-pharmacy)", // shown on the dark featured card
 };
 
 export default async function Pricing({ params }: P) {
@@ -49,7 +49,7 @@ export default async function Pricing({ params }: P) {
             return (
               <Reveal key={plan.key} delay={i * 0.1} className={`relative flex flex-col rounded-[1.75rem] p-8 ${featured ? "bg-ink text-white shadow-[0_40px_80px_-30px_rgba(11,21,48,0.6)]" : "card"}`}>
                 {"badge" in plan && plan.badge && (
-                  <span className={`absolute top-6 right-6 rounded-full px-3 py-1 font-mono text-[10.5px] tracking-wider uppercase ${featured ? "bg-white/15 text-white" : "bg-ink/5 text-ink"}`}>
+                  <span className={`absolute top-6 right-6 rounded-full px-3 py-1 font-mono text-[12px] tracking-wider uppercase ${featured ? "bg-white/15 text-white" : "bg-ink/5 text-ink"}`}>
                     {plan.badge}
                   </span>
                 )}
