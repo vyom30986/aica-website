@@ -271,7 +271,7 @@ const en = {
       { who: "Sushma, 64", meta: "3 specialists, 0 shared records", quote: "What medications are you on?", body: "She carries a plastic bag of pill bottles to every visit.", result: "Fragmented history. Drug interactions slip through." },
     ],
     with: {
-      title: "Your health is the long game. Don't lose it to admin.",
+      title: "Your health is of the utmost importance. Let's manage it together.",
       points: [
         { title: "Smart alarms that ring on time", body: "Mum gets the alarm, daughter sees the green tick. Snooze and re-confirm with one tap." },
         { title: "One thread for every doctor", body: "Three specialists, one timeline, one tap to share. No more bags of pill bottles." },
