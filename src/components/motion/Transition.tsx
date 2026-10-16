@@ -97,7 +97,7 @@ export function TransitionProvider({ children, chrome }: { children: ReactNode; 
       busy.current = false;
       const hash = window.location.hash;
       if (hash) scrollToTarget(hash);
-    }, 650);
+    }, 950); // long enough for the curtain to finish sweeping away
     return () => window.clearTimeout(t);
   }, [pathname, animate, scope]);
 
@@ -120,7 +120,12 @@ function Curtain({ phase }: { phase: Phase }) {
   const covering = phase === "out";
   const leaving = phase === "in";
   return (
-    <div aria-hidden className="pointer-events-none fixed inset-0 z-[70] flex" style={{ perspective: 1200 }}>
+    // Hidden entirely between transitions: collapsed panels tilted in 3D still leave thin stripes on phones.
+    <div
+      aria-hidden
+      className="pointer-events-none fixed inset-0 z-[70] flex"
+      style={{ perspective: 1200, visibility: phase === "idle" ? "hidden" : "visible" }}
+    >
       {colors.map((c, i) => (
         <motion.div
           key={i}
@@ -129,7 +134,7 @@ function Curtain({ phase }: { phase: Phase }) {
           initial={false}
           animate={{
             scaleY: covering ? 1 : 0,
-            rotateX: covering ? 0 : leaving ? -25 : 25,
+            rotateX: covering ? 0 : leaving ? -25 : 0,
           }}
           transition={{
             duration: covering ? 0.55 : 0.6,

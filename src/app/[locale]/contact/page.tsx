@@ -40,7 +40,7 @@ export default async function Contact({ params }: P) {
         </div>
 
         <div className="mt-14 grid gap-8 lg:grid-cols-[1fr_1.4fr]">
-          <div className="space-y-3">
+          <div className="min-w-0 space-y-3">
             <Reveal>
               <p className="mb-4 text-lg font-semibold">{t.direct}</p>
             </Reveal>
