@@ -63,7 +63,7 @@ export const site = {
 
   // Pricing shown on /pricing. TODO: confirm every number before launch.
   pricing: {
-    patientPro: 1000, // ₹ per month per profile
+    patientPro: 600, // ₹ per month per profile
   },
 } as const;
 
