@@ -15,6 +15,7 @@ export const site = {
       : process.env.NEXT_PUBLIC_SITE_URL ?? "https://aicaglobal.in"),
 
   company: {
+    website: "https://beyond-quantum-website.vercel.app/",
     legalName: "Beyond Quantum Technologies Pvt. Ltd.",
     // TODO: add the CIN once incorporation is confirmed on MCA21. Lines that use it are hidden while null.
     cin: null as string | null,

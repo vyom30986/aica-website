@@ -56,6 +56,16 @@ export function Footer({ locale, t }: { locale: Locale; t: Dict["common"] }) {
               <a className="flex min-h-11 items-center hover:text-white" href={site.contact.mapsUrl} target="_blank" rel="noopener noreferrer">{site.company.address}</a>
             </div>
             <div className="mt-6 flex gap-2">
+              <a
+                href={site.company.website}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={locale === "hi" ? "Beyond Quantum Technologies की वेबसाइट खोलें (नया टैब)" : "Visit Beyond Quantum Technologies (opens in a new tab)"}
+                title="Beyond Quantum Technologies"
+                className="flex h-11 w-11 items-center justify-center overflow-hidden rounded-full border border-white/15 transition hover:border-white/40 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white"
+              >
+                <img src="/brand/beyond-quantum.svg" alt="" width={44} height={44} />
+              </a>
               {[
                 ["Instagram", site.social.instagram, "M7 2h10a5 5 0 015 5v10a5 5 0 01-5 5H7a5 5 0 01-5-5V7a5 5 0 015-5zm5 5a5 5 0 100 10 5 5 0 000-10zm0 2a3 3 0 110 6 3 3 0 010-6zm5.5-3a1 1 0 100 2 1 1 0 000-2z"],
                 ["LinkedIn", site.social.linkedin, "M4 3a2 2 0 110 4 2 2 0 010-4zM3 9h3v12H3zM9 9h3v1.7C12.6 9.7 13.8 9 15.5 9 19 9 21 11 21 15v6h-3v-5.5c0-2-.8-3.3-2.6-3.3S12 13.5 12 15.5V21H9z"],
