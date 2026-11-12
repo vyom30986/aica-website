@@ -101,7 +101,19 @@ export default async function About({ params }: P) {
           <Reveal className="card grid gap-6 p-8 sm:grid-cols-3">
             <div>
               <p className="eyebrow">{t.company.title}</p>
-              <p className="mt-3 font-semibold">{site.company.legalName}</p>
+              <div className="mt-3 flex items-center gap-3">
+                <a
+                  href={site.company.website}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={locale === "hi" ? "Beyond Quantum Technologies की वेबसाइट खोलें (नया टैब)" : "Visit Beyond Quantum Technologies (opens in a new tab)"}
+                  title="Beyond Quantum Technologies"
+                  className="flex h-12 w-12 shrink-0 items-center justify-center overflow-hidden rounded-xl transition hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand"
+                >
+                  <img src="/brand/beyond-quantum.svg" alt="" width={48} height={48} />
+                </a>
+                <p className="min-w-0 font-semibold">{site.company.legalName}</p>
+              </div>
             </div>
             <div>
               <p className="text-[13px] text-muted">{t.company.registered}</p>
