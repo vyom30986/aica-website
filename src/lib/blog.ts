@@ -2,6 +2,7 @@ import "server-only";
 import fs from "fs";
 import path from "path";
 import { marked } from "marked";
+import additionalPosts from "@/content/blog-posts.json";
 
 export type Post = {
   slug: string;
@@ -15,6 +16,7 @@ export type Post = {
 
 // Post metadata lives here; the body is the matching Markdown file in /content/blog.
 const POSTS: Post[] = [
+  ...(additionalPosts as Post[]),
   {
     slug: "future-of-digital-pharmacy-services-in-india",
     title: "The Future of Digital Pharmacy Services in India",

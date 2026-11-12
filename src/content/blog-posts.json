@@ -1,0 +1,902 @@
+[
+  {
+    "slug": "how-can-i-organise-medical-documents-before-a-clinic-visit",
+    "title": "How can I organise medical documents before a clinic visit?",
+    "description": "Create one folder for the visit, with the appointment details, the questions you want answered and the documents the clinic has requested.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Patients",
+    "accent": "patient"
+  },
+  {
+    "slug": "what-is-a-useful-naming-system-for-health-report-files",
+    "title": "What is a useful naming system for health report files?",
+    "description": "Use a consistent filename that includes the document date, document type and provider.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Patients",
+    "accent": "patient"
+  },
+  {
+    "slug": "how-do-i-photograph-a-paper-prescription-clearly",
+    "title": "How do I photograph a paper prescription clearly?",
+    "description": "Place the page flat in good light, keep the camera parallel to it and capture the whole document.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Patients",
+    "accent": "patient"
+  },
+  {
+    "slug": "how-can-i-keep-records-for-different-family-members-separate",
+    "title": "How can I keep records for different family members separate?",
+    "description": "Give each person a clearly named folder or profile and verify the selected person before adding a document.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Patients",
+    "accent": "patient"
+  },
+  {
+    "slug": "what-should-i-include-in-an-appointment-note",
+    "title": "What should I include in an appointment note?",
+    "description": "Record the date, time, provider, location or joining link, booking reference and anything the clinic specifically asks you to bring.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Patients",
+    "accent": "patient"
+  },
+  {
+    "slug": "how-can-i-prepare-questions-for-a-consultation",
+    "title": "How can I prepare questions for a consultation?",
+    "description": "Write down the main concern and the decisions you need help with, then put your most important question first.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Patients",
+    "accent": "patient"
+  },
+  {
+    "slug": "how-do-i-keep-track-of-reports-that-have-not-arrived",
+    "title": "How do I keep track of reports that have not arrived?",
+    "description": "Maintain a small list of expected reports with the provider, test or document name, expected availability and contact details.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Patients",
+    "accent": "patient"
+  },
+  {
+    "slug": "how-can-i-share-a-report-without-forwarding-an-entire-chat",
+    "title": "How can I share a report without forwarding an entire chat?",
+    "description": "Select the specific document requested, confirm the recipient and send it through the channel the clinic has agreed to use.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Patients",
+    "accent": "patient"
+  },
+  {
+    "slug": "how-should-i-organise-records-after-changing-clinics",
+    "title": "How should I organise records after changing clinics?",
+    "description": "Prepare a concise document bundle relevant to the new appointment and keep the original archive intact.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Patients",
+    "accent": "patient"
+  },
+  {
+    "slug": "what-is-the-difference-between-saving-a-report-and-reviewing-it",
+    "title": "What is the difference between saving a report and reviewing it?",
+    "description": "Saving means the document is stored and retrievable.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Patients",
+    "accent": "patient"
+  },
+  {
+    "slug": "how-do-i-prepare-for-a-video-consultation",
+    "title": "How do I prepare for a video consultation?",
+    "description": "Confirm the joining method, appointment time and contact number, then test the device and connection before the appointment.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Patients",
+    "accent": "patient"
+  },
+  {
+    "slug": "how-can-i-manage-healthcare-appointments-on-a-shared-phone",
+    "title": "How can I manage healthcare appointments on a shared phone?",
+    "description": "Use calendar labels that clearly identify the appointment owner while respecting what should appear on a shared screen.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Patients",
+    "accent": "patient"
+  },
+  {
+    "slug": "what-should-i-do-with-duplicate-copies-of-a-medical-report",
+    "title": "What should I do with duplicate copies of a medical report?",
+    "description": "Compare the document date, provider, page count and any revision label before deciding that two files are duplicates.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Patients",
+    "accent": "patient"
+  },
+  {
+    "slug": "how-can-i-make-a-personal-health-document-index",
+    "title": "How can I make a personal health document index?",
+    "description": "Create a simple list of document names, dates, providers and storage locations.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Patients",
+    "accent": "patient"
+  },
+  {
+    "slug": "how-do-i-confirm-which-clinic-branch-my-appointment-is-at",
+    "title": "How do I confirm which clinic branch my appointment is at?",
+    "description": "Check the full address on the booking confirmation and contact reception if the branch is unclear.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Patients",
+    "accent": "patient"
+  },
+  {
+    "slug": "how-can-i-organise-appointment-receipts-and-invoices",
+    "title": "How can I organise appointment receipts and invoices?",
+    "description": "Store each receipt with its visit date, provider and payment reference, and keep it separate from the clinical report when practical.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Patients",
+    "accent": "patient"
+  },
+  {
+    "slug": "how-do-i-keep-a-useful-timeline-of-clinic-visits",
+    "title": "How do I keep a useful timeline of clinic visits?",
+    "description": "Record each visit date, provider, reason for attending in your own words and the location of the consultation summary.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Patients",
+    "accent": "patient"
+  },
+  {
+    "slug": "how-can-i-prepare-a-document-backup-for-a-clinic-visit",
+    "title": "How can I prepare a document backup for a clinic visit?",
+    "description": "Make sure the requested files can be opened using the device you will take, and keep an agreed alternative if connectivity is unreliable.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Patients",
+    "accent": "patient"
+  },
+  {
+    "slug": "what-should-i-ask-reception-when-booking-a-first-visit",
+    "title": "What should I ask reception when booking a first visit?",
+    "description": "Ask how the booking will be confirmed, what documents to bring, where to attend and how to contact the clinic if plans change.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Patients",
+    "accent": "patient"
+  },
+  {
+    "slug": "how-do-i-avoid-confusing-appointment-reminders-with-confirmations",
+    "title": "How do I avoid confusing appointment reminders with confirmations?",
+    "description": "Treat a booking as confirmed when the provider's process says it is confirmed.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Patients",
+    "accent": "patient"
+  },
+  {
+    "slug": "how-can-i-keep-a-list-of-questions-after-a-consultation",
+    "title": "How can I keep a list of questions after a consultation?",
+    "description": "Create a dated note linked to the visit and record each question as it occurs.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Patients",
+    "accent": "patient"
+  },
+  {
+    "slug": "how-do-i-organise-documents-when-travelling-for-an-appointment",
+    "title": "How do I organise documents when travelling for an appointment?",
+    "description": "Keep the booking, travel details and requested records together while leaving a recoverable copy in your usual storage location.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Patients",
+    "accent": "patient"
+  },
+  {
+    "slug": "how-can-i-use-a-calendar-for-recurring-clinic-follow-ups",
+    "title": "How can I use a calendar for recurring clinic follow-ups?",
+    "description": "Enter the follow-up arrangement given by the clinic and record whether the actual booking is confirmed.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Patients",
+    "accent": "patient"
+  },
+  {
+    "slug": "what-makes-a-clinic-message-easy-for-staff-to-answer",
+    "title": "What makes a clinic message easy for staff to answer?",
+    "description": "A useful message states the administrative request, provides the booking reference when available and includes a clear way to reply.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Patients",
+    "accent": "patient"
+  },
+  {
+    "slug": "how-can-i-check-that-a-downloaded-report-is-complete",
+    "title": "How can I check that a downloaded report is complete?",
+    "description": "Compare the download with the provider's description and check the patient details, date and page sequence.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Patients",
+    "accent": "patient"
+  },
+  {
+    "slug": "how-can-two-caregivers-coordinate-appointment-responsibilities",
+    "title": "How can two caregivers coordinate appointment responsibilities?",
+    "description": "Agree who owns each task and record its current status in one shared place.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Caregivers",
+    "accent": "patient"
+  },
+  {
+    "slug": "what-should-a-caregiver-handover-note-contain",
+    "title": "What should a caregiver handover note contain?",
+    "description": "Include the tasks completed, tasks still open, upcoming appointments and where relevant documents are stored.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Caregivers",
+    "accent": "patient"
+  },
+  {
+    "slug": "how-can-i-help-a-parent-use-a-health-app-without-taking-over",
+    "title": "How can I help a parent use a health app without taking over?",
+    "description": "Ask which tasks they want help with and let them practise those tasks on their own device.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Caregivers",
+    "accent": "patient"
+  },
+  {
+    "slug": "how-do-i-plan-healthcare-support-when-i-live-in-another-city",
+    "title": "How do I plan healthcare support when I live in another city?",
+    "description": "Map out the practical tasks that can be handled remotely and the ones requiring someone nearby.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Caregivers",
+    "accent": "patient"
+  },
+  {
+    "slug": "how-can-a-family-agree-on-what-health-information-to-share",
+    "title": "How can a family agree on what health information to share?",
+    "description": "Start by asking the person whose information it is what they want shared, with whom and for which purpose.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Caregivers",
+    "accent": "patient"
+  },
+  {
+    "slug": "how-can-i-prepare-a-caregiver-contact-list",
+    "title": "How can I prepare a caregiver contact list?",
+    "description": "Create a concise directory of the people and organisations involved in practical support, with their roles and preferred contact methods.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Caregivers",
+    "accent": "patient"
+  },
+  {
+    "slug": "how-can-i-record-a-parent-s-preferences-for-clinic-visits",
+    "title": "How can I record a parent's preferences for clinic visits?",
+    "description": "Ask about the practical details that make appointments easier, such as preferred language, communication support, transport and who should accompany them.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Caregivers",
+    "accent": "patient"
+  },
+  {
+    "slug": "what-should-i-do-when-family-members-give-conflicting-appointment-information",
+    "title": "What should I do when family members give conflicting appointment information?",
+    "description": "Return to the provider's latest confirmation and establish one current record.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Caregivers",
+    "accent": "patient"
+  },
+  {
+    "slug": "how-can-i-support-someone-who-prefers-paper-records",
+    "title": "How can I support someone who prefers paper records?",
+    "description": "Build a clear paper system around the person's habits and add digital copies only where they are useful and agreed.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Caregivers",
+    "accent": "patient"
+  },
+  {
+    "slug": "how-can-caregivers-avoid-duplicate-calls-to-the-same-clinic",
+    "title": "How can caregivers avoid duplicate calls to the same clinic?",
+    "description": "Record who is making the call, what they are asking and when a reply is expected.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Caregivers",
+    "accent": "patient"
+  },
+  {
+    "slug": "how-can-i-organise-a-weekly-family-care-check-in",
+    "title": "How can I organise a weekly family care check-in?",
+    "description": "Use a short agenda focused on upcoming appointments, missing documents and practical tasks.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Caregivers",
+    "accent": "patient"
+  },
+  {
+    "slug": "how-do-i-manage-a-temporary-caregiver-s-access-to-records",
+    "title": "How do I manage a temporary caregiver's access to records?",
+    "description": "Share the information needed for the agreed period and tasks, and plan how access will end when the arrangement finishes.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Caregivers",
+    "accent": "patient"
+  },
+  {
+    "slug": "how-can-i-keep-care-arrangements-clear-during-a-holiday",
+    "title": "How can I keep care arrangements clear during a holiday?",
+    "description": "Review provider opening times, planned appointments and the availability of family helpers before the holiday begins.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Caregivers",
+    "accent": "patient"
+  },
+  {
+    "slug": "how-can-i-take-useful-notes-while-accompanying-someone-to-a-consultation",
+    "title": "How can I take useful notes while accompanying someone to a consultation?",
+    "description": "Ask the person whether they want you to take notes, then record questions, explanations and agreed next steps clearly.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Caregivers",
+    "accent": "patient"
+  },
+  {
+    "slug": "how-can-siblings-divide-the-cost-related-paperwork-for-a-parent-s-care",
+    "title": "How can siblings divide the cost-related paperwork for a parent's care?",
+    "description": "Agree who collects invoices, who records payments and where the shared administrative documents will be stored.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Caregivers",
+    "accent": "patient"
+  },
+  {
+    "slug": "how-can-i-make-a-health-app-easier-to-read",
+    "title": "How can I make a health app easier to read?",
+    "description": "Start with the device's supported text-size, display and accessibility settings, then test the screens used most often.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Caregivers",
+    "accent": "patient"
+  },
+  {
+    "slug": "how-can-i-decide-which-app-notifications-to-keep",
+    "title": "How can I decide which app notifications to keep?",
+    "description": "Identify the reminders that lead to a useful action and review them with the person using the app.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Caregivers",
+    "accent": "patient"
+  },
+  {
+    "slug": "how-do-i-report-a-problem-in-a-health-app-clearly",
+    "title": "How do I report a problem in a health app clearly?",
+    "description": "Describe the task you were attempting, the steps taken, the result you expected and what actually happened.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Caregivers",
+    "accent": "patient"
+  },
+  {
+    "slug": "what-should-i-check-before-moving-health-files-to-a-new-phone",
+    "title": "What should I check before moving health files to a new phone?",
+    "description": "Verify that the files and accounts you need are accessible on the new device before relying on it for appointments.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Caregivers",
+    "accent": "patient"
+  },
+  {
+    "slug": "how-can-i-tell-whether-a-document-upload-succeeded",
+    "title": "How can I tell whether a document upload succeeded?",
+    "description": "Look for the service's upload confirmation and verify that the correct document can be opened from the intended record.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Caregivers",
+    "accent": "patient"
+  },
+  {
+    "slug": "how-should-i-organise-healthcare-related-email",
+    "title": "How should I organise healthcare-related email?",
+    "description": "Use a small number of folders or labels for appointments, documents and administrative queries, and keep a clear way to identify messages that still need action.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Caregivers",
+    "accent": "patient"
+  },
+  {
+    "slug": "how-can-i-keep-health-documents-searchable-without-adding-sensitive-labels",
+    "title": "How can I keep health documents searchable without adding sensitive labels?",
+    "description": "Use descriptive document types, dates and provider names, with personal records grouped in private folders.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Caregivers",
+    "accent": "patient"
+  },
+  {
+    "slug": "how-do-i-manage-a-record-shared-through-an-expiring-link",
+    "title": "How do I manage a record shared through an expiring link?",
+    "description": "Note the provider's instructions and expiry date, then obtain an authorised copy if you need the document for ongoing records.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Caregivers",
+    "accent": "patient"
+  },
+  {
+    "slug": "how-can-i-keep-track-of-support-requests-about-my-health-account",
+    "title": "How can I keep track of support requests about my health account?",
+    "description": "Maintain a short log of the issue, date raised, support reference and next expected action.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Caregivers",
+    "accent": "patient"
+  },
+  {
+    "slug": "how-can-i-review-who-can-access-a-shared-health-folder",
+    "title": "How can I review who can access a shared health folder?",
+    "description": "Use the storage service's sharing controls to inspect named members and link settings, then compare that access with the person's current wishes and support arrangements.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Caregivers",
+    "accent": "patient"
+  },
+  {
+    "slug": "how-can-a-pharmacy-organise-incoming-customer-enquiries",
+    "title": "How can a pharmacy organise incoming customer enquiries?",
+    "description": "Use one enquiry queue with the customer's request, contact preference, time received, responsible staff member and current status.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Pharmacy",
+    "accent": "pharmacy"
+  },
+  {
+    "slug": "what-fields-belong-in-a-pharmacy-callback-tracker",
+    "title": "What fields belong in a pharmacy callback tracker?",
+    "description": "Include an enquiry reference, time received, contact details, reason for the callback, assigned person and agreed callback window.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Pharmacy",
+    "accent": "pharmacy"
+  },
+  {
+    "slug": "how-should-a-pharmacy-record-an-item-availability-enquiry",
+    "title": "How should a pharmacy record an item availability enquiry?",
+    "description": "Record the exact item requested and the status of the availability check, with a clear distinction between an enquiry and a confirmed order.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Pharmacy",
+    "accent": "pharmacy"
+  },
+  {
+    "slug": "how-can-pharmacy-staff-manage-incomplete-customer-requests",
+    "title": "How can pharmacy staff manage incomplete customer requests?",
+    "description": "Identify the specific missing information and ask for it once in a clear message.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Pharmacy",
+    "accent": "pharmacy"
+  },
+  {
+    "slug": "how-can-a-pharmacy-improve-shift-handovers",
+    "title": "How can a pharmacy improve shift handovers?",
+    "description": "Review open customer requests, pending collections, supplier follow-ups and tasks needing pharmacist attention before the next shift takes over.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Pharmacy",
+    "accent": "pharmacy"
+  },
+  {
+    "slug": "how-can-a-pharmacy-keep-customer-contact-preferences-accurate",
+    "title": "How can a pharmacy keep customer contact preferences accurate?",
+    "description": "Ask customers how they prefer to receive updates and record that preference with the relevant contact details.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Pharmacy",
+    "accent": "pharmacy"
+  },
+  {
+    "slug": "how-should-a-pharmacy-organise-prescription-image-intake",
+    "title": "How should a pharmacy organise prescription image intake?",
+    "description": "Keep the image linked to the correct customer request and place it in a queue for the authorised pharmacist's review.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Pharmacy",
+    "accent": "pharmacy"
+  },
+  {
+    "slug": "how-can-a-pharmacy-track-promised-customer-updates",
+    "title": "How can a pharmacy track promised customer updates?",
+    "description": "Record the promise as a task with a due time, responsible person and specific information to be confirmed.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Pharmacy",
+    "accent": "pharmacy"
+  },
+  {
+    "slug": "what-should-a-pharmacy-collection-message-include",
+    "title": "What should a pharmacy collection message include?",
+    "description": "Include the collection location, applicable opening hours, reference and any instructions the pharmacy has confirmed.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Pharmacy",
+    "accent": "pharmacy"
+  },
+  {
+    "slug": "how-can-pharmacy-staff-avoid-duplicate-enquiry-records",
+    "title": "How can pharmacy staff avoid duplicate enquiry records?",
+    "description": "Search for an existing open request using an appropriate reference before creating a new one.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Pharmacy",
+    "accent": "pharmacy"
+  },
+  {
+    "slug": "how-can-a-pharmacy-create-a-daily-administrative-checklist",
+    "title": "How can a pharmacy create a daily administrative checklist?",
+    "description": "List the routine tasks that need a clear owner and completion record, then group them by when they happen.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Pharmacy",
+    "accent": "pharmacy"
+  },
+  {
+    "slug": "how-should-a-pharmacy-record-a-customer-complaint",
+    "title": "How should a pharmacy record a customer complaint?",
+    "description": "Record the customer's concern accurately, the date, relevant transaction or enquiry reference and the person handling the response.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Pharmacy",
+    "accent": "pharmacy"
+  },
+  {
+    "slug": "how-can-a-pharmacy-organise-supplier-follow-ups",
+    "title": "How can a pharmacy organise supplier follow-ups?",
+    "description": "Use a supplier task list with the order reference, question, responsible staff member and expected response.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Pharmacy",
+    "accent": "pharmacy"
+  },
+  {
+    "slug": "how-can-a-pharmacy-pilot-a-new-enquiry-system",
+    "title": "How can a pharmacy pilot a new enquiry system?",
+    "description": "Start with a defined set of administrative requests, a small staff group and clear success measures.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Pharmacy",
+    "accent": "pharmacy"
+  },
+  {
+    "slug": "what-should-a-pharmacy-check-before-importing-a-customer-spreadsheet",
+    "title": "What should a pharmacy check before importing a customer spreadsheet?",
+    "description": "Review column meanings, duplicate records, missing identifiers and contact preferences before importing.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Pharmacy",
+    "accent": "pharmacy"
+  },
+  {
+    "slug": "how-can-a-pharmacy-measure-enquiry-response-time-fairly",
+    "title": "How can a pharmacy measure enquiry response time fairly?",
+    "description": "Define the start and end events before calculating response time.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Pharmacy",
+    "accent": "pharmacy"
+  },
+  {
+    "slug": "how-can-a-pharmacy-keep-an-enquiry-spreadsheet-usable-as-it-grows",
+    "title": "How can a pharmacy keep an enquiry spreadsheet usable as it grows?",
+    "description": "Use one row per enquiry, a unique reference, consistent statuses and a clear next-action field.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Pharmacy",
+    "accent": "pharmacy"
+  },
+  {
+    "slug": "how-should-pharmacy-staff-record-an-unsuccessful-contact-attempt",
+    "title": "How should pharmacy staff record an unsuccessful contact attempt?",
+    "description": "Record the time, channel, outcome and agreed next step without treating the enquiry as resolved.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Pharmacy",
+    "accent": "pharmacy"
+  },
+  {
+    "slug": "how-can-a-pharmacy-coordinate-requests-across-multiple-branches",
+    "title": "How can a pharmacy coordinate requests across multiple branches?",
+    "description": "Give each request a responsible branch and a shared reference, then record when responsibility is transferred.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Pharmacy",
+    "accent": "pharmacy"
+  },
+  {
+    "slug": "what-should-pharmacy-staff-do-when-an-online-enquiry-form-fails",
+    "title": "What should pharmacy staff do when an online enquiry form fails?",
+    "description": "Offer a clear alternative contact route and record the reported problem so it can be investigated.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Pharmacy",
+    "accent": "pharmacy"
+  },
+  {
+    "slug": "how-can-a-pharmacy-maintain-a-useful-faq-for-customers",
+    "title": "How can a pharmacy maintain a useful FAQ for customers?",
+    "description": "Base the FAQ on repeated administrative questions and keep each answer tied to an actual service or policy.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Pharmacy",
+    "accent": "pharmacy"
+  },
+  {
+    "slug": "how-can-a-pharmacy-train-staff-to-use-enquiry-statuses-consistently",
+    "title": "How can a pharmacy train staff to use enquiry statuses consistently?",
+    "description": "Define each status with an entry condition and the next expected action.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Pharmacy",
+    "accent": "pharmacy"
+  },
+  {
+    "slug": "how-can-a-pharmacy-organise-requests-received-outside-opening-hours",
+    "title": "How can a pharmacy organise requests received outside opening hours?",
+    "description": "Tell customers when routine enquiries are reviewed and place incoming requests in a queue for the next staffed period.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Pharmacy",
+    "accent": "pharmacy"
+  },
+  {
+    "slug": "how-can-pharmacy-managers-review-unresolved-enquiries",
+    "title": "How can pharmacy managers review unresolved enquiries?",
+    "description": "Review open requests by age, owner and next action, then identify the specific dependency preventing progress.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Pharmacy",
+    "accent": "pharmacy"
+  },
+  {
+    "slug": "how-can-a-pharmacy-test-its-website-to-spreadsheet-connection",
+    "title": "How can a pharmacy test its website-to-spreadsheet connection?",
+    "description": "Submit a clearly labelled synthetic enquiry through the normal form and verify that exactly one complete row arrives in the intended sheet.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Pharmacy",
+    "accent": "pharmacy"
+  },
+  {
+    "slug": "how-can-a-small-clinic-organise-follow-up-administration",
+    "title": "How can a small clinic organise follow-up administration?",
+    "description": "Use a shared task list that records the agreed follow-up action, responsible staff member, due date and current status.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Clinics",
+    "accent": "clinic"
+  },
+  {
+    "slug": "what-should-a-clinic-appointment-confirmation-contain",
+    "title": "What should a clinic appointment confirmation contain?",
+    "description": "Include the confirmed date, time, provider or service, branch, booking reference and contact route for changes.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Clinics",
+    "accent": "clinic"
+  },
+  {
+    "slug": "how-can-clinics-distinguish-a-booking-request-from-a-confirmed-appointment",
+    "title": "How can clinics distinguish a booking request from a confirmed appointment?",
+    "description": "Use separate statuses and patient-facing wording for requested, offered and confirmed appointments.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Clinics",
+    "accent": "clinic"
+  },
+  {
+    "slug": "how-should-reception-manage-requests-to-reschedule",
+    "title": "How should reception manage requests to reschedule?",
+    "description": "Link the rescheduling request to the existing booking and confirm the replacement arrangement before updating all related reminders.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Clinics",
+    "accent": "clinic"
+  },
+  {
+    "slug": "how-can-a-clinic-organise-incoming-reports-for-review",
+    "title": "How can a clinic organise incoming reports for review?",
+    "description": "Create a receipt queue linked to the correct patient and appointment, with a separate status for professional review.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Clinics",
+    "accent": "clinic"
+  },
+  {
+    "slug": "what-makes-a-clinic-callback-queue-effective",
+    "title": "What makes a clinic callback queue effective?",
+    "description": "Every callback needs a reason, owner, contact route, agreed time window and outcome.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Clinics",
+    "accent": "clinic"
+  },
+  {
+    "slug": "how-can-a-clinic-track-documents-requested-from-patients",
+    "title": "How can a clinic track documents requested from patients?",
+    "description": "Use a checklist linked to the booking that states which document is needed, why the request was made, when it was requested and whether it has arrived.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Clinics",
+    "accent": "clinic"
+  },
+  {
+    "slug": "how-can-clinics-make-handovers-between-reception-shifts-clearer",
+    "title": "How can clinics make handovers between reception shifts clearer?",
+    "description": "Use a short handover focused on open bookings, promised callbacks, unresolved document issues and changes affecting the next shift.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Clinics",
+    "accent": "clinic"
+  },
+  {
+    "slug": "how-should-a-clinic-record-a-patient-contact-detail-correction",
+    "title": "How should a clinic record a patient contact-detail correction?",
+    "description": "Verify the correction through the clinic's usual process, update the authoritative record and check the systems that depend on it.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Clinics",
+    "accent": "clinic"
+  },
+  {
+    "slug": "how-can-clinics-reduce-confusion-about-appointment-preparation",
+    "title": "How can clinics reduce confusion about appointment preparation?",
+    "description": "Provide the clinic's approved instructions in a consistent, retrievable format and give patients a clear route for questions.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Clinics",
+    "accent": "clinic"
+  },
+  {
+    "slug": "how-can-a-clinic-manage-a-waitlist-for-appointment-openings",
+    "title": "How can a clinic manage a waitlist for appointment openings?",
+    "description": "Keep a structured list of requests with the relevant service, contact preference, availability and the clinic's agreed prioritisation process.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Clinics",
+    "accent": "clinic"
+  },
+  {
+    "slug": "how-should-clinics-handle-messages-sent-to-the-wrong-department",
+    "title": "How should clinics handle messages sent to the wrong department?",
+    "description": "Route the request to the appropriate team using the clinic's established process and tell the sender what to expect.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Clinics",
+    "accent": "clinic"
+  },
+  {
+    "slug": "how-can-a-clinic-keep-its-website-contact-information-accurate",
+    "title": "How can a clinic keep its website contact information accurate?",
+    "description": "Assign an owner to review phone numbers, opening hours, addresses and contact forms whenever operational details change.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Clinics",
+    "accent": "clinic"
+  },
+  {
+    "slug": "what-should-a-clinic-check-when-testing-an-appointment-form",
+    "title": "What should a clinic check when testing an appointment form?",
+    "description": "Test valid submissions, required fields, optional fields, confirmation wording and the destination where staff receive requests.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Clinics",
+    "accent": "clinic"
+  },
+  {
+    "slug": "how-can-a-clinic-organise-non-clinical-patient-feedback",
+    "title": "How can a clinic organise non-clinical patient feedback?",
+    "description": "Collect the specific experience, relevant date or service and a contact preference if a response is wanted.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Clinics",
+    "accent": "clinic"
+  },
+  {
+    "slug": "how-can-a-clinic-track-administrative-tasks-after-a-consultation",
+    "title": "How can a clinic track administrative tasks after a consultation?",
+    "description": "Convert each agreed administrative next step into a task with an owner and due date, linked to the visit.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Clinics",
+    "accent": "clinic"
+  },
+  {
+    "slug": "how-should-a-clinic-record-an-appointment-cancellation",
+    "title": "How should a clinic record an appointment cancellation?",
+    "description": "Update the booking status, record the source and time of the cancellation and stop reminders tied to that appointment.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Clinics",
+    "accent": "clinic"
+  },
+  {
+    "slug": "how-can-clinics-define-useful-enquiry-categories",
+    "title": "How can clinics define useful enquiry categories?",
+    "description": "Choose categories that determine who handles the request and what happens next.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Clinics",
+    "accent": "clinic"
+  },
+  {
+    "slug": "how-can-a-clinic-monitor-overdue-administrative-follow-ups",
+    "title": "How can a clinic monitor overdue administrative follow-ups?",
+    "description": "Compare each task's due date with its current status and owner, then review overdue items for the action needed.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Clinics",
+    "accent": "clinic"
+  },
+  {
+    "slug": "what-should-a-clinic-include-in-a-software-pilot-checklist",
+    "title": "What should a clinic include in a software pilot checklist?",
+    "description": "Define the workflow being tested, the staff involved, the records required and the measures that will indicate whether it works.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Clinics",
+    "accent": "clinic"
+  },
+  {
+    "slug": "how-can-a-clinic-avoid-overwriting-follow-up-notes-during-data-imports",
+    "title": "How can a clinic avoid overwriting follow-up notes during data imports?",
+    "description": "Match records using a stable identifier and define which fields the import is allowed to update.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Clinics",
+    "accent": "clinic"
+  },
+  {
+    "slug": "how-can-clinics-make-appointment-messages-easier-to-understand",
+    "title": "How can clinics make appointment messages easier to understand?",
+    "description": "Use plain language, a clear action and the details needed to carry it out.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Clinics",
+    "accent": "clinic"
+  },
+  {
+    "slug": "how-can-clinics-keep-a-record-of-outbound-document-delivery",
+    "title": "How can clinics keep a record of outbound document delivery?",
+    "description": "Record what was sent, when, to whom and through which approved channel, with a reference to the original document.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Clinics",
+    "accent": "clinic"
+  },
+  {
+    "slug": "how-can-a-clinic-review-the-quality-of-its-enquiry-data",
+    "title": "How can a clinic review the quality of its enquiry data?",
+    "description": "Check a sample of records for complete contact details, consistent categories, assigned owners and usable next actions.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Clinics",
+    "accent": "clinic"
+  },
+  {
+    "slug": "how-can-a-clinic-prepare-an-administrative-workflow-for-growth",
+    "title": "How can a clinic prepare an administrative workflow for growth?",
+    "description": "Document how requests enter, who owns each stage and how completion is recorded before adding more channels or staff.",
+    "date": "2026-11-13",
+    "minutes": 1,
+    "tag": "Clinics",
+    "accent": "clinic"
+  }
+]
