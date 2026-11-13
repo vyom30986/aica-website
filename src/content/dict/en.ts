@@ -519,10 +519,10 @@ const en = {
   },
 
   blog: {
-    meta: { title: "Blog", description: "Notes on healthcare technology, digital pharmacy and what actually makes care more convenient for patients in India." },
+    meta: { title: "Blog", description: "Reads and 1-minute swipes on caring for your parents' medicines, chemists, doctor visits and health tech in India." },
     eyebrow: "Blog",
     title: "Notes from the counter.",
-    lead: "Healthcare technology, digital pharmacy and what actually makes care easier in India.",
+    lead: "Real talk on looking after your family's health, from the chemist counter to the doctor's room. Long reads when you have time, 1-minute swipes when you don't.",
     minRead: "min read",
     englishOnly: "This article is available in English.",
     all: "All articles",

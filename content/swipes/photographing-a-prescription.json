@@ -1,0 +1,34 @@
+{
+  "cards": [
+    {
+      "title": "A blurry photo is a useless prescription",
+      "body": "If the chemist, the doctor or an app can't read it, the photo might as well not exist. Getting it right takes about ten seconds."
+    },
+    {
+      "title": "Flat on a table, not in your hand",
+      "body": "Smooth out the folds and lay the paper on a plain, dark surface. Hands shake, and curled paper hides words at the edges."
+    },
+    {
+      "title": "Daylight beats flash",
+      "body": "Stand near a window. Flash bounces off glossy paper and washes out the ink. Make sure your own shadow isn't falling across it."
+    },
+    {
+      "title": "Shoot straight from above",
+      "body": "Hold the phone parallel to the paper so the text doesn't slant. Fit all four corners in, including the doctor's name and the date."
+    },
+    {
+      "title": "Tap to focus, then check",
+      "body": "Tap on the handwriting before you shoot. Zoom into the photo afterwards. If you can't read the doses, take another."
+    },
+    {
+      "title": "Both sides, if there's writing",
+      "body": "Notes often continue on the back. Photograph every page and keep them together with a caption like 'Papa, 2 pages'."
+    },
+    {
+      "title": "Keep the original paper anyway",
+      "body": "The photo is a backup, not a replacement. In AICA, you confirm what AI reads against the photo before saving, so clear photos really help."
+    }
+  ],
+  "takeaway": "Flat paper, daylight, straight from above, focus on the writing, every page, and keep the original.",
+  "share": "Photographing a prescription? Flat on a table, daylight, straight from above, all four corners."
+}

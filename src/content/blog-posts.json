@@ -1,902 +1,1001 @@
 [
-  {
-    "slug": "how-can-i-organise-medical-documents-before-a-clinic-visit",
-    "title": "How can I organise medical documents before a clinic visit?",
-    "description": "Create one folder for the visit, with the appointment details, the questions you want answered and the documents the clinic has requested.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Patients",
-    "accent": "patient"
-  },
-  {
-    "slug": "what-is-a-useful-naming-system-for-health-report-files",
-    "title": "What is a useful naming system for health report files?",
-    "description": "Use a consistent filename that includes the document date, document type and provider.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Patients",
-    "accent": "patient"
-  },
-  {
-    "slug": "how-do-i-photograph-a-paper-prescription-clearly",
-    "title": "How do I photograph a paper prescription clearly?",
-    "description": "Place the page flat in good light, keep the camera parallel to it and capture the whole document.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Patients",
-    "accent": "patient"
-  },
-  {
-    "slug": "how-can-i-keep-records-for-different-family-members-separate",
-    "title": "How can I keep records for different family members separate?",
-    "description": "Give each person a clearly named folder or profile and verify the selected person before adding a document.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Patients",
-    "accent": "patient"
-  },
-  {
-    "slug": "what-should-i-include-in-an-appointment-note",
-    "title": "What should I include in an appointment note?",
-    "description": "Record the date, time, provider, location or joining link, booking reference and anything the clinic specifically asks you to bring.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Patients",
-    "accent": "patient"
-  },
-  {
-    "slug": "how-can-i-prepare-questions-for-a-consultation",
-    "title": "How can I prepare questions for a consultation?",
-    "description": "Write down the main concern and the decisions you need help with, then put your most important question first.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Patients",
-    "accent": "patient"
-  },
-  {
-    "slug": "how-do-i-keep-track-of-reports-that-have-not-arrived",
-    "title": "How do I keep track of reports that have not arrived?",
-    "description": "Maintain a small list of expected reports with the provider, test or document name, expected availability and contact details.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Patients",
-    "accent": "patient"
-  },
-  {
-    "slug": "how-can-i-share-a-report-without-forwarding-an-entire-chat",
-    "title": "How can I share a report without forwarding an entire chat?",
-    "description": "Select the specific document requested, confirm the recipient and send it through the channel the clinic has agreed to use.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Patients",
-    "accent": "patient"
-  },
-  {
-    "slug": "how-should-i-organise-records-after-changing-clinics",
-    "title": "How should I organise records after changing clinics?",
-    "description": "Prepare a concise document bundle relevant to the new appointment and keep the original archive intact.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Patients",
-    "accent": "patient"
-  },
-  {
-    "slug": "what-is-the-difference-between-saving-a-report-and-reviewing-it",
-    "title": "What is the difference between saving a report and reviewing it?",
-    "description": "Saving means the document is stored and retrievable.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Patients",
-    "accent": "patient"
-  },
-  {
-    "slug": "how-do-i-prepare-for-a-video-consultation",
-    "title": "How do I prepare for a video consultation?",
-    "description": "Confirm the joining method, appointment time and contact number, then test the device and connection before the appointment.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Patients",
-    "accent": "patient"
-  },
-  {
-    "slug": "how-can-i-manage-healthcare-appointments-on-a-shared-phone",
-    "title": "How can I manage healthcare appointments on a shared phone?",
-    "description": "Use calendar labels that clearly identify the appointment owner while respecting what should appear on a shared screen.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Patients",
-    "accent": "patient"
-  },
-  {
-    "slug": "what-should-i-do-with-duplicate-copies-of-a-medical-report",
-    "title": "What should I do with duplicate copies of a medical report?",
-    "description": "Compare the document date, provider, page count and any revision label before deciding that two files are duplicates.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Patients",
-    "accent": "patient"
-  },
-  {
-    "slug": "how-can-i-make-a-personal-health-document-index",
-    "title": "How can I make a personal health document index?",
-    "description": "Create a simple list of document names, dates, providers and storage locations.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Patients",
-    "accent": "patient"
-  },
-  {
-    "slug": "how-do-i-confirm-which-clinic-branch-my-appointment-is-at",
-    "title": "How do I confirm which clinic branch my appointment is at?",
-    "description": "Check the full address on the booking confirmation and contact reception if the branch is unclear.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Patients",
-    "accent": "patient"
-  },
-  {
-    "slug": "how-can-i-organise-appointment-receipts-and-invoices",
-    "title": "How can I organise appointment receipts and invoices?",
-    "description": "Store each receipt with its visit date, provider and payment reference, and keep it separate from the clinical report when practical.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Patients",
-    "accent": "patient"
-  },
-  {
-    "slug": "how-do-i-keep-a-useful-timeline-of-clinic-visits",
-    "title": "How do I keep a useful timeline of clinic visits?",
-    "description": "Record each visit date, provider, reason for attending in your own words and the location of the consultation summary.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Patients",
-    "accent": "patient"
-  },
-  {
-    "slug": "how-can-i-prepare-a-document-backup-for-a-clinic-visit",
-    "title": "How can I prepare a document backup for a clinic visit?",
-    "description": "Make sure the requested files can be opened using the device you will take, and keep an agreed alternative if connectivity is unreliable.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Patients",
-    "accent": "patient"
-  },
-  {
-    "slug": "what-should-i-ask-reception-when-booking-a-first-visit",
-    "title": "What should I ask reception when booking a first visit?",
-    "description": "Ask how the booking will be confirmed, what documents to bring, where to attend and how to contact the clinic if plans change.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Patients",
-    "accent": "patient"
-  },
-  {
-    "slug": "how-do-i-avoid-confusing-appointment-reminders-with-confirmations",
-    "title": "How do I avoid confusing appointment reminders with confirmations?",
-    "description": "Treat a booking as confirmed when the provider's process says it is confirmed.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Patients",
-    "accent": "patient"
-  },
-  {
-    "slug": "how-can-i-keep-a-list-of-questions-after-a-consultation",
-    "title": "How can I keep a list of questions after a consultation?",
-    "description": "Create a dated note linked to the visit and record each question as it occurs.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Patients",
-    "accent": "patient"
-  },
-  {
-    "slug": "how-do-i-organise-documents-when-travelling-for-an-appointment",
-    "title": "How do I organise documents when travelling for an appointment?",
-    "description": "Keep the booking, travel details and requested records together while leaving a recoverable copy in your usual storage location.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Patients",
-    "accent": "patient"
-  },
-  {
-    "slug": "how-can-i-use-a-calendar-for-recurring-clinic-follow-ups",
-    "title": "How can I use a calendar for recurring clinic follow-ups?",
-    "description": "Enter the follow-up arrangement given by the clinic and record whether the actual booking is confirmed.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Patients",
-    "accent": "patient"
-  },
-  {
-    "slug": "what-makes-a-clinic-message-easy-for-staff-to-answer",
-    "title": "What makes a clinic message easy for staff to answer?",
-    "description": "A useful message states the administrative request, provides the booking reference when available and includes a clear way to reply.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Patients",
-    "accent": "patient"
-  },
-  {
-    "slug": "how-can-i-check-that-a-downloaded-report-is-complete",
-    "title": "How can I check that a downloaded report is complete?",
-    "description": "Compare the download with the provider's description and check the patient details, date and page sequence.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Patients",
-    "accent": "patient"
-  },
-  {
-    "slug": "how-can-two-caregivers-coordinate-appointment-responsibilities",
-    "title": "How can two caregivers coordinate appointment responsibilities?",
-    "description": "Agree who owns each task and record its current status in one shared place.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Caregivers",
-    "accent": "patient"
-  },
-  {
-    "slug": "what-should-a-caregiver-handover-note-contain",
-    "title": "What should a caregiver handover note contain?",
-    "description": "Include the tasks completed, tasks still open, upcoming appointments and where relevant documents are stored.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Caregivers",
-    "accent": "patient"
-  },
-  {
-    "slug": "how-can-i-help-a-parent-use-a-health-app-without-taking-over",
-    "title": "How can I help a parent use a health app without taking over?",
-    "description": "Ask which tasks they want help with and let them practise those tasks on their own device.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Caregivers",
-    "accent": "patient"
-  },
-  {
-    "slug": "how-do-i-plan-healthcare-support-when-i-live-in-another-city",
-    "title": "How do I plan healthcare support when I live in another city?",
-    "description": "Map out the practical tasks that can be handled remotely and the ones requiring someone nearby.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Caregivers",
-    "accent": "patient"
-  },
-  {
-    "slug": "how-can-a-family-agree-on-what-health-information-to-share",
-    "title": "How can a family agree on what health information to share?",
-    "description": "Start by asking the person whose information it is what they want shared, with whom and for which purpose.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Caregivers",
-    "accent": "patient"
-  },
-  {
-    "slug": "how-can-i-prepare-a-caregiver-contact-list",
-    "title": "How can I prepare a caregiver contact list?",
-    "description": "Create a concise directory of the people and organisations involved in practical support, with their roles and preferred contact methods.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Caregivers",
-    "accent": "patient"
-  },
-  {
-    "slug": "how-can-i-record-a-parent-s-preferences-for-clinic-visits",
-    "title": "How can I record a parent's preferences for clinic visits?",
-    "description": "Ask about the practical details that make appointments easier, such as preferred language, communication support, transport and who should accompany them.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Caregivers",
-    "accent": "patient"
-  },
-  {
-    "slug": "what-should-i-do-when-family-members-give-conflicting-appointment-information",
-    "title": "What should I do when family members give conflicting appointment information?",
-    "description": "Return to the provider's latest confirmation and establish one current record.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Caregivers",
-    "accent": "patient"
-  },
-  {
-    "slug": "how-can-i-support-someone-who-prefers-paper-records",
-    "title": "How can I support someone who prefers paper records?",
-    "description": "Build a clear paper system around the person's habits and add digital copies only where they are useful and agreed.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Caregivers",
-    "accent": "patient"
-  },
-  {
-    "slug": "how-can-caregivers-avoid-duplicate-calls-to-the-same-clinic",
-    "title": "How can caregivers avoid duplicate calls to the same clinic?",
-    "description": "Record who is making the call, what they are asking and when a reply is expected.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Caregivers",
-    "accent": "patient"
-  },
-  {
-    "slug": "how-can-i-organise-a-weekly-family-care-check-in",
-    "title": "How can I organise a weekly family care check-in?",
-    "description": "Use a short agenda focused on upcoming appointments, missing documents and practical tasks.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Caregivers",
-    "accent": "patient"
-  },
-  {
-    "slug": "how-do-i-manage-a-temporary-caregiver-s-access-to-records",
-    "title": "How do I manage a temporary caregiver's access to records?",
-    "description": "Share the information needed for the agreed period and tasks, and plan how access will end when the arrangement finishes.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Caregivers",
-    "accent": "patient"
-  },
-  {
-    "slug": "how-can-i-keep-care-arrangements-clear-during-a-holiday",
-    "title": "How can I keep care arrangements clear during a holiday?",
-    "description": "Review provider opening times, planned appointments and the availability of family helpers before the holiday begins.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Caregivers",
-    "accent": "patient"
-  },
-  {
-    "slug": "how-can-i-take-useful-notes-while-accompanying-someone-to-a-consultation",
-    "title": "How can I take useful notes while accompanying someone to a consultation?",
-    "description": "Ask the person whether they want you to take notes, then record questions, explanations and agreed next steps clearly.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Caregivers",
-    "accent": "patient"
-  },
-  {
-    "slug": "how-can-siblings-divide-the-cost-related-paperwork-for-a-parent-s-care",
-    "title": "How can siblings divide the cost-related paperwork for a parent's care?",
-    "description": "Agree who collects invoices, who records payments and where the shared administrative documents will be stored.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Caregivers",
-    "accent": "patient"
-  },
-  {
-    "slug": "how-can-i-make-a-health-app-easier-to-read",
-    "title": "How can I make a health app easier to read?",
-    "description": "Start with the device's supported text-size, display and accessibility settings, then test the screens used most often.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Caregivers",
-    "accent": "patient"
-  },
-  {
-    "slug": "how-can-i-decide-which-app-notifications-to-keep",
-    "title": "How can I decide which app notifications to keep?",
-    "description": "Identify the reminders that lead to a useful action and review them with the person using the app.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Caregivers",
-    "accent": "patient"
-  },
-  {
-    "slug": "how-do-i-report-a-problem-in-a-health-app-clearly",
-    "title": "How do I report a problem in a health app clearly?",
-    "description": "Describe the task you were attempting, the steps taken, the result you expected and what actually happened.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Caregivers",
-    "accent": "patient"
-  },
-  {
-    "slug": "what-should-i-check-before-moving-health-files-to-a-new-phone",
-    "title": "What should I check before moving health files to a new phone?",
-    "description": "Verify that the files and accounts you need are accessible on the new device before relying on it for appointments.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Caregivers",
-    "accent": "patient"
-  },
-  {
-    "slug": "how-can-i-tell-whether-a-document-upload-succeeded",
-    "title": "How can I tell whether a document upload succeeded?",
-    "description": "Look for the service's upload confirmation and verify that the correct document can be opened from the intended record.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Caregivers",
-    "accent": "patient"
-  },
-  {
-    "slug": "how-should-i-organise-healthcare-related-email",
-    "title": "How should I organise healthcare-related email?",
-    "description": "Use a small number of folders or labels for appointments, documents and administrative queries, and keep a clear way to identify messages that still need action.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Caregivers",
-    "accent": "patient"
-  },
-  {
-    "slug": "how-can-i-keep-health-documents-searchable-without-adding-sensitive-labels",
-    "title": "How can I keep health documents searchable without adding sensitive labels?",
-    "description": "Use descriptive document types, dates and provider names, with personal records grouped in private folders.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Caregivers",
-    "accent": "patient"
-  },
-  {
-    "slug": "how-do-i-manage-a-record-shared-through-an-expiring-link",
-    "title": "How do I manage a record shared through an expiring link?",
-    "description": "Note the provider's instructions and expiry date, then obtain an authorised copy if you need the document for ongoing records.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Caregivers",
-    "accent": "patient"
-  },
-  {
-    "slug": "how-can-i-keep-track-of-support-requests-about-my-health-account",
-    "title": "How can I keep track of support requests about my health account?",
-    "description": "Maintain a short log of the issue, date raised, support reference and next expected action.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Caregivers",
-    "accent": "patient"
-  },
-  {
-    "slug": "how-can-i-review-who-can-access-a-shared-health-folder",
-    "title": "How can I review who can access a shared health folder?",
-    "description": "Use the storage service's sharing controls to inspect named members and link settings, then compare that access with the person's current wishes and support arrangements.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Caregivers",
-    "accent": "patient"
-  },
-  {
-    "slug": "how-can-a-pharmacy-organise-incoming-customer-enquiries",
-    "title": "How can a pharmacy organise incoming customer enquiries?",
-    "description": "Use one enquiry queue with the customer's request, contact preference, time received, responsible staff member and current status.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Pharmacy",
-    "accent": "pharmacy"
-  },
-  {
-    "slug": "what-fields-belong-in-a-pharmacy-callback-tracker",
-    "title": "What fields belong in a pharmacy callback tracker?",
-    "description": "Include an enquiry reference, time received, contact details, reason for the callback, assigned person and agreed callback window.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Pharmacy",
-    "accent": "pharmacy"
-  },
-  {
-    "slug": "how-should-a-pharmacy-record-an-item-availability-enquiry",
-    "title": "How should a pharmacy record an item availability enquiry?",
-    "description": "Record the exact item requested and the status of the availability check, with a clear distinction between an enquiry and a confirmed order.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Pharmacy",
-    "accent": "pharmacy"
-  },
-  {
-    "slug": "how-can-pharmacy-staff-manage-incomplete-customer-requests",
-    "title": "How can pharmacy staff manage incomplete customer requests?",
-    "description": "Identify the specific missing information and ask for it once in a clear message.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Pharmacy",
-    "accent": "pharmacy"
-  },
-  {
-    "slug": "how-can-a-pharmacy-improve-shift-handovers",
-    "title": "How can a pharmacy improve shift handovers?",
-    "description": "Review open customer requests, pending collections, supplier follow-ups and tasks needing pharmacist attention before the next shift takes over.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Pharmacy",
-    "accent": "pharmacy"
-  },
-  {
-    "slug": "how-can-a-pharmacy-keep-customer-contact-preferences-accurate",
-    "title": "How can a pharmacy keep customer contact preferences accurate?",
-    "description": "Ask customers how they prefer to receive updates and record that preference with the relevant contact details.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Pharmacy",
-    "accent": "pharmacy"
-  },
-  {
-    "slug": "how-should-a-pharmacy-organise-prescription-image-intake",
-    "title": "How should a pharmacy organise prescription image intake?",
-    "description": "Keep the image linked to the correct customer request and place it in a queue for the authorised pharmacist's review.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Pharmacy",
-    "accent": "pharmacy"
-  },
-  {
-    "slug": "how-can-a-pharmacy-track-promised-customer-updates",
-    "title": "How can a pharmacy track promised customer updates?",
-    "description": "Record the promise as a task with a due time, responsible person and specific information to be confirmed.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Pharmacy",
-    "accent": "pharmacy"
-  },
-  {
-    "slug": "what-should-a-pharmacy-collection-message-include",
-    "title": "What should a pharmacy collection message include?",
-    "description": "Include the collection location, applicable opening hours, reference and any instructions the pharmacy has confirmed.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Pharmacy",
-    "accent": "pharmacy"
-  },
-  {
-    "slug": "how-can-pharmacy-staff-avoid-duplicate-enquiry-records",
-    "title": "How can pharmacy staff avoid duplicate enquiry records?",
-    "description": "Search for an existing open request using an appropriate reference before creating a new one.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Pharmacy",
-    "accent": "pharmacy"
-  },
-  {
-    "slug": "how-can-a-pharmacy-create-a-daily-administrative-checklist",
-    "title": "How can a pharmacy create a daily administrative checklist?",
-    "description": "List the routine tasks that need a clear owner and completion record, then group them by when they happen.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Pharmacy",
-    "accent": "pharmacy"
-  },
-  {
-    "slug": "how-should-a-pharmacy-record-a-customer-complaint",
-    "title": "How should a pharmacy record a customer complaint?",
-    "description": "Record the customer's concern accurately, the date, relevant transaction or enquiry reference and the person handling the response.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Pharmacy",
-    "accent": "pharmacy"
-  },
-  {
-    "slug": "how-can-a-pharmacy-organise-supplier-follow-ups",
-    "title": "How can a pharmacy organise supplier follow-ups?",
-    "description": "Use a supplier task list with the order reference, question, responsible staff member and expected response.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Pharmacy",
-    "accent": "pharmacy"
-  },
-  {
-    "slug": "how-can-a-pharmacy-pilot-a-new-enquiry-system",
-    "title": "How can a pharmacy pilot a new enquiry system?",
-    "description": "Start with a defined set of administrative requests, a small staff group and clear success measures.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Pharmacy",
-    "accent": "pharmacy"
-  },
-  {
-    "slug": "what-should-a-pharmacy-check-before-importing-a-customer-spreadsheet",
-    "title": "What should a pharmacy check before importing a customer spreadsheet?",
-    "description": "Review column meanings, duplicate records, missing identifiers and contact preferences before importing.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Pharmacy",
-    "accent": "pharmacy"
-  },
-  {
-    "slug": "how-can-a-pharmacy-measure-enquiry-response-time-fairly",
-    "title": "How can a pharmacy measure enquiry response time fairly?",
-    "description": "Define the start and end events before calculating response time.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Pharmacy",
-    "accent": "pharmacy"
-  },
-  {
-    "slug": "how-can-a-pharmacy-keep-an-enquiry-spreadsheet-usable-as-it-grows",
-    "title": "How can a pharmacy keep an enquiry spreadsheet usable as it grows?",
-    "description": "Use one row per enquiry, a unique reference, consistent statuses and a clear next-action field.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Pharmacy",
-    "accent": "pharmacy"
-  },
-  {
-    "slug": "how-should-pharmacy-staff-record-an-unsuccessful-contact-attempt",
-    "title": "How should pharmacy staff record an unsuccessful contact attempt?",
-    "description": "Record the time, channel, outcome and agreed next step without treating the enquiry as resolved.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Pharmacy",
-    "accent": "pharmacy"
-  },
-  {
-    "slug": "how-can-a-pharmacy-coordinate-requests-across-multiple-branches",
-    "title": "How can a pharmacy coordinate requests across multiple branches?",
-    "description": "Give each request a responsible branch and a shared reference, then record when responsibility is transferred.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Pharmacy",
-    "accent": "pharmacy"
-  },
-  {
-    "slug": "what-should-pharmacy-staff-do-when-an-online-enquiry-form-fails",
-    "title": "What should pharmacy staff do when an online enquiry form fails?",
-    "description": "Offer a clear alternative contact route and record the reported problem so it can be investigated.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Pharmacy",
-    "accent": "pharmacy"
-  },
-  {
-    "slug": "how-can-a-pharmacy-maintain-a-useful-faq-for-customers",
-    "title": "How can a pharmacy maintain a useful FAQ for customers?",
-    "description": "Base the FAQ on repeated administrative questions and keep each answer tied to an actual service or policy.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Pharmacy",
-    "accent": "pharmacy"
-  },
-  {
-    "slug": "how-can-a-pharmacy-train-staff-to-use-enquiry-statuses-consistently",
-    "title": "How can a pharmacy train staff to use enquiry statuses consistently?",
-    "description": "Define each status with an entry condition and the next expected action.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Pharmacy",
-    "accent": "pharmacy"
-  },
-  {
-    "slug": "how-can-a-pharmacy-organise-requests-received-outside-opening-hours",
-    "title": "How can a pharmacy organise requests received outside opening hours?",
-    "description": "Tell customers when routine enquiries are reviewed and place incoming requests in a queue for the next staffed period.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Pharmacy",
-    "accent": "pharmacy"
-  },
-  {
-    "slug": "how-can-pharmacy-managers-review-unresolved-enquiries",
-    "title": "How can pharmacy managers review unresolved enquiries?",
-    "description": "Review open requests by age, owner and next action, then identify the specific dependency preventing progress.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Pharmacy",
-    "accent": "pharmacy"
-  },
-  {
-    "slug": "how-can-a-pharmacy-test-its-website-to-spreadsheet-connection",
-    "title": "How can a pharmacy test its website-to-spreadsheet connection?",
-    "description": "Submit a clearly labelled synthetic enquiry through the normal form and verify that exactly one complete row arrives in the intended sheet.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Pharmacy",
-    "accent": "pharmacy"
-  },
-  {
-    "slug": "how-can-a-small-clinic-organise-follow-up-administration",
-    "title": "How can a small clinic organise follow-up administration?",
-    "description": "Use a shared task list that records the agreed follow-up action, responsible staff member, due date and current status.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Clinics",
-    "accent": "clinic"
-  },
-  {
-    "slug": "what-should-a-clinic-appointment-confirmation-contain",
-    "title": "What should a clinic appointment confirmation contain?",
-    "description": "Include the confirmed date, time, provider or service, branch, booking reference and contact route for changes.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Clinics",
-    "accent": "clinic"
-  },
-  {
-    "slug": "how-can-clinics-distinguish-a-booking-request-from-a-confirmed-appointment",
-    "title": "How can clinics distinguish a booking request from a confirmed appointment?",
-    "description": "Use separate statuses and patient-facing wording for requested, offered and confirmed appointments.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Clinics",
-    "accent": "clinic"
-  },
-  {
-    "slug": "how-should-reception-manage-requests-to-reschedule",
-    "title": "How should reception manage requests to reschedule?",
-    "description": "Link the rescheduling request to the existing booking and confirm the replacement arrangement before updating all related reminders.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Clinics",
-    "accent": "clinic"
-  },
-  {
-    "slug": "how-can-a-clinic-organise-incoming-reports-for-review",
-    "title": "How can a clinic organise incoming reports for review?",
-    "description": "Create a receipt queue linked to the correct patient and appointment, with a separate status for professional review.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Clinics",
-    "accent": "clinic"
-  },
-  {
-    "slug": "what-makes-a-clinic-callback-queue-effective",
-    "title": "What makes a clinic callback queue effective?",
-    "description": "Every callback needs a reason, owner, contact route, agreed time window and outcome.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Clinics",
-    "accent": "clinic"
-  },
-  {
-    "slug": "how-can-a-clinic-track-documents-requested-from-patients",
-    "title": "How can a clinic track documents requested from patients?",
-    "description": "Use a checklist linked to the booking that states which document is needed, why the request was made, when it was requested and whether it has arrived.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Clinics",
-    "accent": "clinic"
-  },
-  {
-    "slug": "how-can-clinics-make-handovers-between-reception-shifts-clearer",
-    "title": "How can clinics make handovers between reception shifts clearer?",
-    "description": "Use a short handover focused on open bookings, promised callbacks, unresolved document issues and changes affecting the next shift.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Clinics",
-    "accent": "clinic"
-  },
-  {
-    "slug": "how-should-a-clinic-record-a-patient-contact-detail-correction",
-    "title": "How should a clinic record a patient contact-detail correction?",
-    "description": "Verify the correction through the clinic's usual process, update the authoritative record and check the systems that depend on it.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Clinics",
-    "accent": "clinic"
-  },
-  {
-    "slug": "how-can-clinics-reduce-confusion-about-appointment-preparation",
-    "title": "How can clinics reduce confusion about appointment preparation?",
-    "description": "Provide the clinic's approved instructions in a consistent, retrievable format and give patients a clear route for questions.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Clinics",
-    "accent": "clinic"
-  },
-  {
-    "slug": "how-can-a-clinic-manage-a-waitlist-for-appointment-openings",
-    "title": "How can a clinic manage a waitlist for appointment openings?",
-    "description": "Keep a structured list of requests with the relevant service, contact preference, availability and the clinic's agreed prioritisation process.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Clinics",
-    "accent": "clinic"
-  },
-  {
-    "slug": "how-should-clinics-handle-messages-sent-to-the-wrong-department",
-    "title": "How should clinics handle messages sent to the wrong department?",
-    "description": "Route the request to the appropriate team using the clinic's established process and tell the sender what to expect.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Clinics",
-    "accent": "clinic"
-  },
-  {
-    "slug": "how-can-a-clinic-keep-its-website-contact-information-accurate",
-    "title": "How can a clinic keep its website contact information accurate?",
-    "description": "Assign an owner to review phone numbers, opening hours, addresses and contact forms whenever operational details change.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Clinics",
-    "accent": "clinic"
-  },
-  {
-    "slug": "what-should-a-clinic-check-when-testing-an-appointment-form",
-    "title": "What should a clinic check when testing an appointment form?",
-    "description": "Test valid submissions, required fields, optional fields, confirmation wording and the destination where staff receive requests.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Clinics",
-    "accent": "clinic"
-  },
-  {
-    "slug": "how-can-a-clinic-organise-non-clinical-patient-feedback",
-    "title": "How can a clinic organise non-clinical patient feedback?",
-    "description": "Collect the specific experience, relevant date or service and a contact preference if a response is wanted.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Clinics",
-    "accent": "clinic"
-  },
-  {
-    "slug": "how-can-a-clinic-track-administrative-tasks-after-a-consultation",
-    "title": "How can a clinic track administrative tasks after a consultation?",
-    "description": "Convert each agreed administrative next step into a task with an owner and due date, linked to the visit.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Clinics",
-    "accent": "clinic"
-  },
-  {
-    "slug": "how-should-a-clinic-record-an-appointment-cancellation",
-    "title": "How should a clinic record an appointment cancellation?",
-    "description": "Update the booking status, record the source and time of the cancellation and stop reminders tied to that appointment.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Clinics",
-    "accent": "clinic"
-  },
-  {
-    "slug": "how-can-clinics-define-useful-enquiry-categories",
-    "title": "How can clinics define useful enquiry categories?",
-    "description": "Choose categories that determine who handles the request and what happens next.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Clinics",
-    "accent": "clinic"
-  },
-  {
-    "slug": "how-can-a-clinic-monitor-overdue-administrative-follow-ups",
-    "title": "How can a clinic monitor overdue administrative follow-ups?",
-    "description": "Compare each task's due date with its current status and owner, then review overdue items for the action needed.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Clinics",
-    "accent": "clinic"
-  },
-  {
-    "slug": "what-should-a-clinic-include-in-a-software-pilot-checklist",
-    "title": "What should a clinic include in a software pilot checklist?",
-    "description": "Define the workflow being tested, the staff involved, the records required and the measures that will indicate whether it works.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Clinics",
-    "accent": "clinic"
-  },
-  {
-    "slug": "how-can-a-clinic-avoid-overwriting-follow-up-notes-during-data-imports",
-    "title": "How can a clinic avoid overwriting follow-up notes during data imports?",
-    "description": "Match records using a stable identifier and define which fields the import is allowed to update.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Clinics",
-    "accent": "clinic"
-  },
-  {
-    "slug": "how-can-clinics-make-appointment-messages-easier-to-understand",
-    "title": "How can clinics make appointment messages easier to understand?",
-    "description": "Use plain language, a clear action and the details needed to carry it out.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Clinics",
-    "accent": "clinic"
-  },
-  {
-    "slug": "how-can-clinics-keep-a-record-of-outbound-document-delivery",
-    "title": "How can clinics keep a record of outbound document delivery?",
-    "description": "Record what was sent, when, to whom and through which approved channel, with a reference to the original document.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Clinics",
-    "accent": "clinic"
-  },
-  {
-    "slug": "how-can-a-clinic-review-the-quality-of-its-enquiry-data",
-    "title": "How can a clinic review the quality of its enquiry data?",
-    "description": "Check a sample of records for complete contact details, consistent categories, assigned owners and usable next actions.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Clinics",
-    "accent": "clinic"
-  },
-  {
-    "slug": "how-can-a-clinic-prepare-an-administrative-workflow-for-growth",
-    "title": "How can a clinic prepare an administrative workflow for growth?",
-    "description": "Document how requests enter, who owns each stage and how completion is recorded before adding more channels or staff.",
-    "date": "2026-11-13",
-    "minutes": 1,
-    "tag": "Clinics",
-    "accent": "clinic"
-  }
+ {
+  "slug": "future-of-digital-pharmacy-services-in-india",
+  "title": "The Future of Digital Pharmacy Services in India",
+  "description": "Online medicine ordering, digital prescriptions and AI-assisted pharmacy operations are reshaping how India gets its medicines, while the pharmacist's judgement stays central.",
+  "date": "2026-08-26",
+  "minutes": 8,
+  "topic": "chemist-life",
+  "format": "story"
+ },
+ {
+  "slug": "how-technology-is-making-healthcare-more-convenient-for-patients",
+  "title": "How Technology Is Making Healthcare More Convenient for Patients",
+  "description": "From booking appointments online to ordering medicines from home, technology is changing how patients access and manage their care, without replacing the people who care for them.",
+  "date": "2026-08-26",
+  "minutes": 10,
+  "topic": "family-tech",
+  "format": "story"
+ },
+ {
+  "slug": "managing-papas-bp-meds-from-another-city",
+  "title": "POV: You're managing Papa's BP meds from another city",
+  "description": "The nightly 'dawai li?' call isn't working. A calmer setup for handling a parent's BP medicines when you live in another city.",
+  "date": "2026-11-13",
+  "minutes": 4,
+  "topic": "caregiving",
+  "format": "story",
+  "tldr": "From far away, rely on systems instead of memory: a current prescription photo, a filled pill organiser, a tracked refill date and real BP readings for the doctor.",
+  "featured": true
+ },
+ {
+  "slug": "why-mummy-says-haan-le-li",
+  "title": "Why Mummy says \"haan, le li\" even when she didn't",
+  "description": "\"Haan, le li\" ends the worry, not the problem. Why parents say yes to missed doses, and how to ask so the true answer is easy.",
+  "date": "2026-11-13",
+  "minutes": 4,
+  "topic": "caregiving",
+  "format": "story",
+  "tldr": "Parents often say they took a medicine to stop the questions. Ask specific, blame-free questions and use pill boxes and reminders so honesty and routine don't depend on memory."
+ },
+ {
+  "slug": "long-distance-caregiver-sunday-checklist",
+  "title": "The long-distance caregiver's Sunday checklist",
+  "description": "Ten calm minutes every Sunday can replace a week of anxious calls. The exact checklist to run through with your parents.",
+  "date": "2026-11-13",
+  "minutes": 4,
+  "topic": "caregiving",
+  "format": "story",
+  "tldr": "Give health one fixed weekly slot: check medicine stock, missed doses, readings, upcoming appointments and how your parents are really doing, then act on small issues early."
+ },
+ {
+  "slug": "sibling-group-chat-vs-mummys-medicines",
+  "title": "Sibling group chat vs Mummy's medicines: who's actually in charge?",
+  "description": "Three siblings, two thumbs-up, zero refills ordered. How to stop 'someone will do it' from running your mother's medicines.",
+  "date": "2026-11-13",
+  "minutes": 4,
+  "topic": "caregiving",
+  "format": "story",
+  "tldr": "Group chats are good for feelings and bad at ownership. Give medicines, refills and appointments a named owner, pin the current prescription and always say 'done'."
+ },
+ {
+  "slug": "when-parents-stop-telling-you-theyre-unwell",
+  "title": "When your parents stop telling you they're unwell",
+  "description": "You heard about Papa's dizzy spell from Chachi, not from him. Why parents go quiet about health, and how to make it safe to tell you.",
+  "date": "2026-11-13",
+  "minutes": 4,
+  "topic": "caregiving",
+  "format": "story",
+  "tldr": "Parents hide health news to protect you. Stay calm on the first telling, ask specific questions and agree an emergency plan so the important things reach you in time."
+ },
+ {
+  "slug": "talking-to-your-dad-about-his-medicines",
+  "title": "How to talk to your dad about his medicines without a fight",
+  "description": "One question about his BP tablet and it's suddenly about how he raised you. A better way to have the medicines conversation with your dad.",
+  "date": "2026-11-13",
+  "minutes": 4,
+  "topic": "caregiving",
+  "format": "story",
+  "tldr": "Pick a calm, side-by-side moment, ask questions instead of giving instructions, let him explain his routine and leave any dose changes to his doctor."
+ },
+ {
+  "slug": "caring-for-parents-while-working-full-time",
+  "title": "Caring for parents while working full-time: what actually helps",
+  "description": "Your phone buzzes mid-meeting and it's Mummy again. Practical ways to shrink the second shift of caring for parents while holding a job.",
+  "date": "2026-11-13",
+  "minutes": 4,
+  "topic": "caregiving",
+  "format": "story",
+  "tldr": "Batch health admin into one weekly slot, split jobs clearly with siblings and agree with your parents on what counts as urgent, with 112 first for real emergencies."
+ },
+ {
+  "slug": "the-guilt-of-not-being-there",
+  "title": "The guilt of not being there, and what you can do from far away",
+  "description": "A photo of Papa at the clinic, taken by your cousin. On the quiet guilt of living far away, and the real care you can give from there.",
+  "date": "2026-11-13",
+  "minutes": 4,
+  "topic": "caregiving",
+  "format": "story",
+  "tldr": "Distance changes how you help, not whether you can. Own the organising and admin, support whoever is nearby and keep an emergency plan ready."
+ },
+ {
+  "slug": "decoding-prescription-shorthand-od-bd-sos",
+  "title": "1-0-1, OD, BD, SOS: decoding your prescription's shorthand",
+  "description": "What 1-0-1, OD, BD, TDS, HS and SOS actually mean on an Indian prescription, and what to do when the handwriting still wins.",
+  "date": "2026-11-13",
+  "minutes": 4,
+  "topic": "meds-101",
+  "format": "story",
+  "tldr": "1-0-1 means morning, afternoon, night. OD is once a day, BD twice, TDS three times, HS at bedtime and SOS only when needed. If anything is unclear, ask the pharmacist to confirm."
+ },
+ {
+  "slug": "before-food-or-after-food",
+  "title": "\"Before food\" or \"after food\"? Why it's written on your prescription",
+  "description": "Tablet in one hand, paratha on the tawa. Why food timing changes how some medicines work, and how to stop guessing at breakfast.",
+  "date": "2026-11-13",
+  "minutes": 4,
+  "topic": "meds-101",
+  "format": "story",
+  "tldr": "Food can help, hinder or not affect how a medicine works, so the timing on the prescription matters. Get it written clearly on the box and ask the pharmacist whenever it isn't stated."
+ },
+ {
+  "slug": "missed-a-dose-what-to-do",
+  "title": "Missed a dose? What to do, and what not to do",
+  "description": "11 pm, and Papa just remembered the evening tablet. The one rule that almost always applies, and where to find the right answer.",
+  "date": "2026-11-13",
+  "minutes": 4,
+  "topic": "meds-101",
+  "format": "story",
+  "tldr": "Don't double up unless a doctor or pharmacist tells you to. Check the leaflet or ask the pharmacist what to do for that medicine, then fix the reason the dose was missed."
+ },
+ {
+  "slug": "dont-stop-bp-medicines-because-you-feel-fine",
+  "title": "Why feeling fine isn't a reason to stop your BP medicines",
+  "description": "\"BP normal hai, dawai ki zaroorat nahi.\" Why feeling fine on BP medicine often means it's working, and what to do instead of stopping.",
+  "date": "2026-11-13",
+  "minutes": 4,
+  "topic": "meds-101",
+  "format": "story",
+  "tldr": "High BP often has no symptoms, and a normal reading on medicine usually means the medicine is working. Don't stop or skip it without the doctor; take any reason for wanting to stop to the clinic."
+ },
+ {
+  "slug": "how-refills-quietly-go-wrong",
+  "title": "The strip ran out: how refills quietly go wrong",
+  "description": "Many missed doses aren't forgetting, they're empty strips. Where the refill chain breaks, and how to count forward before it does.",
+  "date": "2026-11-13",
+  "minutes": 4,
+  "topic": "meds-101",
+  "format": "story",
+  "tldr": "Work out when each strip will end, set a reminder a few days before, keep the prescription current and keep your chemist in the loop."
+ },
+ {
+  "slug": "generic-vs-branded-medicines-india",
+  "title": "Generic vs branded medicines: what Indian families should know",
+  "description": "\"Same hai, sasta padega,\" says the chemist. What generic really means, why prices vary, and how to switch safely.",
+  "date": "2026-11-13",
+  "minutes": 4,
+  "topic": "meds-101",
+  "format": "story",
+  "tldr": "Generics can contain the same active ingredient as branded medicines, but strength, form and combination matter. Ask the doctor or pharmacist before switching and check the label."
+ },
+ {
+  "slug": "storing-medicines-in-indian-summer",
+  "title": "Storing medicines in an Indian summer: kitchen shelf or not?",
+  "description": "The shelf above the stove is handy and probably the worst spot in the house. Where to keep medicines through heat and monsoon.",
+  "date": "2026-11-13",
+  "minutes": 4,
+  "topic": "meds-101",
+  "format": "story",
+  "tldr": "Keep medicines in a cool, dry, closed spot away from the stove, bathroom and sunlight, follow any fridge instructions on the label and ask the pharmacist if something looks off."
+ },
+ {
+  "slug": "a-day-at-a-lucknow-medical-store-counter",
+  "title": "A day at a Lucknow medical store counter",
+  "description": "From the 8 am shutter to the last strip at 10 pm: the handwriting, the regulars and the invisible memory work at a neighbourhood chemist.",
+  "date": "2026-11-13",
+  "minutes": 4,
+  "topic": "chemist-life",
+  "format": "story",
+  "tldr": "A neighbourhood chemist is part pharmacist, part handwriting translator and part memory bank for local families, and most of that work happens out of sight."
+ },
+ {
+  "slug": "why-your-neighbourhood-chemist-still-matters",
+  "title": "Why your neighbourhood chemist still matters in the age of apps",
+  "description": "You order everything online. So why does Papa insist on Gupta ji's dukaan? What the local counter gives you that a cart can't.",
+  "date": "2026-11-13",
+  "minutes": 4,
+  "topic": "chemist-life",
+  "format": "story",
+  "tldr": "A local chemist offers continuity: they know your family, read the handwriting and answer quick questions. Stick to one counter for regular medicines and keep them informed."
+ },
+ {
+  "slug": "the-chemist-uncle-who-knows-your-family",
+  "title": "The chemist uncle who knows your family better than WhatsApp does",
+  "description": "He knows Mummy's thyroid tablet is due before you do. Why that memory is a quiet safety net, and why it's more fragile than it looks.",
+  "date": "2026-11-13",
+  "minutes": 4,
+  "topic": "chemist-life",
+  "format": "story",
+  "tldr": "A chemist who knows your family can catch changes and gaps, but that knowledge lives with one person. Keep going back, share every medicine and keep the prescription current."
+ },
+ {
+  "slug": "what-happens-to-a-paper-prescription",
+  "title": "What happens to a paper prescription after you hand it over",
+  "description": "Read, matched, maybe kept, then lost in a drawer. The journey of a paper prescription, and how to keep track of yours.",
+  "date": "2026-11-13",
+  "minutes": 4,
+  "topic": "chemist-life",
+  "format": "story",
+  "tldr": "The chemist reads it, matches it to stock and may return, keep or photograph it. Photograph it before handing it over and keep originals in one folder per person."
+ },
+ {
+  "slug": "how-small-chemists-compete-with-online-pharmacies",
+  "title": "How small chemists can compete with online pharmacies",
+  "description": "You can't win a discount war against a delivery app. Here's what the corner chemist can win on instead: speed, trust and remembering people.",
+  "date": "2026-11-13",
+  "minutes": 4,
+  "topic": "chemist-life",
+  "format": "story",
+  "tldr": "Small chemists shouldn't fight online pharmacies on price. They win on being close and quick, explaining medicines clearly and remembering their regular patients' refills."
+ },
+ {
+  "slug": "refill-reminders-chemist-loyalty",
+  "title": "Refill reminders: the quiet loyalty programme for chemists",
+  "description": "Regular customers rarely leave with a fight. They just run out and buy elsewhere. A polite refill reminder fixes that for almost nothing.",
+  "date": "2026-11-13",
+  "minutes": 4,
+  "topic": "chemist-life",
+  "format": "story",
+  "tldr": "A short, permission-based message sent before a patient's regular medicine runs out keeps them on track and brings them back to the same counter, no discounts needed."
+ },
+ {
+  "slug": "reading-doctors-handwriting-chemist-superpower",
+  "title": "Reading doctors' handwriting: a chemist's real superpower",
+  "description": "How does the chemist read a prescription you can't decode at all? It's not magic. It's context, practice and a lot of quiet responsibility.",
+  "date": "2026-11-13",
+  "minutes": 4,
+  "topic": "chemist-life",
+  "format": "story",
+  "tldr": "Chemists read handwriting through context, dose patterns and knowing local doctors, and the best ones always confirm when unsure. Families can help with a clear photo and a quick read-back."
+ },
+ {
+  "slug": "getting-the-most-out-of-a-short-consultation",
+  "title": "How to get the most out of a short consultation",
+  "description": "Two hours waiting, four minutes with the doctor, and the real question forgotten. Here's how to make a short consultation actually count.",
+  "date": "2026-11-13",
+  "minutes": 4,
+  "topic": "doctor-visits",
+  "format": "story",
+  "tldr": "Lead with your main worry, bring prescriptions, reports and home readings, and don't leave until you understand each medicine, its timing and when to come back."
+ },
+ {
+  "slug": "what-your-doctor-wishes-you-brought",
+  "title": "What your doctor wishes you brought to every visit",
+  "description": "\"Woh safed wali goli\" doesn't help anyone. The short list of things that turns every doctor visit from guesswork into a real conversation.",
+  "date": "2026-11-13",
+  "minutes": 3,
+  "topic": "doctor-visits",
+  "format": "story",
+  "tldr": "Bring every medicine you take (or photos of the strips), your last prescription, reports in date order, dated home readings and a short note on what has changed."
+ },
+ {
+  "slug": "taking-your-parent-to-the-doctor",
+  "title": "Taking your parent to the doctor: a guide for sons and daughters",
+  "description": "Part driver, part secretary, part diplomat. How to take Mummy or Papa to the doctor without taking over, and make sure nothing gets lost after.",
+  "date": "2026-11-13",
+  "minutes": 4,
+  "topic": "doctor-visits",
+  "format": "story",
+  "tldr": "Prepare the questions and papers together, let your parent speak first in the room, take notes on every medicine and timing, and own the follow-through at home."
+ },
+ {
+  "slug": "are-you-taking-your-medicines-regularly",
+  "title": "Why doctors keep asking \"are you taking your medicines regularly?\"",
+  "description": "\"Haan, le li\" is the easy answer. The honest one matters more, because it decides whether your doctor changes the plan or just fixes the routine.",
+  "date": "2026-11-13",
+  "minutes": 3,
+  "topic": "doctor-visits",
+  "format": "story",
+  "tldr": "Doctors ask because a medicine that isn't working and a medicine that isn't being taken need very different responses. An honest answer about missed doses leads to the right plan."
+ },
+ {
+  "slug": "why-follow-up-visits-matter",
+  "title": "Follow-up visits: why people skip them, and why they matter",
+  "description": "\"Ab toh theek lag raha hai.\" Feeling better is the most common reason to skip a follow-up, and exactly the reason you shouldn't.",
+  "date": "2026-11-13",
+  "minutes": 3,
+  "topic": "doctor-visits",
+  "format": "story",
+  "tldr": "The follow-up is where the doctor checks whether the plan is working, spots side effects and adjusts medicines. Put the date in your phone the day you get the prescription."
+ },
+ {
+  "slug": "describing-symptoms-so-your-doctor-gets-it",
+  "title": "How to describe symptoms so your doctor actually gets it",
+  "description": "\"Thoda weakness hai\" can mean ten different things. A simple way to describe symptoms so your doctor understands you the first time.",
+  "date": "2026-11-13",
+  "minutes": 4,
+  "topic": "doctor-visits",
+  "format": "story",
+  "tldr": "Lead with the main symptom, then cover when it started, where it is, what it feels like, how bad and how often, and what helps. Swap vague words for real examples."
+ },
+ {
+  "slug": "the-waiting-room-problem-in-indian-clinics",
+  "title": "The waiting room problem in Indian clinics",
+  "description": "Token 47, board says 22. Why Indian clinic waits run so long, and what patients and clinics can each do to make them shorter.",
+  "date": "2026-11-13",
+  "minutes": 3,
+  "topic": "doctor-visits",
+  "format": "story",
+  "tldr": "Long waits are partly an information problem: histories and reports get sorted inside the consultation. Prepared patients and early intake at the clinic both shorten the queue."
+ },
+ {
+  "slug": "getting-parents-comfortable-with-a-health-app",
+  "title": "Getting your parents comfortable with a health app",
+  "description": "You set up the app. Mummy switched it off because it \"made too much noise.\" How to help parents actually adopt a health app, gently.",
+  "date": "2026-11-13",
+  "minutes": 4,
+  "topic": "family-tech",
+  "format": "story",
+  "tldr": "Introduce the app as the fix for one problem they already have, set it up together, start with a single feature and make sure it feels like their helper, not your monitoring tool."
+ },
+ {
+  "slug": "health-records-scattered-across-whatsapp",
+  "title": "Your family's health records are scattered across five WhatsApp chats",
+  "description": "Papa's thyroid report is somewhere between a wedding photo and a good morning forward. A simple way to get your family's health records in order.",
+  "date": "2026-11-13",
+  "minutes": 4,
+  "topic": "family-tech",
+  "format": "story",
+  "tldr": "WhatsApp is where reports arrive, not where they should live. Pick one place, one responsible person and one naming habit, and keep a short emergency summary for each parent."
+ },
+ {
+  "slug": "dpdp-act-family-health-data",
+  "title": "Health data privacy in India: what the DPDP Act means for your family",
+  "description": "Where does Mummy's prescription go after you tap \"I agree\"? A plain-language guide to India's DPDP Act and your family's health data.",
+  "date": "2026-11-13",
+  "minutes": 4,
+  "topic": "family-tech",
+  "format": "story",
+  "tldr": "The DPDP Act requires clear consent, limits data to its stated purpose and gives you rights to access, correct and erase your data, with grievance redressal and a Data Protection Board."
+ },
+ {
+  "slug": "phone-reminders-elders-respond-to",
+  "title": "Phone reminders that elders actually respond to",
+  "description": "Papa swipes away the 9 pm alarm without looking. Why generic reminders fail elders, and how to set ones they actually act on.",
+  "date": "2026-11-13",
+  "minutes": 4,
+  "topic": "family-tech",
+  "format": "story",
+  "tldr": "Make each reminder specific (which tablet, how much, before or after food), time it to meals rather than the clock, keep the tone warm and pair it with a pill box."
+ },
+ {
+  "slug": "managing-care-in-joint-families",
+  "title": "Shared phones, shared health: managing care in joint families",
+  "description": "Four adults, one house, and nobody sure if Dadi took her sugar tablet. How joint families can share care without mixing it up.",
+  "date": "2026-11-13",
+  "minutes": 4,
+  "topic": "family-tech",
+  "format": "story",
+  "tldr": "Name one anchor caregiver per elder, keep each person's medicines separate and labelled, use a tick chart on the fridge and give everyone their own health profile."
+ },
+ {
+  "slug": "why-im-building-aica-at-16",
+  "title": "Why I'm building a healthcare app at 16",
+  "description": "\"Itni jaldi?\" Vyom Ahuja on why he's building AICA in Lucknow at 16, what he's careful about, and exactly where things stand today.",
+  "date": "2026-11-13",
+  "minutes": 4,
+  "topic": "building-aica",
+  "format": "story",
+  "tldr": "Patients, chemists and doctors rarely share prescription information, and families are dealing with that today. AICA puts them on one shared thread, built carefully, with the core app free forever."
+ },
+ {
+  "slug": "why-aica-starts-with-chemists",
+  "title": "Why AICA starts with chemists, not doctors",
+  "description": "Doctors write prescriptions, so why start with the corner chemist? The reasoning behind AICA's first step, the counter every prescription passes.",
+  "date": "2026-11-13",
+  "minutes": 4,
+  "topic": "building-aica",
+  "format": "story",
+  "tldr": "Patients see their chemist more often than their doctor, every prescription passes through the counter, and chemists have a clear daily problem AICA can help with: reading prescriptions and refills."
+ },
+ {
+  "slug": "ai-reads-human-confirms",
+  "title": "Why AI reads the prescription but a human always confirms it",
+  "description": "AI can read a prescription in seconds. It can also misread 1-0-1 as 1-1-1. Why AICA always puts a human check before anything is saved.",
+  "date": "2026-11-13",
+  "minutes": 4,
+  "topic": "building-aica",
+  "format": "story",
+  "tldr": "Handwriting AI is useful but still makes mistakes, and it sounds confident even when wrong. In AICA the AI suggests, and a person confirms against the photo before anything is saved."
+ },
+ {
+  "slug": "why-the-core-aica-app-stays-free",
+  "title": "Why the core AICA app stays free",
+  "description": "\"Free hai? Phir paisa kahan se aayega?\" What's free in AICA forever, why it has to be, and why your family's data is never the price.",
+  "date": "2026-11-13",
+  "minutes": 3,
+  "topic": "building-aica",
+  "format": "story",
+  "tldr": "Prescriptions, dose alarms, refills and family profiles stay free forever because remembering medicines shouldn't need a subscription. AICA Pro is planned at ₹600 per month per profile, and nothing is charged today."
+ },
+ {
+  "slug": "signs-parent-struggling-with-medicines",
+  "title": "5 signs your parent is struggling with their medicines",
+  "description": "Full strips, duplicate boxes, vague answers: five quiet signs your parent may need help with their medicines.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "caregiving",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "nightly-call-script-for-medicines",
+  "title": "The 2-minute nightly call that checks on meds without nagging",
+  "description": "A two-minute nightly call that checks on your parent's medicines without sounding like a school monitor.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "caregiving",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "what-to-keep-in-parents-medicine-drawer",
+  "title": "What to keep in your parent's medicine drawer",
+  "description": "What belongs in your parent's medicine drawer, what to clear out, and the 2am test every drawer should pass.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "caregiving",
+  "format": "swipe",
+  "cards": 8
+ },
+ {
+  "slug": "notes-before-parents-doctor-visit",
+  "title": "What to note before your parent's doctor visit",
+  "description": "Five things to write down before your parent's doctor visit, so fifteen minutes with the doctor actually count.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "caregiving",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "pill-organiser-that-works",
+  "title": "Setting up a pill organiser that actually works",
+  "description": "Most pill boxes fail because of how they're filled. Simple habits that make a weekly organiser actually work.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "caregiving",
+  "format": "swipe",
+  "cards": 8
+ },
+ {
+  "slug": "phone-call-red-flags",
+  "title": "Red flags you shouldn't ignore on a phone call home",
+  "description": "Chest pain, a drooping face, new confusion: the things you hear on a call home that mean get help now.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "caregiving",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "sharing-caregiving-with-siblings",
+  "title": "Caregiver burnout: 5 ways to share the load with siblings",
+  "description": "Five practical ways siblings can split caring for parents, so the one who lives closest doesn't quietly burn out.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "caregiving",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "travelling-with-parents-medicine-packing-list",
+  "title": "Travelling with parents: the medicine packing list",
+  "description": "The medicine packing list for travelling with parents: how much to carry, where to keep it, and what to ask first.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "caregiving",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "when-parents-refuse-medicines",
+  "title": "When parents refuse to take their medicines",
+  "description": "When Mummy or Papa won't take their medicines, arguing louder rarely works. What usually helps instead.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "caregiving",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "questions-for-a-new-prescription",
+  "title": "Questions to ask when a parent gets a new prescription",
+  "description": "Six questions to ask the doctor or chemist whenever a parent gets a new prescription, before you leave.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "caregiving",
+  "format": "swipe",
+  "cards": 8
+ },
+ {
+  "slug": "prescription-shorthand-cheat-sheet",
+  "title": "Prescription shorthand cheat sheet: OD, BD, TDS, HS, SOS",
+  "description": "OD, BD, TDS, HS and SOS decoded, plus why you should still check with your pharmacist when a parchi looks unclear.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "meds-101",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "what-1-0-1-means",
+  "title": "What \"1-0-1\" means, in 5 swipes",
+  "description": "The most common code on Indian prescriptions, explained in five swipes: what 1-0-1, 0-0-1 and ½-0-½ mean.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "meds-101",
+  "format": "swipe",
+  "cards": 5
+ },
+ {
+  "slug": "before-after-empty-stomach-guide",
+  "title": "Before food, after food, empty stomach: the quick guide",
+  "description": "Before food, after food, empty stomach: what these prescription instructions usually mean and what to ask your chemist.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "meds-101",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "missed-dose-safe-first-steps",
+  "title": "Missed a dose? The safe first steps",
+  "description": "Missed a dose? Don't double up. Check the leaflet or ask your pharmacist. The safe first steps, in one swipe.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "meds-101",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "bp-medicine-myths",
+  "title": "5 myths about BP medicines",
+  "description": "Five BP medicine myths heard in every family, and why any change to BP tablets should go through the doctor.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "meds-101",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "diabetes-medicine-myths",
+  "title": "5 myths about diabetes medicines",
+  "description": "Five common diabetes medicine myths, busted carefully, and why the real answers should come from your doctor.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "meds-101",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "reading-a-medicine-strip-label",
+  "title": "How to read the label on a medicine strip",
+  "description": "Salt, strength, batch, expiry, storage: what the label on a medicine strip tells you, and how it prevents mix-ups.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "meds-101",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "checking-expiry-dates",
+  "title": "Checking expiry dates the right way",
+  "description": "How to find and read the expiry date on strips, syrups and drops, and what to do with medicines that have expired.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "meds-101",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "why-half-tablets-on-prescriptions",
+  "title": "Why half tablets (½) show up on prescriptions",
+  "description": "Why doctors prescribe half tablets, why not every tablet can be split, and what to ask your chemist first.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "meds-101",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "why-finish-the-antibiotic-course",
+  "title": "Antibiotics: why you finish the course",
+  "description": "Feeling better isn't the finish line. Why antibiotic courses matter, why not to share leftovers, and when to ask.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "meds-101",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "what-your-chemist-wishes-you-knew",
+  "title": "What your chemist wishes you knew",
+  "description": "Bring the parchi, say who it's for, ask your questions: what your chemist wishes every customer knew.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "chemist-life",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "reasons-to-stick-with-one-chemist",
+  "title": "5 reasons to stick with one chemist",
+  "description": "Hopping chemists for small discounts has hidden costs. Five reasons one regular chemist is better for your family.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "chemist-life",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "how-chemists-spot-mix-ups",
+  "title": "How chemists spot prescription mix-ups",
+  "description": "The quiet checks a good chemist runs at the counter: name, strength, dose, clashes and who the medicine is for.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "chemist-life",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "what-to-tell-your-chemist",
+  "title": "What to tell your chemist when you buy medicines",
+  "description": "Who it's for, other medicines, allergies, conditions, recent changes: what to tell your chemist every time you buy.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "chemist-life",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "refill-reminders-explained",
+  "title": "How refill reminders help chemists and patients",
+  "description": "How refill reminders prevent medicine gaps for patients, help chemists keep stock, and flag when to see the doctor.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "chemist-life",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "chemist-counter-etiquette",
+  "title": "Chemist counter etiquette, honestly",
+  "description": "The unwritten rules of the chemist counter: be ready, respect privacy, let them double-check, and check before leaving.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "chemist-life",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "why-chemist-asks-kiske-liye-hai",
+  "title": "Why your chemist asks \"kiske liye hai?\"",
+  "description": "\"Kiske liye hai?\" isn't gossip. Why your chemist asks who the medicine is for, and how to answer it well.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "chemist-life",
+  "format": "swipe",
+  "cards": 6
+ },
+ {
+  "slug": "for-chemists-bring-patients-back",
+  "title": "For chemists: 5 ways to bring patients back",
+  "description": "For chemists: five ways to turn walk-ins into regulars without a price war, built on trust, clarity and reminders.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "chemist-life",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "for-chemists-digitising-paper-prescriptions",
+  "title": "For chemists: digitising paper prescriptions, simply",
+  "description": "For chemists: a simple way to start digitising paper prescriptions with a phone, clear naming and basic privacy habits.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "chemist-life",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "for-chemists-handling-the-evening-rush",
+  "title": "For chemists: handling the evening rush",
+  "description": "For chemists: how to keep the 7pm rush moving with afternoon prep and a smart queue, without skipping safety checks.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "chemist-life",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "pre-visit-checklist",
+  "title": "Your pre-visit checklist in 5 swipes",
+  "description": "Five quick things to sort before your parent's doctor visit so the short consult covers what actually matters.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "doctor-visits",
+  "format": "swipe",
+  "cards": 5
+ },
+ {
+  "slug": "explain-symptoms-in-30-seconds",
+  "title": "How to explain your symptoms in 30 seconds",
+  "description": "A simple order for describing symptoms so the doctor gets the full picture fast: problem, timing, pattern, changes.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "doctor-visits",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "questions-before-leaving-the-doctor",
+  "title": "Questions to ask before you leave the doctor's room",
+  "description": "The questions worth asking before you stand up, so nobody at home is guessing about medicines or follow-ups later.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "doctor-visits",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "what-to-bring-to-a-follow-up",
+  "title": "What to bring to a follow-up visit",
+  "description": "What to carry to a follow-up visit so the doctor can see what changed since last time, not guess at it.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "doctor-visits",
+  "format": "swipe",
+  "cards": 6
+ },
+ {
+  "slug": "teleconsultation-tips",
+  "title": "Teleconsultation tips that actually help",
+  "description": "Practical prep for video doctor calls with parents: light, sound, papers at hand, and knowing when video isn't enough.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "doctor-visits",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "review-after-one-month-meaning",
+  "title": "What \"review after 1 month\" really means",
+  "description": "Those four words at the bottom of the prescription are part of the treatment plan. Here's what they really ask of you.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "doctor-visits",
+  "format": "swipe",
+  "cards": 6
+ },
+ {
+  "slug": "keeping-a-symptom-diary",
+  "title": "Keeping a symptom diary: why and how",
+  "description": "Why a simple symptom diary helps doctors spot patterns, and how to keep one for a parent without it becoming a chore.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "doctor-visits",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "home-bp-readings-done-right",
+  "title": "Home BP readings, done right",
+  "description": "General technique for checking BP at home: rest first, sit right, use the right cuff, and log every reading for the doctor.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "doctor-visits",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "home-sugar-readings-fasting-vs-after-food",
+  "title": "Home sugar readings: fasting vs after food",
+  "description": "Fasting and after-food sugar readings mean different things. How to take and label them so your doctor reads them right.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "doctor-visits",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "for-clinics-cut-waiting-room-chaos",
+  "title": "For clinics: 5 ways to cut waiting-room chaos",
+  "description": "Five simple process fixes clinic staff can use to calm a crowded waiting room and give doctors better consults.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "doctor-visits",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "organise-family-health-records-10-minutes",
+  "title": "Organise your family's health records in 10 minutes",
+  "description": "A ten minute system for the family's prescriptions and reports: one pile per person, key photos, one file each.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "family-tech",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "stop-losing-prescriptions-in-whatsapp",
+  "title": "Stop losing prescriptions in WhatsApp",
+  "description": "Simple habits so Papa's prescription doesn't vanish under good morning forwards in the family WhatsApp group.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "family-tech",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "phone-reminders-for-elders-setup",
+  "title": "Setting up phone reminders for elders",
+  "description": "How to set up medicine alarms on a parent's phone that actually get heard, understood and followed.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "family-tech",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "teaching-parents-a-health-app",
+  "title": "Teaching your parents a health app: 5 tips",
+  "description": "Five patient, practical tips for teaching Mummy and Papa a new health app without both of you losing your cool.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "family-tech",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "health-data-rights-india",
+  "title": "Your health data rights in India, in 5 swipes",
+  "description": "India's DPDP Act in plain words: consent, purpose, your right to access, correct and erase, and where to complain.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "family-tech",
+  "format": "swipe",
+  "cards": 5
+ },
+ {
+  "slug": "photographing-a-prescription",
+  "title": "Photographing a prescription clearly",
+  "description": "Ten seconds of technique for a prescription photo that a chemist, doctor or app can actually read.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "family-tech",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "one-phone-many-patients",
+  "title": "One phone, many patients: managing family profiles",
+  "description": "Managing Mummy, Papa and Nani's medicines from one phone without mixing them up, plus why you need a backup carer.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "family-tech",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "what-to-do-with-old-prescriptions",
+  "title": "What to do with old prescriptions",
+  "description": "Old prescriptions are medical history, not clutter. How to keep, sort and back them up, and why not to reuse them alone.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "family-tech",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "emergency-info-every-family-needs",
+  "title": "Emergency info every family should keep handy",
+  "description": "The emergency numbers, red flags and one-page health summary every Indian family should have ready before it's needed.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "family-tech",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "health-scams-elders",
+  "title": "Health scams aimed at elders, and how to spot them",
+  "description": "Miracle cures, OTP calls and fake health camps target elders. How to spot them and set a simple 'call me first' rule.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "family-tech",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "aica-in-6-swipes",
+  "title": "AICA in 6 swipes",
+  "description": "The quick version of AICA: one shared prescription thread linking patients, chemists and doctors, being built in Lucknow.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "building-aica",
+  "format": "swipe",
+  "cards": 6
+ },
+ {
+  "slug": "paper-rx-to-reminders",
+  "title": "How AICA turns a paper prescription into reminders",
+  "description": "Snap, AI reads, you confirm, reminders get set. How AICA is designed to turn a paper prescription into dose alarms.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "building-aica",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "why-chemists-come-first",
+  "title": "Why chemists come first in AICA",
+  "description": "Families see the chemist far more often than the doctor. That's why AICA puts the pharmacy counter at the centre.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "building-aica",
+  "format": "swipe",
+  "cards": 6
+ },
+ {
+  "slug": "what-aica-will-never-do-with-your-data",
+  "title": "What AICA will never do with your data",
+  "description": "AICA's data promises in plain words: never sold, consent first, nothing saved unchecked, download or delete anytime.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "building-aica",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "the-aica-trident",
+  "title": "The AICA trident: patients, chemists, doctors",
+  "description": "Patients, chemists and doctors each hold a piece of the prescription. AICA's trident puts all three on one thread.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "building-aica",
+  "format": "swipe",
+  "cards": 6
+ },
+ {
+  "slug": "whats-free-and-what-pro-adds",
+  "title": "What's free in AICA, and what Pro adds",
+  "description": "The core AICA patient app is free forever. AICA Pro is planned at ₹600 a month per profile. Nothing is charged today.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "building-aica",
+  "format": "swipe",
+  "cards": 8
+ },
+ {
+  "slug": "building-aica-at-16-lessons",
+  "title": "Building AICA at 16: lessons so far",
+  "description": "Vyom Ahuja is 16 and building AICA in Lucknow. A few honest lessons from the early, prototype stage.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "building-aica",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "how-aica-keeps-ai-honest",
+  "title": "How AICA keeps AI honest",
+  "description": "AI can misread doctor handwriting, so AICA treats every AI reading as a draft that a person checks before saving.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "building-aica",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "who-aica-is-for",
+  "title": "Who AICA is for",
+  "description": "AICA is for adult children managing parents' medicines, independent elders, neighbourhood chemists and busy clinics.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "building-aica",
+  "format": "swipe",
+  "cards": 7
+ },
+ {
+  "slug": "join-the-aica-waitlist-and-pilot",
+  "title": "How to join the AICA waitlist or pilot",
+  "description": "How families, chemists and clinics can get involved early: try the AICA prototype and join the waitlist at aicaglobal.in.",
+  "date": "2026-11-13",
+  "minutes": 1,
+  "topic": "building-aica",
+  "format": "swipe",
+  "cards": 7
+ }
 ]

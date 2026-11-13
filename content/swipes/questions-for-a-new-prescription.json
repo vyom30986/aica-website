@@ -1,0 +1,38 @@
+{
+  "cards": [
+    {
+      "title": "New parchi? Ask before you leave",
+      "body": "Questions about a new prescription usually show up three days later. Ask them at the clinic or the chemist counter instead."
+    },
+    {
+      "title": "What is this for?",
+      "body": "Knowing the reason helps your parent take it seriously, and helps you notice if two medicines seem to overlap."
+    },
+    {
+      "title": "When and how to take it",
+      "body": "Morning or night, before or after food, with water or milk. Get it written down in plain words."
+    },
+    {
+      "title": "For how long?",
+      "body": "A few days, until the strip finishes, or ongoing? Don't assume. Ask clearly."
+    },
+    {
+      "title": "Which side effects to watch for",
+      "body": "Ask what's common, what's worth a call, and what needs urgent attention."
+    },
+    {
+      "title": "Does it clash with current medicines?",
+      "body": "Show the doctor and chemist everything your parent already takes, including from other doctors. Mix-ups hide here."
+    },
+    {
+      "title": "What if a dose is missed?",
+      "body": "Ask now so nobody guesses later. The answer can be different for different medicines."
+    },
+    {
+      "title": "Six questions, one less worry",
+      "body": "Write the answers on the prescription or save a note on your phone. Future you will be grateful."
+    }
+  ],
+  "takeaway": "For every new prescription, ask what it's for, how and how long to take it, side effects, clashes and missed doses.",
+  "share": "Screenshot this before the next clinic visit."
+}

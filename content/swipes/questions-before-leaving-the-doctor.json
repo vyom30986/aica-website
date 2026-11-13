@@ -1,0 +1,34 @@
+{
+  "cards": [
+    {
+      "title": "Don't leave the room confused",
+      "body": "Once you're out, the queue moves and the doctor is busy. A few questions before you stand up save three anxious phone calls later."
+    },
+    {
+      "title": "What is each medicine for?",
+      "body": "Ask for every new one. Knowing that one tablet is for BP and another is for acidity helps everyone at home keep track."
+    },
+    {
+      "title": "How and when exactly to take it?",
+      "body": "Before or after food? Morning or night? What does 1-0-1 mean for this one? Get the doctor to say it, and write it down right there."
+    },
+    {
+      "title": "What if a dose gets missed?",
+      "body": "Every medicine is different. Ask the doctor or pharmacist what to do, so nobody at home guesses or doubles up out of panic."
+    },
+    {
+      "title": "Which side effects should we watch?",
+      "body": "Which ones are common and harmless, and which mean you should call? Knowing the difference saves a lot of midnight worry."
+    },
+    {
+      "title": "When do we come back, and why?",
+      "body": "Ask what the follow-up is for. Fresh tests? Readings to bring? A check on how the new medicine is working?"
+    },
+    {
+      "title": "When should we not wait?",
+      "body": "Ask which signs need urgent care. In general, chest pain, sudden weakness on one side, confusion, trouble breathing or fainting mean call 112 right away."
+    }
+  ],
+  "takeaway": "Before you stand up, ask what each medicine is for, how to take it, what to watch for and when to return.",
+  "share": "Questions to ask before leaving the doctor's room. Save this for Papa's next visit."
+}

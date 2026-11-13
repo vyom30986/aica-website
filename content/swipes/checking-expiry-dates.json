@@ -1,0 +1,34 @@
+{
+  "cards": [
+    {
+      "title": "The expiry date hides in plain sight",
+      "body": "Tiny print, shiny foil, half of it snipped off. Checking it properly takes ten seconds and saves a lot of doubt."
+    },
+    {
+      "title": "Find \"Exp\", not \"Mfg\"",
+      "body": "Strips usually show both. Mfg is when it was made. Exp is the one that matters for use."
+    },
+    {
+      "title": "Month and year format",
+      "body": "Many labels show only a month and year. If you're unsure how to read the date on your strip, ask your pharmacist."
+    },
+    {
+      "title": "Don't cut through the date",
+      "body": "When you snip off a tablet, cut away from the printed date and name. A loose tablet with no label is a guessing game."
+    },
+    {
+      "title": "Check at the counter too",
+      "body": "Glance at the expiry when you buy, especially for things used slowly, like SOS tablets or syrups."
+    },
+    {
+      "title": "Opened bottles have their own clock",
+      "body": "Some drops and syrups should be used within a set time after opening. The label or leaflet says so. Write the opening date on it."
+    },
+    {
+      "title": "Expired? Set it aside",
+      "body": "Don't use expired medicines. Ask your chemist about safe disposal, and get a fresh supply if it's still needed."
+    }
+  ],
+  "takeaway": "Check the Exp date, keep it intact when cutting strips, and write opening dates on drops and syrups.",
+  "share": "Send this to whoever guards the family medicine box."
+}

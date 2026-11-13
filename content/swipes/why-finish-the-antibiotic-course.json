@@ -1,0 +1,34 @@
+{
+  "cards": [
+    {
+      "title": "Feeling better isn't the finish line",
+      "body": "Antibiotics often make you feel better before the infection is fully treated. That's exactly when people stop, and that's the problem."
+    },
+    {
+      "title": "The course length has a reason",
+      "body": "The doctor picks the length to treat the infection properly. Stopping early can let it come back."
+    },
+    {
+      "title": "Resistance is real",
+      "body": "Incomplete or unnecessary antibiotic use helps bacteria become resistant. Then the next infection is harder to treat, for everyone."
+    },
+    {
+      "title": "No leftovers, no sharing",
+      "body": "Don't save half a strip for next time or hand it to a family member. Different infections need different treatment."
+    },
+    {
+      "title": "Not for every cold",
+      "body": "Antibiotics don't work on viruses like the common cold. Don't ask the chemist for one without a prescription."
+    },
+    {
+      "title": "Side effects? Call, don't quit",
+      "body": "If an antibiotic upsets the stomach or causes a rash, tell the doctor. Swelling of the face or trouble breathing needs urgent help: call 112."
+    },
+    {
+      "title": "Finish it as prescribed",
+      "body": "Unless the doctor tells you to stop, complete the course. Set reminders so doses don't slip."
+    }
+  ],
+  "takeaway": "Take antibiotics only when prescribed, finish the course as directed, and ask the doctor before stopping.",
+  "share": "Send this to the friend with half an antibiotic strip in their bag."
+}

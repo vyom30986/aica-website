@@ -1,0 +1,26 @@
+{
+  "cards": [
+    {
+      "title": "1-0-1 is not a phone number",
+      "body": "It's the most common code on Indian prescriptions, and it's simpler than it looks. Three numbers, three times of day."
+    },
+    {
+      "title": "Morning, afternoon, night",
+      "body": "First number is morning, middle is afternoon, last is night. So 1-0-1 means one in the morning, none in the afternoon, one at night."
+    },
+    {
+      "title": "Same logic, other patterns",
+      "body": "1-1-1 is three times a day. 0-0-1 is night only. 1-0-0 is morning only. The number tells you how many tablets."
+    },
+    {
+      "title": "Halves show up too",
+      "body": "½-0-½ means half a tablet in the morning and half at night. Ask the chemist whether that tablet can be split safely."
+    },
+    {
+      "title": "Unclear? Ask before the first dose",
+      "body": "Some doctors add a fourth slot or food notes. If anything looks odd, ask the pharmacist, then write the timings in plain words on the strip."
+    }
+  ],
+  "takeaway": "In 1-0-1, the numbers stand for morning, afternoon and night doses. Ask your pharmacist if a pattern looks unclear.",
+  "share": "Send this to the cousin who thought 1-0-1 was a room number."
+}

@@ -1,0 +1,34 @@
+{
+  "cards": [
+    {
+      "title": "Missed a dose? Don't panic",
+      "body": "It happens to everyone, especially parents juggling several strips. A calm, safe response matters more than a quick one."
+    },
+    {
+      "title": "Don't double up",
+      "body": "Taking two doses to catch up can cause problems. Don't double the next dose unless a doctor or pharmacist tells you to."
+    },
+    {
+      "title": "Check the leaflet",
+      "body": "Many medicine boxes come with a leaflet that says what to do if a dose is missed. Read that part first."
+    },
+    {
+      "title": "Ask the pharmacist",
+      "body": "Call your chemist with the medicine name, the usual timing and when it was missed. They can tell you what to do for that medicine."
+    },
+    {
+      "title": "Some medicines need a quicker call",
+      "body": "For insulin, blood thinners, seizure or heart medicines, check with the doctor or pharmacist promptly rather than guessing."
+    },
+    {
+      "title": "Make it less likely next time",
+      "body": "A pill organiser, a reminder at the same time every day, or linking the dose to a meal. Small systems beat willpower."
+    },
+    {
+      "title": "Calm, check, ask",
+      "body": "Don't double, read the leaflet, ask the pharmacist. If they feel unwell in a worrying way, get medical help."
+    }
+  ],
+  "takeaway": "If a dose is missed, don't double up. Check the leaflet or ask your pharmacist what to do for that medicine.",
+  "share": "Save this for the next \"arre, subah wali goli reh gayi\" moment."
+}

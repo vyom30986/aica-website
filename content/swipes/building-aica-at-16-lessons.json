@@ -1,0 +1,34 @@
+{
+  "cards": [
+    {
+      "title": "Sixteen, in Lucknow, building a health app",
+      "body": "Vyom Ahuja is 16 and building AICA from Lucknow. Here are a few lessons from the early days, kept honest and simple."
+    },
+    {
+      "title": "Start with a real, boring problem",
+      "body": "Lost prescriptions, missed doses, confusing handwriting. Not flashy problems, but ones families deal with every week. That's where AICA started."
+    },
+    {
+      "title": "Build for how India actually prescribes",
+      "body": "1-0-1, half tablets, a chemist uncle who knows the family. An app built for somewhere else wouldn't fit. The details have to be local."
+    },
+    {
+      "title": "AI helps, people decide",
+      "body": "Reading prescriptions with AI is useful, but mistakes in health matter. So every scan gets checked by a person before it's saved."
+    },
+    {
+      "title": "Trust has to be designed in",
+      "body": "Consent at sign-up, data never sold, download or delete anytime. Decided early, not bolted on later."
+    },
+    {
+      "title": "Show something before promising everything",
+      "body": "An interactive prototype says more than a pitch. AICA started there, with a waitlist, well before any app store listing."
+    },
+    {
+      "title": "Still early, still learning",
+      "body": "Pilots are starting in Lucknow. To follow along or help shape it, the prototype and waitlist are at aicaglobal.in."
+    }
+  ],
+  "takeaway": "Pick a real problem, build for Indian prescriptions, keep people in the loop and design trust in early.",
+  "share": "A 16-year-old in Lucknow is building AICA, a health app for Indian families. aicaglobal.in"
+}

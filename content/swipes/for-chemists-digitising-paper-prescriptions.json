@@ -1,0 +1,34 @@
+{
+  "cards": [
+    {
+      "title": "The parchi pile is not a system",
+      "body": "Paper prescriptions fade, tear and go missing. Going digital doesn't have to mean a big software project. Start small."
+    },
+    {
+      "title": "Photograph every prescription",
+      "body": "With the patient's permission, take a clear photo at the counter. Good light, flat paper, the whole page in frame."
+    },
+    {
+      "title": "Name it so you can find it",
+      "body": "Patient name and date in the file name or folder. Searching beats flipping through a drawer."
+    },
+    {
+      "title": "Note the key details",
+      "body": "Medicines, strengths and duration in a simple list. That's what you'll need when refills come around."
+    },
+    {
+      "title": "Double-check the hard-to-read",
+      "body": "If the handwriting is unclear, call the doctor instead of guessing. A digital copy doesn't fix a misread."
+    },
+    {
+      "title": "Keep it private",
+      "body": "Prescriptions are personal health information. Keep them on a locked phone or system, never in a group chat."
+    },
+    {
+      "title": "Start with your regulars",
+      "body": "Digitise long-term patients first, then grow from there. AICA is building AI handwriting reading for pharmacies, now in early pilots in Lucknow."
+    }
+  ],
+  "takeaway": "Photograph prescriptions with permission, name files clearly, list key details, confirm unclear handwriting and keep everything private.",
+  "share": "Send this to the chemist with a shoebox full of parchis."
+}

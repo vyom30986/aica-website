@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+import retiredBlogSlugs from "./src/content/retired-blog-slugs.json";
 
 const securityHeaders = [
   { key: "X-Content-Type-Options", value: "nosniff" },
@@ -32,6 +33,11 @@ const nextConfig: NextConfig = {
       { source: "/team", destination: "/about#team", permanent: false },
       { source: "/careers", destination: "/contact", permanent: false },
       { source: "/refund-policy", destination: "/pricing#refunds", permanent: false },
+      // The first 100 blog posts were replaced by the reads + swipes collection (Nov 2026).
+      ...retiredBlogSlugs.flatMap((slug) => [
+        { source: `/blogs/${slug}`, destination: "/blogs", permanent: true },
+        { source: `/hi/blogs/${slug}`, destination: "/hi/blogs", permanent: true },
+      ]),
     ];
   },
   async rewrites() {

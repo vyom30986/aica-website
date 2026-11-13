@@ -1,0 +1,30 @@
+{
+  "cards": [
+    {
+      "title": "'Review after 1 month' is not optional",
+      "body": "Those words at the bottom of the prescription get ignored a lot. They are the doctor's plan to check whether the treatment is working."
+    },
+    {
+      "title": "It's a check-in, not a repeat",
+      "body": "The doctor wants to see how the body responded. The medicine, the dose or the tests may change based on what they find."
+    },
+    {
+      "title": "It's not a refill instruction",
+      "body": "Buying the same strips again at the chemist is not a review. Ask your doctor before continuing a course past the review date."
+    },
+    {
+      "title": "Something usually needs checking",
+      "body": "Often the doctor wants readings, a blood test or a look at side effects. Ask during the visit what the review is for, so you come prepared."
+    },
+    {
+      "title": "Put the date in the calendar today",
+      "body": "Count a month from the visit and set a reminder a few days early. Book the slot before the medicine runs out, not after."
+    },
+    {
+      "title": "Going earlier is fine if things change",
+      "body": "If symptoms get worse or new side effects show up, call the doctor sooner. Chest pain, fainting or sudden weakness mean 112 right away."
+    }
+  ],
+  "takeaway": "'Review after 1 month' means the doctor wants to check the treatment, so book it early and bring what they asked for.",
+  "share": "'Review after 1 month' on the prescription is part of the treatment. Put it in the calendar."
+}

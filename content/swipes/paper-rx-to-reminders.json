@@ -1,0 +1,34 @@
+{
+  "cards": [
+    {
+      "title": "From crumpled paper to on-time doses",
+      "body": "A prescription only helps if the right tablet is taken at the right time. Here's how AICA is designed to turn paper into reminders."
+    },
+    {
+      "title": "Step 1: snap the prescription",
+      "body": "The patient or a family member takes a clear photo of the paper prescription inside AICA."
+    },
+    {
+      "title": "Step 2: AI reads the handwriting",
+      "body": "AI picks out medicine names, doses and timings from the photo. Doctor handwriting is hard, so this reading is never treated as final."
+    },
+    {
+      "title": "Step 3: you confirm against the photo",
+      "body": "You check what AI read side by side with the original photo and fix anything wrong. Nothing is saved until you confirm."
+    },
+    {
+      "title": "Step 4: reminders get set",
+      "body": "Confirmed timings become dose reminders, including Indian patterns like 1-0-1 and half tablets. Each family profile gets its own."
+    },
+    {
+      "title": "Step 5: one thread for what's next",
+      "body": "The prescription sits on a shared thread with the chemist and doctor, so refills and the next visit start from the same record."
+    },
+    {
+      "title": "Built carefully, still early",
+      "body": "AICA is at early MVP stage, with pilots starting in Lucknow. Try the interactive prototype and join the waitlist at aicaglobal.in."
+    }
+  ],
+  "takeaway": "Snap, AI reads, you confirm against the photo, then reminders are set. Nothing is saved until a person checks it.",
+  "share": "AICA turns a paper prescription into dose reminders, and you confirm every line first. aicaglobal.in"
+}

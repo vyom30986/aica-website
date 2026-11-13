@@ -1,0 +1,34 @@
+{
+  "cards": [
+    {
+      "title": "Memory is a terrible medical record",
+      "body": "'It happens sometimes' doesn't help a doctor much. A simple diary turns vague worry into patterns that can actually be looked at."
+    },
+    {
+      "title": "Why it helps the doctor",
+      "body": "Dates, times and triggers show whether a problem is getting better or worse, and whether it links to food, sleep or a new medicine."
+    },
+    {
+      "title": "Keep it boring and short",
+      "body": "One line per entry: date, time, what happened, how long, how bad. A notebook by the bed or a note on the phone both work."
+    },
+    {
+      "title": "Note what was happening around it",
+      "body": "Before or after meals, after medicine, after a walk, after a bad night's sleep. Context is where the patterns hide."
+    },
+    {
+      "title": "Track medicines and missed doses too",
+      "body": "Write down if a dose was missed, taken late, or if a new tablet started. Doctors find this more useful than people expect."
+    },
+    {
+      "title": "Bring it, but summarise it",
+      "body": "Show the diary at the visit with a three line summary on top. The doctor can scan the summary and dig deeper if needed."
+    },
+    {
+      "title": "Make it a family habit",
+      "body": "Whoever is with Papa writes the entry and shares it with the family. AICA's care diary is built for this, but a notebook works too."
+    }
+  ],
+  "takeaway": "A short daily symptom diary with times, triggers and medicine notes gives doctors patterns instead of guesses.",
+  "share": "Start a symptom diary for Papa. Date, time, what happened, how bad. The doctor will thank you."
+}

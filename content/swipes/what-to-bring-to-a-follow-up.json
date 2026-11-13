@@ -1,0 +1,30 @@
+{
+  "cards": [
+    {
+      "title": "Follow-ups are not a formality",
+      "body": "The doctor wants to know what happened since last time. Bring the evidence and the visit becomes real progress, not guesswork."
+    },
+    {
+      "title": "The last prescription, the actual paper",
+      "body": "Not a blurry forward from the family group. The original shows exactly what was prescribed, so changes can be made on top of it."
+    },
+    {
+      "title": "Every medicine currently being taken",
+      "body": "Strips in a bag, including any from other doctors and anything bought over the counter. This catches overlaps nobody noticed."
+    },
+    {
+      "title": "Readings since the last visit",
+      "body": "If the doctor asked for home BP or sugar checks, bring them written with dates and times. A week of honest numbers beats one good morning."
+    },
+    {
+      "title": "Tests the doctor asked for",
+      "body": "Reports printed or on the phone, in date order. If a test wasn't done, say so. Better than the doctor assuming it was normal."
+    },
+    {
+      "title": "A short note on what changed",
+      "body": "Better, worse, new symptoms, missed doses, side effects. Two or three lines written at home beat memory in the room."
+    }
+  ],
+  "takeaway": "Bring the last prescription, every current medicine, dated readings, requested tests and a short note on what changed.",
+  "share": "Follow-up visit checklist: old prescription, all medicines, readings, reports, and a note on what changed."
+}

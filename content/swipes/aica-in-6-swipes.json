@@ -1,0 +1,30 @@
+{
+  "cards": [
+    {
+      "title": "AICA in six swipes. Let's go.",
+      "body": "AICA is a healthcare app being built in Lucknow. It links patients, chemists and doctors on one shared prescription thread, so nothing gets lost in between."
+    },
+    {
+      "title": "Scan the prescription",
+      "body": "Take a photo of the paper. AI reads it, and you check it against the photo before anything is saved. No blind trust."
+    },
+    {
+      "title": "Reminders that get Indian prescriptions",
+      "body": "Dose reminders understand 1-0-1 and half tablets. Family profiles let you manage Mummy and Papa from one phone, with vitals and a care diary alongside."
+    },
+    {
+      "title": "Chemists get a smarter counter",
+      "body": "Pharmacies get AI help reading handwriting, plus refill predictions that bring patients back to the same counter they trust."
+    },
+    {
+      "title": "Doctors walk in prepared",
+      "body": "Clinics get a patient summary before the visit, so the consult starts with context instead of a hunt through old papers."
+    },
+    {
+      "title": "Early days, and you can join",
+      "body": "AICA is at MVP stage, with an interactive prototype and waitlist at aicaglobal.in. Pilots are starting in Lucknow. The core patient app is free forever."
+    }
+  ],
+  "takeaway": "AICA links patients, chemists and doctors on one prescription thread, with checked AI scans, smart reminders and an open waitlist.",
+  "share": "AICA: one prescription thread for patients, chemists and doctors. Being built in Lucknow. aicaglobal.in"
+}

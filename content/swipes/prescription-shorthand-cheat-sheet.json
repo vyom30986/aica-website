@@ -1,0 +1,34 @@
+{
+  "cards": [
+    {
+      "title": "Doctor's handwriting, decoded a little",
+      "body": "Prescriptions use Latin shorthand that has been around for ages. Knowing a few common ones helps you ask better questions."
+    },
+    {
+      "title": "OD: once a day",
+      "body": "One dose in a day. The prescription or the doctor should say when, like morning or night."
+    },
+    {
+      "title": "BD: twice a day",
+      "body": "Two doses a day, usually morning and night. On many Indian prescriptions you'll see the same thing written as 1-0-1."
+    },
+    {
+      "title": "TDS: three times a day",
+      "body": "Three doses spread across the day, like morning, afternoon and night. You may also see it as 1-1-1."
+    },
+    {
+      "title": "HS: at bedtime",
+      "body": "Take it at night, before sleeping. If you're unsure whether that's different from \"after dinner\" for this medicine, ask."
+    },
+    {
+      "title": "SOS: only if needed",
+      "body": "Not a regular dose. Take it only when the symptom shows up, within the limit the doctor gives. Ask what that limit is."
+    },
+    {
+      "title": "Not sure? Ask, don't guess",
+      "body": "Shorthand varies between doctors, and handwriting can mislead. If anything is unclear, check with the doctor or pharmacist before the first dose."
+    }
+  ],
+  "takeaway": "OD is once, BD twice, TDS three times, HS at bedtime and SOS only when needed. Confirm anything unclear with your pharmacist.",
+  "share": "Send this to the family member who decodes every parchi in the house."
+}

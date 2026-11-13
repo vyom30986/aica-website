@@ -1,0 +1,34 @@
+{
+  "cards": [
+    {
+      "title": "Fasting or after food? It matters",
+      "body": "The same number means different things at different times. If the label is wrong, the doctor reads the whole log wrong."
+    },
+    {
+      "title": "What fasting actually means",
+      "body": "No food for about eight hours, usually checked first thing in the morning. Water is generally fine. Follow any other instructions your doctor gives."
+    },
+    {
+      "title": "After food means a fixed gap",
+      "body": "Your doctor will tell you how long after a meal to check. Use the same gap every time so readings can be compared."
+    },
+    {
+      "title": "Clean hands, clean reading",
+      "body": "Wash and dry hands before pricking. Leftover sweets or fruit on the fingers can push a reading up. Use a fresh strip each time."
+    },
+    {
+      "title": "Label every single reading",
+      "body": "Date, time, fasting or after which meal, and the number. 'Breakfast, two parathas' is honestly useful context to add."
+    },
+    {
+      "title": "Targets come from the doctor",
+      "body": "Don't compare with a cousin's numbers or a forward in the family group. Your doctor sets the targets for your parent."
+    },
+    {
+      "title": "Don't adjust medicine from the meter",
+      "body": "Readings help the doctor decide. Any change to tablets or insulin should come from the doctor. If something seems off, call them."
+    }
+  ],
+  "takeaway": "Label every sugar reading as fasting or after food, keep the gap consistent, and let the doctor set targets and changes.",
+  "share": "Sugar checks at home: fasting means about 8 hours without food. Label every reading."
+}

@@ -1,0 +1,34 @@
+{
+  "cards": [
+    {
+      "title": "Your waiting room isn't a railway platform",
+      "body": "Crowded benches, repeated questions, files going missing. Most of the chaos comes from a few fixable habits, not just too many patients."
+    },
+    {
+      "title": "1. Tell people where they stand",
+      "body": "A simple token board, or a message with queue position, cuts down the constant 'kitna time lagega?' questions at the front desk."
+    },
+    {
+      "title": "2. Collect basics while they wait",
+      "body": "Reception can note weight, BP and the main complaint before the consult. The doctor starts with information instead of starting from zero."
+    },
+    {
+      "title": "3. Ask patients to bring their medicines",
+      "body": "A reminder message the day before: bring all current medicines and the last prescription. Fewer 'woh white wali goli' moments in the room."
+    },
+    {
+      "title": "4. Separate quick visits from long ones",
+      "body": "Report shows and short follow-ups can be grouped into a fixed slot. New, complex cases get time without blocking everyone else."
+    },
+    {
+      "title": "5. Give clear exit instructions",
+      "body": "A printed or messaged summary of next steps means fewer patients walking back to the desk confused about tests, timings or review dates."
+    },
+    {
+      "title": "Calmer room, better consults",
+      "body": "Small process changes free up the doctor's minutes. AICA is building patient summaries that reach the clinic before the visit, with pilots in Lucknow."
+    }
+  ],
+  "takeaway": "Queue updates, early basics, medicine reminders, separate slots and clear exit notes make a calmer waiting room.",
+  "share": "For clinic staff: five simple fixes for waiting-room chaos. Worth a read."
+}

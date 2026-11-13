@@ -1,0 +1,34 @@
+{
+  "cards": [
+    {
+      "title": "'I'll remember' is not a reminder system",
+      "body": "Busy mornings, TV serials, a guest at the door. Even sharp memories slip. A phone set up properly does the remembering for them."
+    },
+    {
+      "title": "Use the alarm they already know",
+      "body": "The built-in clock app is often easier than a new app. Set one alarm per dose time, not one per tablet."
+    },
+    {
+      "title": "Label every alarm clearly",
+      "body": "Name it 'Morning BP tablet, after breakfast' instead of leaving just a time. Specific words are easier to act on."
+    },
+    {
+      "title": "Turn the volume up, then test",
+      "body": "Alarm volume is often separate from ringer volume. Pick a loud, distinct tone and test it from the next room."
+    },
+    {
+      "title": "Pair alarms with a daily habit",
+      "body": "Morning chai, lunch, the evening news. Linking a dose to something that already happens makes it stick."
+    },
+    {
+      "title": "Check in, don't police",
+      "body": "A quick 'did the 9 pm one ring?' call is enough. Agree on it together so it feels like teamwork, not surveillance."
+    },
+    {
+      "title": "Update when the prescription changes",
+      "body": "New doctor visit, new timings. Update the alarms the same day. AICA is building dose reminders that understand 1-0-1 and half tablets."
+    }
+  ],
+  "takeaway": "Use labelled, loud alarms tied to daily habits, check in kindly, and update them every time the prescription changes.",
+  "share": "Set up medicine alarms on Mummy's phone. Label them, make them loud, tie them to chai time."
+}

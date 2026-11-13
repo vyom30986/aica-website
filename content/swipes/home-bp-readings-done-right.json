@@ -1,0 +1,34 @@
+{
+  "cards": [
+    {
+      "title": "One random reading tells you little",
+      "body": "BP changes through the day. A reading taken right after climbing stairs can alarm the whole family. Technique matters as much as the machine."
+    },
+    {
+      "title": "Rest first, then measure",
+      "body": "Sit quietly for about five minutes before checking. No tea, smoking or exercise just before. Use the bathroom first, then stay calm and still."
+    },
+    {
+      "title": "Sit properly, arm supported",
+      "body": "Back supported, feet flat, legs uncrossed. Rest the arm on a table so the cuff sits at heart level. No talking during the reading."
+    },
+    {
+      "title": "The cuff size actually matters",
+      "body": "A cuff that's too small or too big gives wrong numbers. Check the size range printed on it against the upper arm. Wrap it on bare skin."
+    },
+    {
+      "title": "Same time, every time",
+      "body": "Measure at similar times each day, like morning and evening, as your doctor suggests. Consistency makes the numbers comparable."
+    },
+    {
+      "title": "Write every reading down",
+      "body": "Date, time, both numbers and pulse. Don't keep only the nice ones. Bring the log to the doctor, who sets the target for Papa."
+    },
+    {
+      "title": "Worried by the numbers? Call, don't adjust",
+      "body": "Never change BP medicine based on home readings. Talk to the doctor. With chest pain, sudden weakness on one side or confusion, call 112."
+    }
+  ],
+  "takeaway": "Rest first, sit right, use the right cuff, measure at the same times and log everything, then let the doctor interpret.",
+  "share": "Checking BP at home? Rest 5 minutes, sit properly, right cuff size, write every reading down."
+}

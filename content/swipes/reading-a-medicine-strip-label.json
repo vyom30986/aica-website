@@ -1,0 +1,34 @@
+{
+  "cards": [
+    {
+      "title": "The strip has more than a name",
+      "body": "Flip it over. The foil and the box carry details that help you avoid mix-ups at home. Here's what to look for."
+    },
+    {
+      "title": "Brand name and salt name",
+      "body": "The brand name is big. The actual ingredient, the salt, is usually smaller. Two different brands can contain the same salt."
+    },
+    {
+      "title": "Strength",
+      "body": "Shown in mg or mcg. Same medicine, different strength is a common mix-up. Match it to the prescription every time."
+    },
+    {
+      "title": "Batch number",
+      "body": "Useful if there's ever a quality question. Another reason to keep the strip until the last tablet is gone."
+    },
+    {
+      "title": "Mfg and Exp dates",
+      "body": "Manufacture and expiry dates. Check the expiry before use, and don't cut the strip through it."
+    },
+    {
+      "title": "Storage instructions",
+      "body": "\"Store in a cool, dry place\" or \"protect from light\". In a Lucknow May, the shelf next to the gas stove doesn't qualify."
+    },
+    {
+      "title": "Read twice, swallow once",
+      "body": "If the strip doesn't match the prescription in name, salt or strength, ask your chemist before taking it."
+    }
+  ],
+  "takeaway": "Check the salt, strength, expiry and storage on every strip, and ask the chemist if anything doesn't match the prescription.",
+  "share": "Send this to the person who cuts strips into single tablets and loses the name."
+}

@@ -1,0 +1,34 @@
+{
+  "cards": [
+    {
+      "title": "AI can misread. AICA plans for it.",
+      "body": "Doctor handwriting challenges everyone, including software. In healthcare a wrong word matters, so AICA is designed around checking, not blind trust."
+    },
+    {
+      "title": "AI reads, it doesn't decide",
+      "body": "AI pulls medicine names, doses and timings from the photo. That's a draft, not a record."
+    },
+    {
+      "title": "Photo and reading, side by side",
+      "body": "You compare what AI read against the original prescription photo, line by line, and fix anything that looks wrong."
+    },
+    {
+      "title": "Nothing saved until you confirm",
+      "body": "Reminders and records are created only after a person confirms. No silent saves straight from the AI."
+    },
+    {
+      "title": "The doctor's word stays the doctor's",
+      "body": "AICA follows what the prescription says. Any question about a dose or a change goes to your doctor or pharmacist."
+    },
+    {
+      "title": "Help for the counter too",
+      "body": "Pharmacies get AI help reading handwriting as well, working alongside the pharmacist who knows the job."
+    },
+    {
+      "title": "Honest AI means people in charge",
+      "body": "AI to speed things up, people to make sure it's right. See how it works in the prototype at aicaglobal.in."
+    }
+  ],
+  "takeaway": "AICA's AI drafts the reading, a person checks it against the photo, and nothing is saved without confirmation.",
+  "share": "AICA's rule for AI: it reads the prescription, you confirm it. Nothing saved without a human check."
+}

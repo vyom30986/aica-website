@@ -1,0 +1,26 @@
+{
+  "cards": [
+    {
+      "title": "Your health data has rights. So do you.",
+      "body": "India's Digital Personal Data Protection Act, the DPDP Act, sets rules for how organisations handle personal data. Health information you share is personal data too."
+    },
+    {
+      "title": "Consent comes first",
+      "body": "Apps and services generally need your clear consent to process your personal data. Consent should be specific, and you can withdraw it later."
+    },
+    {
+      "title": "Used only for the stated purpose",
+      "body": "Data collected for one purpose should be used for that purpose. A reminder app shouldn't quietly turn your prescriptions into something else."
+    },
+    {
+      "title": "Access, correct, erase",
+      "body": "You can ask what personal data a company holds about you, ask it to fix mistakes, and ask it to erase your data, unless the law requires it to be kept."
+    },
+    {
+      "title": "Complain if something goes wrong",
+      "body": "Companies must offer a way to raise grievances. If that doesn't resolve it, the law sets up a Data Protection Board. Read the privacy policy before tapping agree."
+    }
+  ],
+  "takeaway": "Under the DPDP Act you give consent, data serves the stated purpose, and you can access, correct, erase and complain.",
+  "share": "Your health data has rights in India: consent, access, correction, erasure, and a way to complain."
+}

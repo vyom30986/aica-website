@@ -1,0 +1,30 @@
+{
+  "cards": [
+    {
+      "title": "The chemist counter is where care happens",
+      "body": "For many families, the chemist uncle is the most regular health contact. AICA is built with that counter at the centre, not as an afterthought."
+    },
+    {
+      "title": "Chemists see every refill",
+      "body": "Patients may see a doctor every few months, but they visit the chemist for every refill. That's where the prescription thread naturally lives."
+    },
+    {
+      "title": "Handwriting is a daily headache",
+      "body": "Reading rushed handwriting is part of the job. AICA gives pharmacies AI help reading prescriptions, so the counter spends less time squinting."
+    },
+    {
+      "title": "Refills shouldn't depend on memory",
+      "body": "AICA predicts when a patient's medicines are likely to run out, helping pharmacies bring them back to the same counter."
+    },
+    {
+      "title": "Trust stays local",
+      "body": "The idea isn't to replace the neighbourhood chemist. It's to help the counter people already trust keep its patients."
+    },
+    {
+      "title": "Free for founding pharmacies",
+      "body": "Founding pharmacies use AICA free during the pilot, starting in Lucknow. Nothing is charged today. Join the waitlist at aicaglobal.in."
+    }
+  ],
+  "takeaway": "Chemists see every refill, so AICA starts there, with AI handwriting help and refill predictions that keep patients at their counter.",
+  "share": "Chemist in Lucknow? AICA's founding pharmacy pilot is free. Details at aicaglobal.in"
+}

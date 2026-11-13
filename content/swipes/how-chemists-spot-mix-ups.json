@@ -1,0 +1,34 @@
+{
+  "cards": [
+    {
+      "title": "The counter is a safety checkpoint",
+      "body": "Behind the small talk, a good chemist is quietly checking several things before handing over your strip."
+    },
+    {
+      "title": "Is this the right medicine?",
+      "body": "Many medicine names look and sound alike, especially in handwriting. Chemists check the name makes sense for the patient."
+    },
+    {
+      "title": "Is the strength right?",
+      "body": "Same medicine, different strength. The chemist checks the number matches the prescription."
+    },
+    {
+      "title": "Does the dose make sense?",
+      "body": "An unusual dose or frequency gets a second look, and sometimes a call to the doctor."
+    },
+    {
+      "title": "Any clash with other medicines?",
+      "body": "If they know what else you take, they can spot combinations worth checking."
+    },
+    {
+      "title": "Is it for the right person?",
+      "body": "Children and older adults may need different doses. That's why the chemist asks who it's for."
+    },
+    {
+      "title": "Help them help you",
+      "body": "A clear prescription, the full medicine list, and patience while they double-check. A pause at the counter is a good sign."
+    }
+  ],
+  "takeaway": "Chemists check name, strength, dose, clashes and the patient. Giving them full information makes those checks work.",
+  "share": "Send this to whoever gets impatient when the chemist re-reads the parchi."
+}

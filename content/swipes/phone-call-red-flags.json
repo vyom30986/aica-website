@@ -1,0 +1,34 @@
+{
+  "cards": [
+    {
+      "title": "Some calls home need action, not advice",
+      "body": "Most calls are about dinner and the neighbours. But a few things you hear on the phone mean get help now, not tomorrow."
+    },
+    {
+      "title": "Chest pain or pressure",
+      "body": "Especially with sweating, breathlessness or pain spreading to the arm or jaw. Don't wait to see if it passes. Call 112."
+    },
+    {
+      "title": "Face, arm or speech suddenly off",
+      "body": "Slurred words, one side of the face drooping, or one arm suddenly weak. These can be stroke signs. Time matters. Call 112 immediately."
+    },
+    {
+      "title": "Confusion that's new",
+      "body": "If Papa suddenly isn't making sense, doesn't know where he is or sounds very different, treat it as urgent and get medical help."
+    },
+    {
+      "title": "Trouble breathing or fainting",
+      "body": "Gasping, unable to finish a sentence, or a blackout. Get emergency help right away and make sure someone stays with them."
+    },
+    {
+      "title": "Have a nearby person ready",
+      "body": "Save the number of a neighbour or relative who can reach them in minutes. You can't get from Bengaluru to Lucknow in ten."
+    },
+    {
+      "title": "When in doubt, call for help",
+      "body": "Nobody gets in trouble for a false alarm. Waiting is the thing people regret. Save 112 and one local contact today."
+    }
+  ],
+  "takeaway": "Chest pain, face or arm weakness, new confusion, trouble breathing or fainting means call 112 straight away.",
+  "share": "Send this to every sibling who lives away from home."
+}

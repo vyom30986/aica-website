@@ -1,0 +1,34 @@
+{
+  "cards": [
+    {
+      "title": "Sugar myths, served with mithai",
+      "body": "Every family has a diabetes expert. Here are five common myths, and why the real answers come from the doctor."
+    },
+    {
+      "title": "Myth: sugar is fine, so stop",
+      "body": "Good readings often mean the treatment is working. Stopping or cutting doses on your own can undo that. Talk to the doctor first."
+    },
+    {
+      "title": "Myth: insulin means you failed",
+      "body": "Insulin is a treatment, not a punishment. Doctors suggest it based on what the body needs. Ask them to explain why."
+    },
+    {
+      "title": "Myth: sweets now, extra tablet later",
+      "body": "Medicines aren't a pass for mithai. Never adjust a dose to cover food unless the doctor has given you a plan for that."
+    },
+    {
+      "title": "Myth: the tablets damage kidneys",
+      "body": "Uncontrolled sugar itself can harm the kidneys. If you're worried about a medicine, ask the doctor about it and about regular tests. Don't stop it alone."
+    },
+    {
+      "title": "Myth: no symptoms, no problem",
+      "body": "High sugar can be silent, so regular tests matter. Low sugar can show as shaking, sweating or confusion. Know the doctor's plan, and get urgent help if it doesn't settle."
+    },
+    {
+      "title": "Keep the doctor in the loop",
+      "body": "Bring readings, medicines and questions to every visit. The best answer to a myth is a two-minute question to the person who prescribed it."
+    }
+  ],
+  "takeaway": "Don't change diabetes medicines based on readings, sweets or rumours. Track sugar and ask the doctor.",
+  "share": "Send this to the family group before the next mithai debate."
+}

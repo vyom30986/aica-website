@@ -1,0 +1,34 @@
+{
+  "cards": [
+    {
+      "title": "Running out on Sunday night is avoidable",
+      "body": "Most medicine gaps aren't about forgetting. The strip simply ran out before anyone noticed. Refill reminders fix that."
+    },
+    {
+      "title": "How it works",
+      "body": "From the dose and the quantity given, you can tell roughly when a strip will finish. A reminder comes a few days before."
+    },
+    {
+      "title": "For patients: no gaps",
+      "body": "Long-term BP and sugar medicines need regular use. A timely refill means no missed days waiting for the shop to open."
+    },
+    {
+      "title": "For chemists: stock ready",
+      "body": "Knowing who needs what, and when, means fewer \"kal aana\" moments and less last-minute ordering."
+    },
+    {
+      "title": "For families: less tracking",
+      "body": "Nobody has to count tablets over a video call. The reminder does the remembering."
+    },
+    {
+      "title": "A refill isn't a renewal",
+      "body": "If a prescription has ended or is due for review, the reminder is a cue to see the doctor, not just to buy more."
+    },
+    {
+      "title": "Small nudge, steady care",
+      "body": "Reminders keep routine medicines routine. AICA is building refill predictions for pharmacies, with pilots starting in Lucknow."
+    }
+  ],
+  "takeaway": "Refill reminders prevent gaps for patients, help chemists stock up, and flag when it's time to see the doctor again.",
+  "share": "Send this to the chemist who still keeps a refill diary by hand."
+}

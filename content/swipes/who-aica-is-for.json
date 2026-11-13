@@ -1,0 +1,34 @@
+{
+  "cards": [
+    {
+      "title": "Is AICA for you? Probably.",
+      "body": "AICA is being built for the people who keep Indian families' medicines on track, at home, at the counter and in the clinic."
+    },
+    {
+      "title": "The child managing Mummy and Papa",
+      "body": "You're juggling work and your parents' BP and sugar tablets from your phone. Family profiles and dose reminders are built for you."
+    },
+    {
+      "title": "Parents who want to stay independent",
+      "body": "Clear reminders, including 1-0-1 and half tablets, so they can manage their own medicines with a little backup from family."
+    },
+    {
+      "title": "The neighbourhood chemist",
+      "body": "AI help reading handwriting, and refill predictions that bring regular patients back to your counter. Founding pharmacies use it free during the pilot."
+    },
+    {
+      "title": "Clinics that want calmer consults",
+      "body": "A patient summary before the visit, so the doctor starts with context. Founding clinics use AICA free during the pilot."
+    },
+    {
+      "title": "Anyone tired of lost prescriptions",
+      "body": "If your health papers live in a drawer and a WhatsApp group, AICA's shared prescription thread is meant to bring them together."
+    },
+    {
+      "title": "Starting in Lucknow",
+      "body": "Pilots begin in Lucknow. See the interactive prototype and join the waitlist at aicaglobal.in."
+    }
+  ],
+  "takeaway": "AICA is for family carers, independent parents, chemists and clinics who want one clear prescription thread.",
+  "share": "Look after your parents' medicines? AICA is being built for you. aicaglobal.in"
+}
