@@ -1,8 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <!-- 2026 rebrand: matches the site's new AI|CA+ wordmark (--logo-blue / --brand-cross in aica.css) -->
-  <rect width="32" height="32" rx="9" fill="#1F5BD6"/>
-  <text x="16" y="21" font-family="Arial, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle" letter-spacing="-0.5">AI</text>
-  <circle cx="25.5" cy="7.5" r="5" fill="#E13838"/>
-  <rect x="24" y="5.2" width="3" height="4.6" rx="1" fill="#ffffff"/>
-  <rect x="23.2" y="6" width="4.6" height="3" rx="1" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 610 610">
+  <!-- Full AICA wordmark (AI block, CA, red plus) centred on a white tile. Paths from the vector logo. -->
+  <rect width="610" height="610" rx="120" fill="#ffffff"/>
+  <g transform="translate(2 203)">
+    <rect x="10" y="40" width="250" height="150" rx="34" fill="#2556F5"/>
+    <g fill="none" stroke="#FFFFFF" stroke-width="26" stroke-linejoin="round">
+      <path d="M58 190 V110 a28 28 0 0 1 28 -28 h48 a28 28 0 0 1 28 28 V190"/>
+      <path d="M58 134 H162"/>
+    </g>
+    <rect x="190" y="69" width="28" height="121" fill="#FFFFFF"/>
+    <g fill="none" stroke="#2556F5" stroke-width="26" stroke-linejoin="round">
+      <path d="M400 82 H330 a24 24 0 0 0 -24 24 V148 a24 24 0 0 0 24 24 H400"/>
+      <path d="M426 190 V106 a24 24 0 0 1 24 -24 h62 a24 24 0 0 1 24 24 V190"/>
+      <path d="M426 136 H526"/>
+    </g>
+    <path d="M536 14 h28 v32 h32 v28 h-32 v32 h-28 v-32 h-32 v-28 h32 z" fill="#EE3340"/>
+  </g>
 </svg>

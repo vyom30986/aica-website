@@ -37,7 +37,13 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     metadataBase: new URL(site.url),
     ...pageMeta(locale, "/", { title: d.meta.title, description: d.meta.description, absoluteTitle: true }),
     applicationName: "AICA",
-    icons: { icon: "/brand/favicon.svg", apple: "/brand/aica-logo.png" },
+    icons: {
+      icon: [
+        { url: "/favicon.ico", sizes: "48x48" },
+        { url: "/brand/favicon.svg", type: "image/svg+xml" },
+      ],
+      apple: "/brand/apple-touch-icon.png",
+    },
     formatDetection: { telephone: false },
   };
 }
