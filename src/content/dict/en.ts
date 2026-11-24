@@ -1,8 +1,8 @@
 const en = {
   meta: {
-    title: "AICA — One ecosystem for patients, pharmacies & clinics",
+    title: "AICA Global: Prescription Reader & Medicine Reminder App",
     description:
-      "AICA connects patients, chemists and clinics on one shared prescription thread — smart medicine alarms, refill loyalty for pharmacies and AI pre-consult summaries for doctors. Built in Lucknow, for India.",
+      "AICA Global reads your doctor's prescription, sets medicine reminders for the whole family, and connects patients, chemists and clinics. Made in India.",
   },
   common: {
     skip: "Skip to content",
@@ -249,7 +249,7 @@ const en = {
   },
 
   patient: {
-    meta: { title: "For patients & caregivers", description: "Every prescription, every reminder, every doctor — synced to one app, for you and the people you care for." },
+    meta: { heading: "For patients & caregivers", title: "Prescription Reader & Medicine Reminder App | AICA Patient", description: "Photograph a doctor's prescription, check what the AI read, and get medicine alarms and refill alerts for you and your parents. On Android." },
     hero: {
       eyebrow: "For patients & caregivers",
       title: "Your health,",
@@ -317,7 +317,7 @@ const en = {
   },
 
   pharmacy: {
-    meta: { title: "For pharmacies & chemists", description: "AI reads the doctor's handwriting, predicts refills and turns every walk-in into a returning customer. Built for the chemist counter." },
+    meta: { heading: "For pharmacies & chemists", title: "Medicine Refill Reminder Tool for Medical Stores | AICA", description: "AICA helps chemists turn paper prescriptions into digital records and see which customers are due for a refill. Apply to join the Lucknow pilot." },
     hero: {
       eyebrow: "For pharmacies & chemist counters",
       title: "Turn every Rx into a",
@@ -385,7 +385,7 @@ const en = {
   },
 
   clinic: {
-    meta: { title: "For clinics & doctors", description: "AI intake in the waiting room, a smart multi-doctor queue and a pre-consult summary before the patient sits down." },
+    meta: { heading: "For clinics & doctors", title: "OPD Queue & Patient Intake System for Clinics | AICA", description: "See how AICA is designed to run your OPD queue, capture patient intake in Hindi and English, and give doctors a summary first. Apply for the pilot." },
     hero: {
       eyebrow: "For clinics & doctors",
       title: "Less keyboard.",
@@ -483,7 +483,7 @@ const en = {
   },
 
   about: {
-    meta: { title: "About AICA", description: "Why we're building AICA — one shared thread between India's patients, pharmacies and clinics." },
+    meta: { title: "About AICA Global | Healthcare App from Lucknow, India", description: "AICA Global is built by Beyond Quantum Technologies in Lucknow to connect patients, chemists and clinics around one prescription. Read our story." },
     eyebrow: "About AICA",
     title: "Healthcare in India doesn't lack doctors or medicines. It lacks a thread.",
     lead: "A patient sees a doctor, buys medicines at a chemist and goes home — and the three never talk again. AICA is the quiet thread that connects them.",
@@ -508,7 +508,7 @@ const en = {
   },
 
   contact: {
-    meta: { title: "Contact", description: "Talk to the AICA team in Lucknow — about the prototype, a pilot, a partnership or anything else." },
+    meta: { title: "Contact AICA Global | Patients, Chemists and Clinics", description: "Talk to the AICA Global team in Lucknow about the patient app, the pharmacy and clinic pilots, partnerships or support. WhatsApp, phone or email." },
     eyebrow: "Contact",
     title: "Let's talk about AICA.",
     lead: "Questions about the prototype, a pilot for your pharmacy or clinic, or a partnership — we usually reply within 24 hours.",
@@ -519,7 +519,7 @@ const en = {
   },
 
   blog: {
-    meta: { title: "Blog", description: "Reads and 1-minute swipes on caring for your parents' medicines, chemists, doctor visits and health tech in India." },
+    meta: { title: "Medicines, Prescriptions & Caring for Parents | AICA Blog", description: "Plain-language guides for Indian families: what prescription codes mean, managing medicines, and caring for elderly parents from another city." },
     eyebrow: "Blog",
     title: "Notes from the counter.",
     lead: "Real talk on looking after your family's health, from the chemist counter to the doctor's room. Long reads when you have time, 1-minute swipes when you don't.",

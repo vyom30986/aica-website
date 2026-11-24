@@ -36,6 +36,8 @@ export const site = {
       "https://www.google.com/maps/search/?api=1&query=A-23%2C+Nirala+Nagar%2C+Lucknow%2C+Uttar+Pradesh%2C+India",
   },
 
+  playStore: "https://play.google.com/store/apps/details?id=in.aicaglobals.patient",
+
   social: {
     instagram: "https://www.instagram.com/aica_global/",
     // TODO: replace with a LinkedIn *company* page.

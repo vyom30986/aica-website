@@ -157,7 +157,7 @@ export function PersonaPage({ k, d, locale }: { k: PersonaKey; d: Dict; locale: 
       {/* Features */}
       <section className="relative z-10 py-24 sm:py-32">
         <div className="container-x">
-          <SectionHead eyebrow={ui.features} title={p.meta.title} />
+          <SectionHead eyebrow={ui.features} title={p.meta.heading} />
           <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {p.features.map((f, i) => (
               <Reveal key={f.title} delay={(i % 3) * 0.08}>

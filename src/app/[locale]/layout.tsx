@@ -36,7 +36,21 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     metadataBase: new URL(site.url),
     ...pageMeta(locale, "/", { title: d.meta.title, description: d.meta.description, absoluteTitle: true }),
-    applicationName: "AICA",
+    applicationName: "AICA Global",
+    robots: { "max-image-preview": "large" },
+    // Google ignores this tag; it's kept as a record of the phrases the site targets.
+    keywords: [
+      "AICA Global",
+      "doctor prescription reader app",
+      "prescription scanner app",
+      "medicine reminder app",
+      "pill reminder for elderly",
+      "elderly care apps in India",
+      "family medical records app",
+      "BP tracker app",
+      "medication refill reminder",
+      "OPD queue management system",
+    ],
     icons: {
       icon: [
         { url: "/favicon.ico", sizes: "48x48" },
@@ -57,14 +71,16 @@ export default async function LocaleLayout({ children, params }: { children: Rea
   const orgJsonLd = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "AICA — Adaptive Intelligent Care App",
+    "@id": `${site.url}/#org`,
+    name: "AICA Global",
+    alternateName: ["AICA", site.longName],
     legalName: site.company.legalName,
     url: site.url,
     logo: `${site.assetUrl}/brand/aica-logo.png`,
     email: site.contact.email,
     telephone: site.contact.phone,
     address: { "@type": "PostalAddress", streetAddress: "A-23, Nirala Nagar", addressLocality: "Lucknow", addressRegion: "Uttar Pradesh", postalCode: "226020", addressCountry: "IN" },
-    sameAs: Object.values(site.social),
+    sameAs: [...Object.values(site.social), site.playStore],
   };
 
   return (

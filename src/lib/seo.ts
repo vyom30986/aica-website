@@ -20,9 +20,11 @@ export function pageMeta(
 ): Metadata {
   const url = localePath(locale, path);
   const en = localePath("en", path);
+  // A title that already names the brand isn't given a second "| AICA".
+  const fullTitle = absoluteTitle || /\bAICA\b/.test(title) ? title : `${title} | AICA`;
   return {
     ...(englishOnly && locale !== "en" ? { robots: { index: false, follow: true } } : {}),
-    title: absoluteTitle ? { absolute: title } : `${title} | AICA`,
+    title: { absolute: fullTitle },
     description,
     alternates: {
       canonical: englishOnly ? en : url,
@@ -34,11 +36,11 @@ export function pageMeta(
       type,
       url,
       siteName: "AICA",
-      title: absoluteTitle ? title : `${title} | AICA`,
+      title: fullTitle,
       description,
       locale: locale === "hi" ? "hi_IN" : "en_IN",
       images: [{ url: `${site.assetUrl}/og`, width: 1200, height: 630, alt: "AICA" }],
     },
-    twitter: { card: "summary_large_image", title, description, images: [`${site.assetUrl}/og`] },
+    twitter: { card: "summary_large_image", title: fullTitle, description, images: [`${site.assetUrl}/og`] },
   };
 }

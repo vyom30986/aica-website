@@ -8,6 +8,7 @@ import { TOPICS, type Topic } from "@/lib/blog-topics";
 export type Post = {
   slug: string;
   title: string;
+  seoTitle?: string; // search-result title, when the headline doesn't use the words people search
   description: string;
   date: string; // ISO
   minutes: number;

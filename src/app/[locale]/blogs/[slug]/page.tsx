@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: P): Promise<Metadata> {
   const { locale, slug } = await params;
   const post = getPost(slug);
   if (!post) return {};
-  return pageMeta(locale, `/blogs/${slug}`, { title: post.title, description: post.description, type: "article", englishOnly: true });
+  return pageMeta(locale, `/blogs/${slug}`, { title: post.seoTitle ?? post.title, description: post.description, type: "article", englishOnly: true });
 }
 
 export default async function PostPage({ params }: P) {
