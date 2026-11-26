@@ -1,73 +1,77 @@
 # Privacy Policy
 
-This policy explains how **{{legalName}}** ("AICA", "we", "us") handles personal data collected through the public AICA website (aicaglobal.in). The AICA apps will have their own privacy policy, published before they launch.
+Version 1.0 · Effective date: 20 August 2026
 
-## 1. What we collect
+This policy applies to the public AICA website, operated by **Beyond Quantum Technologies Pvt. Ltd.** It does not govern data processed inside the Patient App, which has its own Patient App Privacy Policy. Grievance contact: [adaptiveintelligentcareapp@gmail.com](mailto:adaptiveintelligentcareapp@gmail.com).
 
-- **Information you give us** through the waitlist, pilot or contact forms: your role (patient, pharmacy, clinic, partner), name, mobile number, email, city, organisation name and any message you choose to write.
-- **Where you came from**: the page you submitted the form on, the referring website and campaign tags (such as `utm_source`) if the link you followed had them.
-- **Technical information** needed to run and secure the site, such as IP address, browser type and timestamps in server logs.
-- **Analytics cookies — only if you allow them.** We use Google Tag Manager to load analytics only after you click "Allow" on the cookie banner. If you click "No thanks", no analytics tags are loaded.
+## 1. Information we may collect
 
-Please do not send prescriptions, medical records, OTPs or passwords through website forms.
+- Information you submit through contact, demo, waitlist, support, partnership, careers or newsletter forms, such as name, email, phone, organisation and message content.
+- Technical information such as IP address, browser, device type, referring page, timestamps and security events, to the extent collected by the deployed website.
+- Cookie or similar-technology data, according to the audited cookie inventory and consent configuration described in Section 3.
+- Communications and records created when you correspond with us.
 
-## 2. How we use it
+## 2. How we use information
 
-- To contact you about early access, pilots, partnerships or your enquiry — on WhatsApp, phone or email, as you consented.
-- To understand which kinds of users (patients, pharmacies, clinics) and which cities are interested, so we can plan our launch.
-- To operate, secure and improve the website, and to comply with law.
+- Respond to enquiries and provide requested information.
+- Manage waitlists, demos, partnerships, recruitment or support requests.
+- Send marketing only where permitted, and provide an unsubscribe method.
+- Operate, secure, troubleshoot and improve the website.
+- Measure website performance where optional analytics have been properly configured and consented to when required.
+- Comply with law and establish or defend legal claims.
 
-We do **not** sell personal data, and we do not use it for third-party advertising.
+## 3. Cookies and analytics
 
-## 3. Legal basis
+The website uses Google Tag Manager (container ID GTM-NGBF7H39) to manage tags. We do not state that Google Analytics, PostHog, session replay, advertising pixels or any other specific tracking technology is active until a live audit of the container confirms it. Session replay and autocapture, if ever enabled, will be disabled or masked on any page that could expose health, contact or authenticated information.
 
-We process form data on the basis of your **consent**, given when you tick the consent box. You can withdraw consent at any time (see Section 7); withdrawal doesn't affect processing already done.
+- Necessary technologies: __
+- Analytics: Google Tag Manager is installed; specific tags/cookies fired through it.
+- Embedded media / maps / chat: _[to be confirmed or "not used"]_
+- Advertising pixels: _[to be confirmed or "not used"]_
+- Cookie settings link: _[INSERT URL/PATH]_
 
-## 4. Who we share it with
+## 4. Sharing
 
-Only service providers who help us run the website, under contracts that limit their use of the data:
+We may share website data with vendors that provide hosting, content delivery, security, communications, customer support, forms, analytics or recruitment services, but only as needed for their role. We may also disclose information where required by law, to protect rights or safety, or in connection with a genuine corporate transaction subject to appropriate safeguards. We do not sell personal data for advertising.
 
-- **Vercel Inc.** — website hosting and delivery.
-- **Neon Inc.** — the database that stores form submissions.
-- **Resend** — sends internal notification emails about new enquiries.
-- **Google** — Google Tag Manager / analytics, only if you allowed analytics cookies.
-- **Meta (WhatsApp)** — if you choose to message us on WhatsApp.
+## 5. International processing
 
-We may also disclose information where required by law, or to protect rights and safety.
+Some vendors may process information outside India. _[to be confirmed — final list of vendors, processing locations and applicable safeguards]_
 
-## 5. Where data is processed
+## 6. Security
 
-Some of these providers may process data outside India. Where they do, we rely on their contractual and security commitments and will follow any transfer restrictions notified under the DPDP Act.
+We use reasonable administrative, technical and organisational safeguards designed for the nature of website information. No website or transmission method is completely secure. We do not claim blanket encryption at rest, certifications, penetration-test coverage, continuous monitoring or other controls unless verified for the website's actual stack.
 
-## 6. How long we keep it
+## 7. Retention
 
-- Waitlist and enquiry data: until AICA launches in your city and for up to 24 months after our last contact with you, unless you ask us to delete it sooner.
-- Server and security logs: up to 90 days.
-- Records of consent withdrawal or "do not contact" requests: kept so we can honour them.
+We keep website enquiries and technical records only as long as reasonably necessary for the stated purpose, support, security, legal compliance and dispute resolution:
 
-## 7. Your rights
+- Contact/demo enquiries: _adaptiveintelligentcareapp@gmail.com_
+- Marketing preferences and suppression records: __
+- Security/server logs: __
+- Recruitment submissions, if any: __
+- Analytics data, if used: __
 
-Under the Digital Personal Data Protection Act, 2023 you can ask us to access, correct or erase your personal data, withdraw consent, or raise a grievance. Write to **{{email}}** with the subject "Privacy request". We may verify your identity before acting, and we aim to respond within 30 days.
+## 8. Your choices
 
-To delete an AICA app account, see [Delete your account](/delete-account).
+You may unsubscribe from marketing using the message link or by contacting us. Subject to applicable law, you may request access, correction, deletion, withdrawal of consent or grievance redressal by writing to [adaptiveintelligentcareapp@gmail.com](mailto:adaptiveintelligentcareapp@gmail.com). We may verify your identity before acting. To request deletion of your account specifically, see [Delete Your Account](/delete-account).
 
-## 8. Security
+## 9. External links
 
-We use HTTPS everywhere, access-controlled systems and limited staff access to enquiry data. No method of transmission or storage is completely secure, but we work to protect your information and will notify you and authorities of a personal data breach as required by law.
+The website may link to third-party sites or stores. Their privacy practices apply once you leave AICA — a link is not a privacy or security endorsement.
 
-## 9. Children
+## 10. Children
 
-This website is meant for adults. Please don't submit a child's information through our forms. Parents and caregivers can contact us about a child's data at {{email}}.
+The website is intended for a general adult audience and is not designed to collect personal data from children. Please do not use website forms to submit a child's health information. If we learn that a child has submitted data without appropriate authority, contact us so we can assess deletion.
 
-## 10. Changes
+## 11. Changes
 
-We'll update this page when our practices change, and revise the date at the top.
+We may update this policy to reflect legal, vendor or website changes. The version and effective date at the top of this page identify the current policy.
 
-## 11. Contact and grievances
+## 12. Legal framework
 
-{{legalName}}
-CIN: {{cin}}
-Registered office: {{address}}
-Grievance Officer: {{grievanceOfficer}}
-Email: {{email}}
-Phone: {{phone}}
+This policy is prepared with reference to applicable Indian privacy, information-technology, cybersecurity and consumer-protection law, including the Digital Personal Data Protection Act, 2023 ("DPDP Act") and its Rules as their provisions come into force in phases.
+
+## 13. Contact us
+
+Beyond Quantum Technologies Pvt. Ltd. CIN: __ Registered office: _A-23, Nirala Nagar, Lucknow, Uttar Pradesh, India_ Privacy/Grievance Officer: _AICA Privacy and Grievance Desk_ Email: [adaptiveintelligentcareapp@gmail.com](mailto:adaptiveintelligentcareapp@gmail.com) Phone: _+91 63881 73047_ Address: _ A-23, Nirala Nagar, Lucknow, Uttar Pradesh, India_

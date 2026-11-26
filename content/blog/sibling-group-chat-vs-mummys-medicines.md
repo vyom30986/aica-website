@@ -54,4 +54,4 @@ For anything urgent, the group chat is the wrong tool. If Mummy has chest pain, 
 
 ## The takeaway
 
-The group chat can stay for love and memes. Medicines need an owner, a current prescription and a clear "done." We're building AICA so you can manage a parent's prescriptions, reminders and refills from a family profile on your phone, instead of scrolling through old forwards. Join the waitlist at aicaglobal.in.
+The group chat can stay for love and memes. Medicines need an owner, a current prescription and a clear "done." We're building AICA so you can manage a parent's prescriptions, reminders and refills from a family profile on your phone, instead of scrolling through old forwards. AICA Patient is [on Google Play](https://play.google.com/store/apps/details?id=in.aicaglobals.patient) for Android.

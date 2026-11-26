@@ -62,4 +62,4 @@ A reminder alarm on the phone, labelled clearly with what to take, also helps a 
 
 ## The takeaway
 
-Missed a dose? Don't double up unless you've been told to. Check the leaflet or ask the pharmacist, and note what they say for next time. Then fix the reason it was missed. This is a problem we're building AICA to reduce, with dose reminders that follow Indian patterns like 1-0-1 and half tablets. The waitlist is at aicaglobal.in.
+Missed a dose? Don't double up unless you've been told to. Check the leaflet or ask the pharmacist, and note what they say for next time. Then fix the reason it was missed. This is a problem we're building AICA to reduce, with dose reminders that follow Indian patterns like 1-0-1 and half tablets. AICA Patient is [on Google Play](https://play.google.com/store/apps/details?id=in.aicaglobals.patient) for Android.

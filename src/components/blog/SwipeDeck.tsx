@@ -79,7 +79,7 @@ export function SwipeDeck({ cards, takeaway, share, url, accent, label, waitlist
             </div>
             <div className="space-y-3">
               <ShareRow url={url} text={share} dark />
-              <a href={waitlistHref} className="inline-block text-[14px] font-semibold text-white underline decoration-white/40 underline-offset-4">Join the AICA waitlist →</a>
+              <a href={waitlistHref} className="inline-block text-[14px] font-semibold text-white underline decoration-white/40 underline-offset-4">Get the AICA app →</a>
             </div>
           </section>
         </div>

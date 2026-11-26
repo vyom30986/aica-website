@@ -56,4 +56,4 @@ If a regular medicine has run out and you can't get it immediately, call the che
 
 ## The takeaway
 
-Most missed doses in families aren't forgetfulness, they're empty strips. Count forward, set a reminder before the end date, and keep the chemist in the loop. We're building AICA so your chemist can see the refill coming and remind you, and the strip doesn't surprise you at 10:30 pm. Join the waitlist at aicaglobal.in.
+Most missed doses in families aren't forgetfulness, they're empty strips. Count forward, set a reminder before the end date, and keep the chemist in the loop. We're building AICA so your chemist can see the refill coming and remind you, and the strip doesn't surprise you at 10:30 pm. AICA Patient is [on Google Play](https://play.google.com/store/apps/details?id=in.aicaglobals.patient) for Android.

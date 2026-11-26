@@ -9,6 +9,7 @@ import { pageMeta } from "@/lib/seo";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { ConsentAndAnalytics, WhatsAppFab } from "@/components/layout/Floating";
+import { AppModal } from "@/components/layout/AppModal";
 import SceneCanvas from "@/components/motion/SceneCanvas";
 import SmoothScroll from "@/components/motion/SmoothScroll";
 import { TransitionProvider } from "@/components/motion/Transition";
@@ -80,7 +81,7 @@ export default async function LocaleLayout({ children, params }: { children: Rea
     email: site.contact.email,
     telephone: site.contact.phone,
     address: { "@type": "PostalAddress", streetAddress: "A-23, Nirala Nagar", addressLocality: "Lucknow", addressRegion: "Uttar Pradesh", postalCode: "226020", addressCountry: "IN" },
-    sameAs: [...Object.values(site.social), site.playStore],
+    sameAs: [...Object.values(site.social), ...Object.values(site.apps).filter((u): u is string => !!u)],
   };
 
   return (
@@ -98,6 +99,7 @@ export default async function LocaleLayout({ children, params }: { children: Rea
               <Header locale={locale} t={d.common} />
               <WhatsAppFab text={d.common.whatsappHello} label={d.common.cta.whatsapp} />
               <ConsentAndAnalytics locale={locale} />
+              <AppModal t={d.appModal} form={d.form} locale={locale} />
             </>
           }
         >

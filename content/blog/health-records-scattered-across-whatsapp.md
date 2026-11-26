@@ -56,7 +56,7 @@ The family group is great for "Papa ka checkup ho gaya, sab normal hai." It's no
 
 A WhatsApp chat was never meant to be a medical file. What families really need is one place where prescriptions, medicines, readings and reports sit together, organised by person, and shareable with the right doctor or chemist when needed.
 
-That's what we're building at AICA: family profiles where each person's prescriptions, reminders, vitals and care diary live together, with your consent and your control. The waitlist is at aicaglobal.in.
+That's what we're building at AICA: family profiles where each person's prescriptions, reminders, vitals and care diary live together, with your consent and your control. AICA Patient is [on Google Play](https://play.google.com/store/apps/details?id=in.aicaglobals.patient) for Android.
 
 ## The takeaway
 

@@ -35,10 +35,10 @@ Healthcare isn't a place to move fast and break things. Being 16 makes me more c
 
 ## Where things stand
 
-I want to be honest about this too. AICA is early. There's an interactive prototype and a waitlist at aicaglobal.in. Pilots are starting in Lucknow with founding pharmacies and clinics, who use it free during the pilot. It isn't in app stores yet, and nothing is charged today.
+I want to be honest about this too. AICA is early. AICA Patient is [on Google Play](https://play.google.com/store/apps/details?id=in.aicaglobals.patient) for Android, and so is AICA Doctor for clinics. Pilots are starting in Lucknow with founding pharmacies and clinics, who use it free during the pilot. Nothing is charged today.
 
 That's the starting line, not the finish. I'd rather tell you exactly where we are than make it sound bigger than it is.
 
 ## The takeaway
 
-I'm building AICA at 16 because the problem is real, it's happening in every family right now, and I'd rather start carefully today than wait for permission. If that sounds useful, join the waitlist at aicaglobal.in.
+I'm building AICA at 16 because the problem is real, it's happening in every family right now, and I'd rather start carefully today than wait for permission. If that sounds useful, [get AICA Patient on Google Play](https://play.google.com/store/apps/details?id=in.aicaglobals.patient).

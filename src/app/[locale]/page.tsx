@@ -47,7 +47,7 @@ export default async function Home({ params }: { params: Promise<{ locale: Local
           </Reveal>
           <div className="mt-14 grid gap-px overflow-hidden rounded-3xl border border-white/10 bg-white/10 md:grid-cols-3">
             {h.trident.cards.map((c, i) => {
-              const color = ["var(--color-pharmacy)", "var(--color-patient)", "var(--color-clinic)"][i];
+              const color = ["var(--color-patient)", "var(--color-pharmacy)", "var(--color-clinic)"][i];
               return (
                 <Reveal key={c.tag} delay={i * 0.1} className="relative bg-ink p-8 sm:p-10">
                   <div className="flex items-center gap-3">

@@ -65,10 +65,10 @@ export async function notifyNewLead(lead: Lead) {
       await resend.emails.send({
         from,
         to: lead.email,
-        subject: hi ? "आप AICA वेटलिस्ट में हैं" : "You're on the AICA waitlist",
+        subject: hi ? "AICA से संपर्क करने के लिए धन्यवाद" : "Thanks for contacting AICA",
         html: hi
-          ? `<p>नमस्ते ${esc(lead.name)},</p><p>AICA में रुचि के लिए धन्यवाद। ${esc(lead.city)} में AICA शुरू होते ही हम आपसे संपर्क करेंगे।</p><p>— टीम AICA, लखनऊ</p>`
-          : `<p>Hi ${esc(lead.name)},</p><p>Thanks for your interest in AICA. We'll reach out as soon as AICA opens in ${esc(lead.city)}.</p><p>— Team AICA, Lucknow</p>`,
+          ? `<p>नमस्ते ${esc(lead.name)},</p><p>AICA में रुचि के लिए धन्यवाद। हमारी टीम जल्द ही आपसे संपर्क करेगी।</p><p>— टीम AICA, लखनऊ</p>`
+          : `<p>Hi ${esc(lead.name)},</p><p>Thanks for your interest in AICA. Our team will get back to you soon.</p><p>— Team AICA, Lucknow</p>`,
       });
     }
   } catch (e) {

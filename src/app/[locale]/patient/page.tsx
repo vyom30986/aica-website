@@ -20,7 +20,7 @@ const appLd = {
   operatingSystem: "Android",
   applicationCategory: "HealthApplication",
   url: `${site.url}/patient`,
-  installUrl: site.playStore,
+  installUrl: site.apps.patient ?? undefined,
   description: "Reads doctor prescriptions, sets medicine reminders and refill alerts, and keeps family prescriptions in one place.",
   featureList: [
     "Prescription reading with AI, checked by you",

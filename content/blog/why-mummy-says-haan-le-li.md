@@ -55,4 +55,4 @@ A missed dose here and there is common. But if you notice confusion about which 
 
 ## The takeaway
 
-"Haan, le li" is a kindness, just not a useful one. Ask questions that make honesty easy, set up systems that don't rely on memory, and stay calm when she tells you the truth. This is part of what we're building AICA for: reminders that work in Indian patterns like 1-0-1, managed for Mummy from your phone. The waitlist is at aicaglobal.in.
+"Haan, le li" is a kindness, just not a useful one. Ask questions that make honesty easy, set up systems that don't rely on memory, and stay calm when she tells you the truth. This is part of what we're building AICA for: reminders that work in Indian patterns like 1-0-1, managed for Mummy from your phone. AICA Patient is [on Google Play](https://play.google.com/store/apps/details?id=in.aicaglobals.patient) for Android.

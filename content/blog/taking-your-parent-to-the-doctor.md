@@ -56,7 +56,7 @@ The visit is maybe ten minutes. The weeks after are where things actually go rig
 
 If you live in another city, share the updated plan with the sibling or relative who's nearby. One clear message beats five confused ones in the family group.
 
-This is exactly the kind of care we're building AICA for: family profiles so you can manage a parent's prescriptions and reminders from your own phone. The waitlist is at aicaglobal.in.
+This is exactly the kind of care we're building AICA for: family profiles so you can manage a parent's prescriptions and reminders from your own phone. AICA Patient is [on Google Play](https://play.google.com/store/apps/details?id=in.aicaglobals.patient) for Android.
 
 ## The takeaway
 

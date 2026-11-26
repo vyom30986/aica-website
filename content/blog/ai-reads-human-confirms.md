@@ -40,7 +40,7 @@ A few extra seconds while the prescription is right in front of you is much chea
 
 ## What this says about AICA
 
-This one decision reflects how I want to build everything. AICA doesn't give medical advice, doesn't change doses, and doesn't pretend to know more than it does. It helps you keep track of what your doctor prescribed, clearly and correctly. We're early, with an interactive prototype and a waitlist at aicaglobal.in, and pilots starting in Lucknow.
+This one decision reflects how I want to build everything. AICA doesn't give medical advice, doesn't change doses, and doesn't pretend to know more than it does. It helps you keep track of what your doctor prescribed, clearly and correctly. We're early: AICA Patient is [on Google Play](https://play.google.com/store/apps/details?id=in.aicaglobals.patient) for Android, and pilots are starting in Lucknow.
 
 ## The takeaway
 

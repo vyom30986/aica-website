@@ -24,7 +24,7 @@ There's a family reason too. Often the person using AICA is a son or daughter ma
 Free for patients doesn't mean free forever for everything. The plan has a few parts:
 
 - **AICA Pro** is planned at ₹600 per month per profile, for people who want extra features beyond the core. The core stays free whether or not you ever upgrade
-- **Pharmacies and clinics** get tools built for their side of the counter, like reading prescriptions, refill predictions and patient summaries before a visit. Founding pharmacies and clinics use AICA free during the pilot, and post-pilot pricing will be shared with them well in advance. We're early, with an interactive prototype, a waitlist at aicaglobal.in and pilots starting in Lucknow.
+- **Pharmacies and clinics** get tools built for their side of the counter, like reading prescriptions, refill predictions and patient summaries before a visit. Founding pharmacies and clinics use AICA free during the pilot, and post-pilot pricing will be shared with them well in advance. We're early: the patient and doctor apps are on Google Play, and pilots are starting in Lucknow.
 
 ## What free does not mean
 
@@ -47,4 +47,4 @@ And honestly, the core features are the reason AICA exists. If they don't reach 
 
 ## The takeaway
 
-The core AICA app, prescriptions, dose alarms, refills and family profiles, stays free forever because remembering medicines shouldn't depend on a subscription. AICA Pro is how we plan to sustain it, and your data is never the price. Join the waitlist at aicaglobal.in.
+The core AICA app, prescriptions, dose alarms, refills and family profiles, stays free forever because remembering medicines shouldn't depend on a subscription. AICA Pro is how we plan to sustain it, and your data is never the price. AICA Patient is [on Google Play](https://play.google.com/store/apps/details?id=in.aicaglobals.patient) for Android.

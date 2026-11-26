@@ -58,4 +58,4 @@ It's very easy to treat your own health as the last item on the list. Sleep, foo
 
 ## The takeaway
 
-You can't remove the second shift, but you can shrink it. Batch the admin, split the work clearly, and agree on what counts as urgent. If you'd like prescriptions, dose reminders and refills for your parents in one place on your phone, we're building AICA for exactly that. The waitlist is open at aicaglobal.in.
+You can't remove the second shift, but you can shrink it. Batch the admin, split the work clearly, and agree on what counts as urgent. If you'd like prescriptions, dose reminders and refills for your parents in one place on your phone, we're building AICA for exactly that. AICA Patient is [on Google Play](https://play.google.com/store/apps/details?id=in.aicaglobals.patient) for Android.

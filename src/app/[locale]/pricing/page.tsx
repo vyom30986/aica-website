@@ -70,9 +70,15 @@ export default async function Pricing({ params }: P) {
                     </li>
                   ))}
                 </ul>
-                <ScrollToWaitlist className={`mt-8 w-full ${featured ? "btn bg-white text-ink hover:-translate-y-0.5" : "btn-primary"}`}>
-                  {plan.cta} <span aria-hidden>→</span>
-                </ScrollToWaitlist>
+                {plan.key === "patient" ? (
+                  <a href={site.apps.patient ?? undefined} target="_blank" rel="noopener noreferrer" className="btn-primary mt-8 w-full">
+                    {plan.cta} <span aria-hidden>↗</span>
+                  </a>
+                ) : (
+                  <ScrollToWaitlist className={`mt-8 w-full ${featured ? "btn bg-white text-ink hover:-translate-y-0.5" : "btn-primary"}`}>
+                    {plan.cta} <span aria-hidden>→</span>
+                  </ScrollToWaitlist>
+                )}
               </Reveal>
             );
           })}

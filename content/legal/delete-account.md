@@ -1,27 +1,33 @@
-# Delete your account or data
+# Delete Your Account
 
-You can ask us to delete your AICA account — or the details you gave us on this website — at any time, whether or not you still have the app installed.
+Last updated: 8 August 2026
 
-## How to ask
+AICA is currently in early/MVP stage, so account deletion is handled manually by our team rather than through an automated in-app flow. This page tells you exactly what to send and what happens to your data — see our full [Privacy Policy](/privacy-policy) for more detail.
 
-Email **{{email}}** from the email address, or mentioning the phone number, registered with AICA. Use the subject **"Delete my data"** and include:
+You can request deletion of your AICA account and the personal and health information associated with it at any time, whether or not you still have the app installed.
 
-- your name and registered phone number;
-- your role (patient, pharmacy, or clinic/doctor);
-- if you manage a family member's profile, whether that profile should be deleted too.
+## How to request deletion
 
-You can also message us on WhatsApp at {{phone}}.
+### Email us your request
 
-## What happens next
+Send an email to **adaptiveintelligentcareapp@gmail.com** from the email or with the phone number registered on your AICA account, with the subject line "Delete my account." Please include:
 
-1. We confirm the request came from you (we may ask a simple verification question).
-2. We delete your account, profile and the health information linked to it, and remove your website enquiries.
-3. We email you to confirm, **within 30 days** of verification.
+- Your registered name and phone number.
+- Your role on AICA (patient, pharmacy, or clinic/doctor).
+- If you manage a family/dependent profile, whether you'd like that profile deleted too.
 
-## What we may keep
+[Request account deletion](mailto:adaptiveintelligentcareapp@gmail.com?subject=Delete%20my%20account&body=Registered%20name%3A%0ARegistered%20phone%20number%3A%0ARole%20(patient%20%2F%20pharmacy%20%2F%20clinic)%3A)
 
-- Records that a doctor, pharmacy or clinic must keep under law (for example, statutory prescription records) stay with that provider.
-- A minimal record that you asked to be deleted, so we don't contact you again.
-- Information we must retain to meet a legal obligation or resolve a dispute, only for as long as needed.
+## What gets deleted
 
-See our [Privacy Policy](/privacy-policy) for more.
+- Your account profile and login details.
+- Health information tied to your account — prescriptions, medical history, allergies, vitals, and reminders — except any records a doctor, pharmacy, or clinic is separately required to retain under applicable law (for example, statutory medical record-keeping rules).
+- Any dependent/family profiles you ask us to remove along with your own.
+
+## What we keep, and for how long
+
+We aim to complete deletion requests within a reasonable time after verifying the request came from the account holder. Some information may be retained for a limited period where we have a legal obligation to do so, or to resolve disputes and enforce our agreements, as described in our [Privacy Policy](/privacy-policy).
+
+## Questions
+
+If you have questions before requesting deletion, write to [adaptiveintelligentcareapp@gmail.com](mailto:adaptiveintelligentcareapp@gmail.com).

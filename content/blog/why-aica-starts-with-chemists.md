@@ -40,7 +40,7 @@ Starting with chemists lets us build the shared thread at the point where prescr
 
 ## Starting local
 
-We're beginning with pilots in Lucknow. Founding pharmacies and clinics use AICA free during the pilot, and nothing is charged today. It's an early stage, with an interactive prototype and a waitlist at aicaglobal.in. I'd rather get it right with a few counters in one city than spread thin across many.
+We're beginning with pilots in Lucknow. Founding pharmacies and clinics use AICA free during the pilot, and nothing is charged today. It's still early, but AICA Pharmacy, AICA Patient and AICA Doctor are all on Google Play for Android. I'd rather get it right with a few counters in one city than spread thin across many.
 
 ## The takeaway
 

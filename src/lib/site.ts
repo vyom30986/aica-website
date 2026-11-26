@@ -36,7 +36,13 @@ export const site = {
       "https://www.google.com/maps/search/?api=1&query=A-23%2C+Nirala+Nagar%2C+Lucknow%2C+Uttar+Pradesh%2C+India",
   },
 
-  playStore: "https://play.google.com/store/apps/details?id=in.aicaglobals.patient",
+  // Live apps on Google Play.
+  // Android only for now; iPhone users get a waitlist in the app pop-up.
+  apps: {
+    patient: "https://play.google.com/store/apps/details?id=in.aicaglobals.patient" as string | null,
+    doctor: "https://play.google.com/store/apps/details?id=com.aica.doctor" as string | null,
+    pharmacy: "https://play.google.com/store/apps/details?id=com.aica.pharmacy" as string | null,
+  },
 
   social: {
     instagram: "https://www.instagram.com/aica_global/",

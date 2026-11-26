@@ -3,6 +3,7 @@ import type { Locale, PersonaKey } from "@/lib/i18n";
 import { demoUrl, site } from "@/lib/site";
 import { Reveal, SplitWords, TiltCard } from "@/components/motion/Reveal";
 import { SectionHead, WaitlistSection } from "@/components/sections/Common";
+import { PlayButton } from "@/components/ui/PlayButton";
 import { CountUp, Journey } from "./Journey";
 import { RefillCalculator } from "./Calculator";
 import { ScrollToWaitlist } from "./ScrollToWaitlist";
@@ -59,10 +60,15 @@ export function PersonaPage({ k, d, locale }: { k: PersonaKey; d: Dict; locale: 
               </div>
             </Reveal>
             <Reveal instant delay={0.55}>
-              <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center" data-hide-fab>
-                <ScrollToWaitlist className="btn-primary !min-h-13 !px-7 text-[16px]">
-                  {k === "patient" ? d.common.cta.waitlist : d.common.cta.pilot} <span aria-hidden>→</span>
-                </ScrollToWaitlist>
+              <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center" data-hide-fab>
+                {k === "patient" && <PlayButton app="patient" label={d.common.cta.patientApp} />}
+                {k === "clinic" && <PlayButton app="doctor" label={d.common.cta.doctorApp} />}
+                {k === "pharmacy" && <PlayButton app="pharmacy" label={d.common.cta.pharmacyApp} />}
+                {k !== "patient" && (
+                  <ScrollToWaitlist className="btn-ghost !min-h-13 !px-7 text-[16px]">
+                    {d.common.cta.pilot} <span aria-hidden>→</span>
+                  </ScrollToWaitlist>
+                )}
                 {demo.ready ? (
                   <a href={demoUrl(DEMO[k])} target="_blank" rel="noopener noreferrer" className="btn-ghost !min-h-13 !px-7 text-[16px]">
                     {ui.prototype} <span aria-hidden>↗</span>
@@ -78,6 +84,7 @@ export function PersonaPage({ k, d, locale }: { k: PersonaKey; d: Dict; locale: 
                   </p>
                 )}
               </div>
+              {k !== "patient" && <p className="mt-3 text-[14px] text-muted">{k === "clinic" ? d.common.cta.doctorAppNote : d.common.cta.pharmacyAppNote}</p>}
             </Reveal>
           </div>
         </div>

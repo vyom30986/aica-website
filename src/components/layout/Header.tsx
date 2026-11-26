@@ -7,7 +7,8 @@ import { TLink } from "@/components/motion/Transition";
 import { Logo } from "@/components/ui/Logo";
 import { localePath, splitLocale, type Locale } from "@/lib/i18n";
 import type { Dict } from "@/content/dict";
-import { getLenis, scrollToTarget } from "@/components/motion/SmoothScroll";
+import { getLenis } from "@/components/motion/SmoothScroll";
+import { openAppModal } from "@/lib/app-modal";
 
 export function Header({ locale, t }: { locale: Locale; t: Dict["common"] }) {
   const pathname = usePathname();
@@ -85,21 +86,11 @@ export function Header({ locale, t }: { locale: Locale; t: Dict["common"] }) {
             >
               {t.language}
             </TLink>
-            <TLink
-              href={L("/contact")}
-              onClick={(e) => {
-                // Jump to this page's own sign-up form when it has one.
-                if (document.getElementById("waitlist")) {
-                  e.preventDefault();
-                  scrollToTarget("#waitlist");
-                }
-              }}
-              className="btn-primary !min-h-11 !px-4 !py-2 text-[14px] sm:!px-5"
-            >
+            <button type="button" onClick={() => openAppModal()} className="btn-primary !min-h-11 !px-4 !py-2 text-[14px] sm:!px-5">
               {/* Always visible so sign-up is one tap away on phones too. */}
               <span className="sm:hidden">{t.cta.join}</span>
               <span className="hidden sm:inline">{t.cta.waitlist}</span>
-            </TLink>
+            </button>
             <button
               type="button"
               className="flex h-11 w-11 items-center justify-center rounded-full border border-line bg-white/80 lg:hidden"
@@ -142,9 +133,16 @@ export function Header({ locale, t }: { locale: Locale; t: Dict["common"] }) {
               <TLink href={localePath(other, path)} className="btn-ghost flex-1">
                 {t.language}
               </TLink>
-              <TLink href={L("/contact")} className="btn-primary flex-[2]">
+              <button
+                type="button"
+                className="btn-primary flex-[2]"
+                onClick={() => {
+                  setOpen(false);
+                  openAppModal();
+                }}
+              >
                 {t.cta.waitlist}
-              </TLink>
+              </button>
             </div>
           </motion.div>
         )}

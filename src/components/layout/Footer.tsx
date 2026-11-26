@@ -14,6 +14,9 @@ export function Footer({ locale, t }: { locale: Locale; t: Dict["common"] }) {
         { href: L("/pharmacist"), label: t.nav.pharmacies },
         { href: L("/clinic"), label: t.nav.clinics },
         { href: L("/pricing"), label: t.nav.pricing },
+        ...(site.apps.patient ? [{ href: site.apps.patient, label: t.cta.patientApp }] : []),
+        ...(site.apps.doctor ? [{ href: site.apps.doctor, label: t.cta.doctorApp }] : []),
+        ...(site.apps.pharmacy ? [{ href: site.apps.pharmacy, label: t.cta.pharmacyApp }] : []),
       ],
     },
     {

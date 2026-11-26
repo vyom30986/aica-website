@@ -46,4 +46,4 @@ And if Papa tells you he's stopped a tablet because he "feels fine now," don't a
 
 ## The takeaway
 
-You can't be in the room every day, but you can make the system less dependent on memory and guesswork. A clear prescription, a filled pill box and a refill date will do more than a hundred "dawai li?" calls. We're building AICA so you can manage Papa's prescription, dose reminders and refills from your own phone, even from another city. You can join the waitlist at aicaglobal.in.
+You can't be in the room every day, but you can make the system less dependent on memory and guesswork. A clear prescription, a filled pill box and a refill date will do more than a hundred "dawai li?" calls. We're building AICA so you can manage Papa's prescription, dose reminders and refills from your own phone, even from another city. AICA Patient is [on Google Play](https://play.google.com/store/apps/details?id=in.aicaglobals.patient) for Android.

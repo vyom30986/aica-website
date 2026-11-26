@@ -60,4 +60,4 @@ And if the chemist ever gives you something that doesn't match what you expected
 
 ## The takeaway
 
-A paper prescription gets read, matched, maybe kept, and then too often lost. Photograph it before you hand it over, keep the original in one folder, and ask the chemist what they're doing with it. This is the trail we're building AICA to keep: one shared prescription thread linking patients, chemists and clinics. Join the waitlist at aicaglobal.in.
+A paper prescription gets read, matched, maybe kept, and then too often lost. Photograph it before you hand it over, keep the original in one folder, and ask the chemist what they're doing with it. This is the trail we're building AICA to keep: one shared prescription thread linking patients, chemists and clinics. AICA Patient is [on Google Play](https://play.google.com/store/apps/details?id=in.aicaglobals.patient) for Android.

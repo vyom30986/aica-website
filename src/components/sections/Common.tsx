@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import { OpenAppsButton, PlayButton } from "@/components/ui/PlayButton";
 import { Reveal } from "@/components/motion/Reveal";
 import { LeadForm } from "@/components/forms/LeadForm";
 import type { Dict } from "@/content/dict";
@@ -43,7 +44,7 @@ export function Marquee({ items }: { items: string[] }) {
 
 type Role = keyof Dict["form"]["roles"];
 
-/** Sign-up block used at the bottom of most pages. id="waitlist" is what the header button scrolls to. */
+/** "Get started" block at the bottom of most pages: the two apps, then a contact form. id="waitlist" is what the header button scrolls to. */
 export function WaitlistSection({
   locale,
   d,
@@ -70,6 +71,10 @@ export function WaitlistSection({
               <p className="font-mono text-[12px] tracking-[0.18em] text-white/60 uppercase">{w.eyebrow}</p>
               <h2 className="mt-4 font-display text-[clamp(2rem,4vw,3.2rem)] leading-[1.05] font-medium">{title ?? w.title}</h2>
               <p className="mt-5 max-w-md text-[17px] leading-relaxed text-white/70">{lead ?? w.lead}</p>
+              <div className="mt-7 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+                <PlayButton app="patient" label={d.common.cta.patientApp} className="btn bg-white text-ink hover:-translate-y-0.5" />
+                <OpenAppsButton label={d.common.cta.allApps} className="btn border border-white/25 text-white hover:-translate-y-0.5 hover:bg-white/10 !min-h-13 !px-6 text-[16px]" />
+              </div>
               <ul className="mt-8 space-y-3">
                 {w.perks.map((p) => (
                   <li key={p} className="flex items-start gap-3 text-[15px] text-white/85">

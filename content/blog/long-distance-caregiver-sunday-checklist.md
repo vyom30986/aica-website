@@ -61,4 +61,4 @@ After each call, add two or three lines to a single running note: date, any chan
 
 ## The takeaway
 
-Ten focused minutes on a Sunday can replace a week of anxious guessing. Keep the list short, the tone warm, and write things down. If you want the prescriptions, refill dates, vitals and a care diary in one place for the whole family, that's what we're building AICA to do. Join the waitlist at aicaglobal.in.
+Ten focused minutes on a Sunday can replace a week of anxious guessing. Keep the list short, the tone warm, and write things down. If you want the prescriptions, refill dates, vitals and a care diary in one place for the whole family, that's what we're building AICA to do. AICA Patient is [on Google Play](https://play.google.com/store/apps/details?id=in.aicaglobals.patient) for Android.

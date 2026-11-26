@@ -53,7 +53,7 @@ In many homes, one smartphone is shared by two or three people, or an elder uses
 
 And whatever system you use, if anyone notices warning signs like chest pain, trouble breathing, sudden weakness, confusion or fainting, don't wait to discuss it in the family. Call 112 or get urgent medical help.
 
-Family profiles, so one phone can manage medicines for several people without mixing them up, are a core part of what we're building at AICA. The waitlist is at aicaglobal.in.
+Family profiles, so one phone can manage medicines for several people without mixing them up, are a core part of what we're building at AICA. AICA Patient is [on Google Play](https://play.google.com/store/apps/details?id=in.aicaglobals.patient) for Android.
 
 ## The takeaway
 

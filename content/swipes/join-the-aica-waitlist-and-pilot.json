@@ -1,24 +1,24 @@
 {
   "cards": [
     {
-      "title": "Want in early? Here's how.",
-      "body": "AICA is at MVP stage with pilots starting in Lucknow. Whether you're a family, a chemist or a clinic, there's a way to get involved."
+      "title": "Want to use AICA? Here's how.",
+      "body": "AICA Patient, AICA Doctor and AICA Pharmacy are live on Google Play for Android. Pilots are running in Lucknow."
     },
     {
-      "title": "Step 1: visit aicaglobal.in",
-      "body": "That's home to the interactive prototype and the waitlist. AICA isn't in app stores yet, so the website is where to start."
+      "title": "Families: get AICA Patient",
+      "body": "Search \"AICA Patient\" on Google Play, or tap the button on aicaglobal.in. It's for Android phones."
     },
     {
-      "title": "Step 2: try the prototype",
-      "body": "Click through how scanning, reminders and family profiles are meant to work. It's the quickest way to see if AICA fits your family."
+      "title": "Add the people you care for",
+      "body": "Add Mummy, Papa or grandparents as family members. Each gets their own prescriptions and reminders."
     },
     {
-      "title": "Step 3: join the waitlist",
-      "body": "Add yourself to the waitlist to hear when there's more to try. Nothing is charged today."
+      "title": "Doctors: get AICA Doctor",
+      "body": "AICA Doctor is on Google Play too. It needs a clinic login, so contact the AICA team to get one."
     },
     {
-      "title": "Chemists and clinics: the pilot",
-      "body": "Founding pharmacies and clinics use AICA free during the pilot in Lucknow. Start with the waitlist at aicaglobal.in."
+      "title": "Chemists: get AICA Pharmacy",
+      "body": "AICA Pharmacy is on Google Play too. It needs a pharmacy login, and founding pharmacies in Lucknow use it free during the pilot."
     },
     {
       "title": "Your data is respected from sign-up",
@@ -26,9 +26,9 @@
     },
     {
       "title": "Early users shape what gets built",
-      "body": "Join now and help make AICA fit real Lucknow families and counters. It all starts at aicaglobal.in."
+      "body": "Tell us what works and what doesn't. It all starts at aicaglobal.in."
     }
   ],
-  "takeaway": "Visit aicaglobal.in, try the prototype and join the waitlist. Founding pharmacies and clinics can join the free Lucknow pilot.",
-  "share": "AICA's waitlist is open at aicaglobal.in. Free pilot for founding chemists and clinics in Lucknow."
+  "takeaway": "Families get AICA Patient, doctors get AICA Doctor and chemists get AICA Pharmacy, all on Google Play. iPhone users can join the waitlist.",
+  "share": "AICA Patient, Doctor and Pharmacy are on Google Play. aicaglobal.in"
 }

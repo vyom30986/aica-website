@@ -9,13 +9,16 @@ import { scrollToTarget } from "@/components/motion/SmoothScroll";
 import { sceneStore } from "@/lib/scene-store";
 import { localePath, type Locale, type PersonaKey } from "@/lib/i18n";
 import { demoUrl } from "@/lib/site";
+import { PlayButton } from "@/components/ui/PlayButton";
+import { openAppModal, type AppKey } from "@/lib/app-modal";
 
 const ease = [0.16, 1, 0.3, 1] as const;
 const COLORS: Record<PersonaKey, string> = { patient: "bg-patient", pharmacy: "bg-pharmacy", clinic: "bg-clinic" };
 const ROUTE: Record<PersonaKey, string> = { patient: "/patient", pharmacy: "/pharmacist", clinic: "/clinic" };
+const APP: Record<PersonaKey, AppKey> = { patient: "patient", pharmacy: "pharmacy", clinic: "doctor" };
 
 export function Hero({ t, common, locale }: { t: Dict["home"]["hero"]; common: Dict["common"]; locale: Locale }) {
-  const [tab, setTab] = useState<PersonaKey>("pharmacy");
+  const [tab, setTab] = useState<PersonaKey>("patient");
   const pick = (k: PersonaKey) => {
     setTab(k);
     sceneStore.set({ hover: k });
@@ -74,10 +77,16 @@ export function Hero({ t, common, locale }: { t: Dict["home"]["hero"]; common: D
           </div>
 
           <div className="rise mt-8 flex flex-col gap-3 sm:flex-row" style={{ animationDelay: "1s" }} data-hide-fab>
-            <button type="button" onClick={() => scrollToTarget("#waitlist")} className="btn-primary !min-h-13 !px-7 text-[16px]">
-              {common.cta.waitlist} <span aria-hidden>→</span>
+            <PlayButton app={APP[tab]} label={{ patient: common.cta.patientApp, pharmacy: common.cta.pharmacyApp, clinic: common.cta.doctorApp }[tab]} />
+            <button type="button" onClick={() => openAppModal()} className="btn-ghost !min-h-13 !px-6 text-[16px]">
+              {common.cta.allApps}
             </button>
-            <a href={demoUrl("patient")} target="_blank" rel="noopener noreferrer" className="btn-ghost !min-h-13 !px-7 text-[16px]">
+          </div>
+          <div className="rise mt-3 flex flex-wrap gap-x-6 text-[15px] font-semibold" style={{ animationDelay: "1.1s" }}>
+            <button type="button" onClick={() => scrollToTarget("#waitlist")} className="inline-flex min-h-11 items-center gap-1.5 text-brand underline decoration-brand/30 underline-offset-4 hover:decoration-brand">
+              {common.cta.pilot} <span aria-hidden>→</span>
+            </button>
+            <a href={demoUrl("patient")} target="_blank" rel="noopener noreferrer" className="inline-flex min-h-11 items-center gap-1.5 text-brand underline decoration-brand/30 underline-offset-4 hover:decoration-brand">
               {common.cta.prototype} <span aria-hidden>↗</span>
             </a>
           </div>

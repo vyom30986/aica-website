@@ -65,4 +65,4 @@ If anything about a dose seems off, like it's much more than before, check with 
 
 ## The takeaway
 
-1-0-1 is morning, afternoon, night. OD is once, BD twice, TDS thrice, SOS only when needed. When in doubt, don't decode alone: ask the pharmacist to confirm. This is one of the problems we're building AICA to help with: it reads a prescription photo and you confirm it against the image before anything is saved. Join the waitlist at aicaglobal.in.
+1-0-1 is morning, afternoon, night. OD is once, BD twice, TDS thrice, SOS only when needed. When in doubt, don't decode alone: ask the pharmacist to confirm. This is one of the problems we're building AICA to help with: it reads a prescription photo and you confirm it against the image before anything is saved. AICA Patient is [on Google Play](https://play.google.com/store/apps/details?id=in.aicaglobals.patient) for Android.

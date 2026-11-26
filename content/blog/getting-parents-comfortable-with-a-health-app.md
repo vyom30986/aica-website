@@ -45,7 +45,7 @@ Also, an app doesn't replace the doctor or pharmacist. If a parent has a questio
 
 Look for an app with large, clear text, simple words, support for how Indian prescriptions are written (like 1-0-1 or half a tablet), and a way for family to help without taking over. If your parent shares a phone or isn't comfortable with phones at all, an app where you can manage their profile from your own phone may work better.
 
-That's the kind of thing we're building with AICA: family profiles and reminders that fit how Indian households actually take medicines. The waitlist is at aicaglobal.in.
+That's the kind of thing we're building with AICA: family profiles and reminders that fit how Indian households actually take medicines. AICA Patient is [on Google Play](https://play.google.com/store/apps/details?id=in.aicaglobals.patient) for Android.
 
 ## The takeaway
 

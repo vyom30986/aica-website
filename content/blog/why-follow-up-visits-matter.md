@@ -48,7 +48,7 @@ If you're managing from another city, share the date in the family group and con
 
 A follow-up date is the latest you should go back, not the earliest. If things get worse, new symptoms appear, or a medicine seems to be causing trouble, call the clinic sooner. And for chest pain, trouble breathing, fainting, sudden weakness or confusion, get urgent medical help or call 112.
 
-Helping families keep track of prescriptions, refills and what comes next is part of the reason we're building AICA. The waitlist is at aicaglobal.in.
+Helping families keep track of prescriptions, refills and what comes next is part of the reason we're building AICA. AICA Patient is [on Google Play](https://play.google.com/store/apps/details?id=in.aicaglobals.patient) for Android.
 
 ## The takeaway
 

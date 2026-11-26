@@ -45,7 +45,7 @@ For older parents especially, bringing a family member helps. One person talks t
 
 You don't need to bring printouts of things you read online, though it's fine to ask a question about them. Clear, short and in order is what helps.
 
-Keeping prescriptions, medicines and readings in one place is part of what we're building AICA for, so the whole picture is ready before you reach the clinic. The prototype and waitlist are at aicaglobal.in.
+Keeping prescriptions, medicines and readings in one place is part of what we're building AICA for, so the whole picture is ready before you reach the clinic. AICA Patient is [on Google Play](https://play.google.com/store/apps/details?id=in.aicaglobals.patient) for Android.
 
 ## The takeaway
 
