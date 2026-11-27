@@ -352,8 +352,8 @@ const en = {
     meta: { heading: "For pharmacies & chemists", title: "Medicine Refill Reminder Tool for Medical Stores | AICA", description: "AICA helps chemists turn paper prescriptions into digital records and see which customers are due for a refill. Apply to join the Lucknow pilot." },
     hero: {
       eyebrow: "For pharmacies & chemist counters",
-      title: "Turn every Rx into a",
-      accent: "returning customer.",
+      title: "Turn every Rx into",
+      accent: "a returning customer.",
       lead: "AI reads the doctor's handwriting, predicts refills and quietly turns walk-ins into lifelong customers. Built for the chemist counter, not the chain HQ.",
       persona: "Anil ji, owner of Sharma Medical Stores, Lucknow. 247 regular patients, 6 doctors sending Rx, 100+ refills due every month.",
     },

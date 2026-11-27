@@ -41,7 +41,7 @@ export function PersonaPage({ k, d, locale }: { k: PersonaKey; d: Dict; locale: 
                 {p.hero.eyebrow}
               </p>
             </Reveal>
-            <h1 className="h-display mt-6 text-[clamp(2.7rem,7vw,5.4rem)] leading-[1]">
+            <h1 className="h-display mt-6 text-[clamp(2.7rem,7vw,5.4rem)] leading-[1] text-balance lg:w-[50rem] lg:max-w-[calc(100vw-4rem)]">
               <SplitWords text={p.hero.title} className="block" delay={0.05} />
               <SplitWords text={p.hero.accent} className="block italic" delay={0.2} />
             </h1>
@@ -69,19 +69,10 @@ export function PersonaPage({ k, d, locale }: { k: PersonaKey; d: Dict; locale: 
                     {d.common.cta.pilot} <span aria-hidden>→</span>
                   </ScrollToWaitlist>
                 )}
-                {demo.ready ? (
+                {demo.ready && (
                   <a href={demoUrl(DEMO[k])} target="_blank" rel="noopener noreferrer" className="btn-ghost !min-h-13 !px-7 text-[16px]">
                     {ui.prototype} <span aria-hidden>↗</span>
                   </a>
-                ) : (
-                  // A status, not a button: nothing to click yet.
-                  <p className="flex items-center gap-2.5 px-2 text-[15px] text-muted">
-                    <span className="relative flex h-2.5 w-2.5" aria-hidden>
-                      <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-pharmacy opacity-60" />
-                      <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-pharmacy-ink" />
-                    </span>
-                    {ui.prototypeSoon}
-                  </p>
                 )}
               </div>
               {k !== "patient" && <p className="mt-3 text-[14px] text-muted">{k === "clinic" ? d.common.cta.doctorAppNote : d.common.cta.pharmacyAppNote}</p>}
